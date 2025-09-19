@@ -1,3 +1,3 @@
-# SMX_2NatSport
+# SMX_2 NetSports
 
 - Index
