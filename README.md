@@ -1,4 +1,4 @@
-# SMX_2 NetSports
+# SMX_2 Sportsflix
 
 - Index
   
