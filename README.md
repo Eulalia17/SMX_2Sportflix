@@ -3,6 +3,8 @@
 - Index
   
 - Objectivos.
+
+- Briefing de ideas
   
 - Funcionalidades.
   
