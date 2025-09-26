@@ -1,5 +1,4 @@
-git config --global SMX_2 Sportsflix "dasdo"
-
+git init SMX2_Sportflix
 
 - Index
   
