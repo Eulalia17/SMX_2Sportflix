@@ -1,4 +1,4 @@
-git init SMX2_Sportflix
+SMX2_Sportflix
 
 - Index
   
