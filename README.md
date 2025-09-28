@@ -12,6 +12,7 @@ SMX2_Sportflix
 * 5 Guardar todos los datos en una base de datos.
 * 6 Aprender a utilizar todos los comandos.
 * 7 Aprender a cómo utilizar bien el visual studio.
+
 -Porque hemos escogido esta idea: Lo hemos escogido porque es original, también porque hay mucha información sobre los temas que hemos escogido para la web y para finalizar nuestra web    se puede personalizar lo que también nos ayudaría a que el público este más atento a nuestra web y sea más llamativo. 
 - Publico al que va dirigido: A todos los públicos.
 
