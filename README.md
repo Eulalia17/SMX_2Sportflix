@@ -29,6 +29,7 @@ SMX2_Sportflix
 
 - Materiales necesarios (fisicos y lógicos).
   Físicos: Tener una libreta a mano para apuntar ideas, comandos y así podernos organizar.
+
   Lógicos: Tener el drive del proyecto abierto, visual studio instalado, enlaces a recursos para hacer el proyecto, trello, github y tener el microsoft office abierto para hacer la
   infraestructura de red.
   
