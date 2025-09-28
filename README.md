@@ -28,6 +28,9 @@ SMX2_Sportflix
 * MO6 -> Plan de contigencia y explicar los aspects de seguridad que se han implementado o que se puedan implementar.
 
 - Materiales necesarios (fisicos y lógicos).
+  Físicos: Tener una libreta a mano para apuntar ideas, comandos y así podernos organizar.
+  Lógicos: Tener el drive del proyecto abierto, visual studio instalado, enlaces a recursos para hacer el proyecto, trello, github y tener el microsoft office abierto para hacer la
+  infraestructura de red.
   
 - Recursos: 
 - Bibliografia: 
