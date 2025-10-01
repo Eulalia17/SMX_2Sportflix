@@ -39,3 +39,134 @@ SMX2_Sportflix
  MySQL (https://www.mysqltutorial.org/) y (https://blog.baehost.com/comandos-basicos-para-mysql/)
  Cloudflare (https://raiolanetworks.com/blog/cloudflare/) y (https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/local-management/tunnel-useful-commands/)
  Promox (https://www.nakivo.com/es/blog/top-10-proxmox-cli-commands/) y (https://www.nakivo.com/blog/proxmox-install/)
+
+Informe Backend
+
+1. Descripción general del proyecto web
+
+¿De qué trata tu web?
+            Crear una web de noticias de Fórmula 1 con los pilotos españoles y  
+            también queremos que cuando clickeis al perfil del piloto os salga su coche en 3D.
+            (*Puede ser que pongamos algún piloto de otro país.*)
+
+
+¿Qué funcionalidades ofrecerá a los usuarios?
+             Las funcionalidades que ofreceremos a los usuarios son:
+
+
+Crear una cuenta al momento de entrar a la página (Registrarse y Logearse).
+Tendrán un apartado donde podrán ver las últimas noticias de todos esos pilotos a la vez.
+Tener un apartado de favoritos para poner sus pilotos favoritos.
+Interactuar con los elementos de la web como el piloto y el coche.
+ 
+
+
+2. Identificación de entidades principales
+¿Qué elementos importantes hay en tu web que necesitan almacenarse?
+            Usuarios: nombre, apellido1, contraseña, número de identificación, fecha en la que inició  
+            sesión en la web, email.
+	
+            Piloto: Nombre, nacionalidad, estadísticas, número, equipo, edad, posición en las                      
+            carreras,trofeos, victorias, poles y mejor puesto.
+            
+            Coche: Modelo, marca, color, escuderías , eslogan, motor, democión, tipo de motor,  
+            fabricante de motor, cilindrada de motor, patrocinadores de los coches.
+
+
+            Noticias: Origen de la web, fecha, horas,calendario de las carreras,resultados de las   
+            carreras, clasificación de los pilotos, palmarés de los pilotos o los coches, clasificación  
+            de los constructores.
+            
+¿Qué tema de información almacena? Datos de los usuarios como por ejemplo correo electrónico, contraseñas, nombre, apellido, número de identificación y la fecha en que se inició la cuenta. 
+
+
+También los datos del piloto como son el nombre, nacionalidad, estadísticas, número, equipo, edad, posición en las carreras, trofeos, victorias, poles y mejor puesto. También los datos importantes del coche como es el modelo, marca, color, escuderías, eslogan, motor, democión, tipo de motor, fabricante de motor, cilindrada de motor, los patrocinadores de los coches y luego para finalizar los elementos importantes de las noticias: origen de la web, fecha, horas,calendario de las carreras,resultados de las   
+carreras, clasificación de los pilotos, palmarés de los pilotos o los coches, clasificación de los constructores.
+
+
+
+
+
+
+
+
+¿Por qué necesitas guardarla en la base de datos?
+Porque así nos aseguramos que toda la información importante y necesaria esté bien guardada y dividida por apartados.
+
+
+
+
+
+
+
+
+3. Datos que se deben guardar de cada entidad (atributos)
+-Nombre
+-Apellidos
+-Correo electrónico
+-Número de identificación 
+-Contraseñas
+-Fecha
+
+El tipo de dato que utilizaremos es de texto, número, fecha, links y la definición que considero que corresponde es varchar, int, decimal, date, datetime y el auto increment.
+
+
+
+
+
+
+
+
+
+4. Relaciones entre las entidades
+¿Cómo se relacionan unas entidades con otras?
+Ejemplo:
+
+
+            Usuarios:
+            -id usuario 
+            -nombre
+            -email
+            -contraseña
+
+
+             Pedidos:
+             -id pedido
+             -id usuario (*Id Identificación*)
+             -Fecha pedido
+              
+
+
+
+
+
+	
+
+
+
+
+5. Ejemplo de datos (simulación)
+Incluye un ejemplo de cada entidad con datos ficticios pero realistas.
+
+
+Nombre: Pepe
+Apellido: Morientes
+Correo electrónico: pepem@gmail.com
+Número de identificación: Pep2345
+Contraseñas:ppm75345
+Fecha de registro: 11-09-25 a las 15:40:25.
+
+6. Reflexiones, dificultades y dudas que   
+    tienes sobre la base de datos
+
+¿Qué partes te han resultado más difíciles de pensar?
+
+
+Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vamos a ofrecer a los usuarios porque como estamos comenzando el proyecto posiblemente se nos puede ocurrir nuevas ideas y que también podría encajar bien en nuestro proyecto.
+
+
+¿Qué no tienes claro sobre la información que hay que guardar?
+            
+            Lo que no tenemos claro sobre la información que hay que guardar es lo del número   
+            de identificación porque con el nombre y apellido pensamos que con eso es    
+            suficiente. 
