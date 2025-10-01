@@ -135,6 +135,7 @@ Ejemplo:
              -id usuario (*Id Identificación*)
              -Fecha pedido
               
+<img width="659" height="415" alt="image" src="https://github.com/user-attachments/assets/b815cd48-8405-49c0-bd90-d58f80f554d1" />
 
 
 
