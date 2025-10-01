@@ -8,7 +8,7 @@ SMX2_Sportflix
 * 1 Crear la linea de comandos.
 * 2 Pensar còmo seria nuestra página web.
 * 3 Crear la página web.
-* 4 Buscar videos de deporte (fútbol,tenis,fórmula 1, etc).
+* 4 Buscar noticias de Formula 1.
 * 5 Guardar todos los datos en una base de datos.
 * 6 Aprender a utilizar todos los comandos.
 * 7 Aprender a cómo utilizar bien el visual studio.
@@ -39,4 +39,3 @@ SMX2_Sportflix
  MySQL (https://www.mysqltutorial.org/) y (https://blog.baehost.com/comandos-basicos-para-mysql/)
  Cloudflare (https://raiolanetworks.com/blog/cloudflare/) y (https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/local-management/tunnel-useful-commands/)
  Promox (https://www.nakivo.com/es/blog/top-10-proxmox-cli-commands/) y (https://www.nakivo.com/blog/proxmox-install/)
-- Videos:https://youtu.be/udnT7xIYdzc , https://youtu.be/-iKO5jUXgPY , https://youtu.be/k9NZui_Gh0k.
