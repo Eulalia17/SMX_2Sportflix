@@ -151,10 +151,15 @@ Incluye un ejemplo de cada entidad con datos ficticios pero realistas.
 
 
 Nombre: Pepe
+
 Apellido: Morientes
+
 Correo electrónico: pepem@gmail.com
+
 Número de identificación: Pep2345
+
 Contraseñas:ppm75345
+
 Fecha de registro: 11-09-25 a las 15:40:25.
 
 6. Reflexiones, dificultades y dudas que   
