@@ -1,6 +1,6 @@
 SMX2_Sportflix
 
-- Index
+## Index
 
 - Briefing de ideas
 - Nombre del proyecto: SMX2-Sportflix
