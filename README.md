@@ -1,10 +1,11 @@
-SMX2_Sportflix
+# SMX2_Sportflix
 
 ## Index
 
 - Briefing de ideas
 - Nombre del proyecto: SMX2-Sportflix
-- Objectivos:
+  
+### Objectivos:
 * 1 Crear la linea de comandos.
 * 2 Pensar còmo seria nuestra página web.
 * 3 Crear la página web.
@@ -16,7 +17,7 @@ SMX2_Sportflix
 -Porque hemos escogido esta idea: Lo hemos escogido porque es original, también porque hay mucha información sobre los temas que hemos escogido para la web y para finalizar nuestra web    se puede personalizar lo que también nos ayudaría a que el público este más atento a nuestra web y sea más llamativo. 
 - Publico al que va dirigido: A todos los públicos.
 
-- Modulos que vamos a tocar:
+### Modulos que vamos a tocar:
 * MO5-MO6 -> Diagrama de red,mapa fisico,mapa lógico de la infraestrucutra.
 * MO4-MO7 -> Servicio DHCP en un servidor Windows diferente.
 * MO7 -> Servidor DNS primario.
@@ -27,14 +28,14 @@ SMX2_Sportflix
 * MO4 -> Diferenciar roles de usuarios en el sistema.
 * MO6 -> Plan de contigencia y explicar los aspects de seguridad que se han implementado o que se puedan implementar.
 
-- Materiales necesarios (fisicos y lógicos).
+### Materiales necesarios (fisicos y lógicos).
   Físicos: Tener una libreta a mano para apuntar ideas, comandos y así podernos organizar.
 
   Lógicos: Tener el drive del proyecto abierto, visual studio instalado, enlaces a recursos para hacer el proyecto, trello, github y tener el microsoft office abierto para hacer la
   infraestructura de red.
   
-- Recursos: 
-- Bibliografia: 
+### Recursos: 
+## Bibliografia: 
   Github (https://docs.github.com/es/get-started/start-your-journey/hello-world) , (https://gist.github.com/dasdo/9ff71c5c0efa037441b6) y (https://prestashop.es)
  MySQL (https://www.mysqltutorial.org/) y (https://blog.baehost.com/comandos-basicos-para-mysql/)
  Cloudflare (https://raiolanetworks.com/blog/cloudflare/) y (https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/local-management/tunnel-useful-commands/)
@@ -42,7 +43,7 @@ SMX2_Sportflix
 
 ## Informe Backend
 
-1. Descripción general del proyecto web
+### 1. Descripción general del proyecto web
 
 ¿De qué trata tu web?
             Crear una web de noticias de Fórmula 1 con los pilotos españoles y  
@@ -61,7 +62,7 @@ Interactuar con los elementos de la web como el piloto y el coche.
  
 
 
-2. Identificación de entidades principales
+### 2. Identificación de entidades principales
 ¿Qué elementos importantes hay en tu web que necesitan almacenarse?
             Usuarios: nombre, apellido1, contraseña, número de identificación, fecha en la que inició  
             sesión en la web, email.
@@ -100,7 +101,7 @@ Porque así nos aseguramos que toda la información importante y necesaria esté
 
 
 
-3. Datos que se deben guardar de cada entidad (atributos)
+### 3. Datos que se deben guardar de cada entidad (atributos)
 -Nombre
 -Apellidos
 -Correo electrónico
@@ -118,7 +119,7 @@ El tipo de dato que utilizaremos es de texto, número, fecha, links y la definic
 
 
 
-4. Relaciones entre las entidades
+### 4. Relaciones entre las entidades
 ¿Cómo se relacionan unas entidades con otras?
 Ejemplo:
 
@@ -146,7 +147,7 @@ Ejemplo:
 
 
 
-5. Ejemplo de datos (simulación)
+### 5. Ejemplo de datos (simulación)
 Incluye un ejemplo de cada entidad con datos ficticios pero realistas.
 
 
@@ -162,7 +163,7 @@ Contraseñas:ppm75345
 
 Fecha de registro: 11-09-25 a las 15:40:25.
 
-6. Reflexiones, dificultades y dudas que tienes sobre la base de datos
+### 6. Reflexiones, dificultades y dudas que tienes sobre la base de datos
 
 ¿Qué partes te han resultado más difíciles de pensar?
 
