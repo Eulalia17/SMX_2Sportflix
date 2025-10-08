@@ -4,20 +4,27 @@
 
 - Briefing de ideas
 - Nombre del proyecto: SMX2-Sportflix
+
+  
+### Idea seleccionada y justificación: 
+Porque hemos escogido esta idea: Lo hemos escogido porque es original, también porque hay mucha información sobre los temas que hemos escogido para la web y para finalizar nuestra web se puede personalizar lo que también nos ayudaría a que el público este más atento a nuestra web y sea más llamativo. 
+
   
 ### Objectivos:
-* 1 Crear la linea de comandos.
-* 2 Pensar còmo seria nuestra página web.
-* 3 Crear la página web.
-* 4 Buscar noticias de Formula 1.
-* 5 Guardar todos los datos en una base de datos.
-* 6 Aprender a utilizar todos los comandos.
-* 7 Aprender a cómo utilizar bien el visual studio.
+* 1 Crear la página web.
+* 2 Diseñar còmo seria nuestra página web.. Diseñar una página web donde se mostrará noticias, pilotos, coches y otros detalles de la F1.
+* 3 Importar noticias de Formula 1 de las webs fiables y oficiales.  
+* 4 Guardar todos los datos en una base de datos.
+* 5 Diseñar en 3D los coches a mostrar en la web y si es posible hacer lo mismo con los pilotos.
 
--Porque hemos escogido esta idea: Lo hemos escogido porque es original, también porque hay mucha información sobre los temas que hemos escogido para la web y para finalizar nuestra web    se puede personalizar lo que también nos ayudaría a que el público este más atento a nuestra web y sea más llamativo. 
-- Publico al que va dirigido: A todos los públicos.
 
-### Modulos que vamos a tocar:
+### Publico al que va dirigido: 
+A todos los públicos que le gusté el deporte y sobretodo la fórmula 1.
+
+### Modulos que vamos a tocar: (Asisgnaturas)
+Seguridad:
+Sistemas operativos:
+Programación (optativa)
 * MO5-MO6 -> Diagrama de red,mapa fisico,mapa lógico de la infraestrucutra.
 * MO4-MO7 -> Servicio DHCP en un servidor Windows diferente.
 * MO7 -> Servidor DNS primario.
@@ -29,12 +36,12 @@
 * MO6 -> Plan de contigencia y explicar los aspects de seguridad que se han implementado o que se puedan implementar.
 
 ### Materiales necesarios (fisicos y lógicos).
-  Físicos: Tener una libreta a mano para apuntar ideas, comandos y así podernos organizar.
+  Físicos: Tener una libreta a mano para apuntar ideas, comandos, así podernos organizar, ordenador.
 
   Lógicos: Tener el drive del proyecto abierto, visual studio instalado, enlaces a recursos para hacer el proyecto, trello, github y tener el microsoft office abierto para hacer la
   infraestructura de red.
   
-### Recursos: 
+### Recursos
 ## Bibliografia: 
   Github (https://docs.github.com/es/get-started/start-your-journey/hello-world) , (https://gist.github.com/dasdo/9ff71c5c0efa037441b6) y (https://prestashop.es)
  MySQL (https://www.mysqltutorial.org/) y (https://blog.baehost.com/comandos-basicos-para-mysql/)
