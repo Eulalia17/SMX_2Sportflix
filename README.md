@@ -22,9 +22,19 @@ Porque hemos escogido esta idea: Lo hemos escogido porque es original, también 
 A todos los públicos que le gusté el deporte y sobretodo la fórmula 1.
 
 ### Modulos que vamos a tocar: (Asisgnaturas)
+
 Seguridad:
+
+Servicios de red:
+
 Sistemas operativos:
+
+Seguretat:
+
+Aplicaciones web
+
 Programación (optativa)
+
 * MO5-MO6 -> Diagrama de red,mapa fisico,mapa lógico de la infraestrucutra.
 * MO4-MO7 -> Servicio DHCP en un servidor Windows diferente.
 * MO7 -> Servidor DNS primario.
