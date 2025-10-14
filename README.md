@@ -52,7 +52,7 @@ Programación (optativa)
   infraestructura de red.
   
 ### Recursos
-<Details>
+<Nuestros recursos>
 ## Bibliografia: 
   Github (https://docs.github.com/es/get-started/start-your-journey/hello-world) , (https://gist.github.com/dasdo/9ff71c5c0efa037441b6) y (https://prestashop.es)
  MySQL (https://www.mysqltutorial.org/) y (https://blog.baehost.com/comandos-basicos-para-mysql/)
