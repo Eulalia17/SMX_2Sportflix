@@ -3,7 +3,7 @@
 ## 1. Índice
 <details>
 	<summary>Apartados</summary>
-- Briefing de ideas
+Briefing de ideas
 
 Nombre del proyecto: SMX2-Sportflix
 
