@@ -70,6 +70,7 @@ Promox (https://www.nakivo.com/es/blog/top-10-proxmox-cli-commands/) y (https://
 
 <details>
 <summary>Nuestro informe</summary>
+	
 ### 1. Descripción general del proyecto web
 
 ¿De qué trata tu web?
