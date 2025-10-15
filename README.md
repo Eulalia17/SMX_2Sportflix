@@ -3,11 +3,50 @@
 ## 1. Índice
 <details>
 	<summary>Apartados</summary>
-	
+
 Nombre del proyecto: SMX2-Sportflix
 
-Briefing de ideas
+1.Introducción - ¿qué estamos haciendo?
 
+2.Briefing de ideas
+
+3.Informe Backend
+
+4.Arquitectura del software
+
+5.Tecnologías a utilizar
+
+6.Red
+
+A.Diagrama de la red
+
+B.Mapa físico
+
+C.Mapa lógico
+
+7.Web
+
+D.Diseño
+
+E.Mockup
+
+F.Mapa de navegabilidad
+
+8.Servicios
+
+G.DNS
+
+H.DHCP
+
+I.Apache
+
+J.Firewall
+
+K.Copias de seguridad
+
+9.Conclusiones
+
+10.Bibliografía
 
 </details>
   
