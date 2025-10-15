@@ -4,7 +4,7 @@
 <details>
 - Briefing de ideas
 - Nombre del proyecto: SMX2-Sportflix
-
+</details>
   
 ### Idea seleccionada y justificación: 
 Porque hemos escogido esta idea: Lo hemos escogido porque es original, también porque hay mucha información sobre los temas que hemos escogido para la web y para finalizar nuestra web se puede personalizar lo que también nos ayudaría a que el público este más atento a nuestra web y sea más llamativo. 
