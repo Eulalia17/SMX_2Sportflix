@@ -1,6 +1,6 @@
 # SMX2_Sportflix
 
-## 1.Índice
+## 1. Índice
 <details>
 	<summary>Apartados</summary>
 - Briefing de ideas
