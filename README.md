@@ -256,3 +256,13 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
             de identificación porque con el nombre y apellido pensamos que con eso es    
             suficiente. 
 </details>
+
+### Mackup 
+<details>
+	Equilibrio del diseño:
+	<details> 
+		Uso balanceado entre espacios vacíos y elementos visuales para evitar las saturaciónes.
+	    Las distribuciónes simétrica y la asimétrica según el objetivo que nosotros le queremos dar a nuestra pagina web.
+	</details>
+	Colores del 
+</details>
