@@ -177,8 +177,8 @@ Ejemplo:
 <summary>Datos</summary>
 
 	
-	Incluye un ejemplo de cada entidad con datos ficticios pero realistas.
 
+Incluye un ejemplo de cada entidad con datos ficticios pero realistas.
 
 Nombre: Pepe
 
