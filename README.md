@@ -173,6 +173,8 @@ Ejemplo:
 
 
 ### 5. Ejemplo de datos (simulación)
+<details>
+	<summary>Datos</summary>
 Incluye un ejemplo de cada entidad con datos ficticios pero realistas.
 
 
@@ -187,6 +189,8 @@ Número de identificación: Pep2345
 Contraseñas:ppm75345
 
 Fecha de registro: 11-09-25 a las 15:40:25.
+
+</details>
 
 ### 6. Reflexiones, dificultades y dudas que tienes sobre la base de datos
 
