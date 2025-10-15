@@ -3,9 +3,11 @@
 ## 1. Índice
 <details>
 	<summary>Apartados</summary>
+	
+Nombre del proyecto: SMX2-Sportflix
+
 Briefing de ideas
 
-Nombre del proyecto: SMX2-Sportflix
 
 </details>
   
