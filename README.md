@@ -68,6 +68,8 @@ Promox (https://www.nakivo.com/es/blog/top-10-proxmox-cli-commands/) y (https://
 
 ## Informe Backend
 
+<details>
+<summary>Nuestro informe</summary>
 ### 1. Descripción general del proyecto web
 
 ¿De qué trata tu web?
@@ -207,3 +209,4 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
             Lo que no tenemos claro sobre la información que hay que guardar es lo del número   
             de identificación porque con el nombre y apellido pensamos que con eso es    
             suficiente. 
+</details
