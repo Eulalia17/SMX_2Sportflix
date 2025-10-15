@@ -18,31 +18,31 @@ Nombre del proyecto: SMX2-Sportflix
 
 6.Red
 
-A.Diagrama de la red
+a.Diagrama de la red
 
-B.Mapa físico
+b.Mapa físico
 
-C.Mapa lógico
+c.Mapa lógico
 
 7.Web
 
-D.Diseño
+d.Diseño
 
-E.Mockup
+e.Mockup
 
-F.Mapa de navegabilidad
+f.Mapa de navegabilidad
 
 8.Servicios
 
-G.DNS
+g.DNS
 
-H.DHCP
+h.DHCP
 
-I.Apache
+i.Apache
 
-J.Firewall
+j.Firewall
 
-K.Copias de seguridad
+k.Copias de seguridad
 
 9.Conclusiones
 
