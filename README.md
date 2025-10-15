@@ -189,6 +189,10 @@ El tipo de dato que utilizaremos es de texto, número, fecha, links y la definic
 
 
 ### 4. Relaciones entre las entidades
+
+<details>
+
+<summary>Relaciones entre las entidades</summary>	
 ¿Cómo se relacionan unas entidades con otras?
 Ejemplo:
 
