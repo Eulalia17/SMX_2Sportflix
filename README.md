@@ -174,6 +174,7 @@ Ejemplo:
 
 ### 5. Ejemplo de datos (simulación)
 <details>
+	
 	<summary>Datos</summary>
 
 	
