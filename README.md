@@ -5,8 +5,8 @@
 	<summary>Apartados</summary>
 - Briefing de ideas
 
-
 - Nombre del proyecto: SMX2-Sportflix
+
 </details>
   
 ### Idea seleccionada y justificación: 
