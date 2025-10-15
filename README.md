@@ -175,6 +175,7 @@ Ejemplo:
 ### 5. Ejemplo de datos (simulación)
 <details>
 	<summary>Datos</summary>
+	
 Incluye un ejemplo de cada entidad con datos ficticios pero realistas.
 
 
