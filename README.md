@@ -65,7 +65,7 @@ Porque hemos escogido esta idea: Lo hemos escogido porque es original, también 
 ### Publico al que va dirigido: 
 A todos los públicos que le gusté el deporte y sobretodo la fórmula 1.
 
-### Modulos que vamos a tocar: (Asisgnaturas)
+### Modulos que vamos a tocar: (Asignaturas)
 
 Seguridad:
 
