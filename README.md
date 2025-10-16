@@ -264,5 +264,41 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 		Uso balanceado entre espacios vacíos y elementos visuales para evitar las saturaciónes.
 	    Las distribuciónes simétrica y la asimétrica según el objetivo que nosotros le queremos dar a nuestra pagina web.
 	</details>
-	Colores del 
+	Colores del diseño:
+	<details> 
+		Colores principales: rojo y blanco.
+		Colores secundarios : negro y blanco.
+		Colores de estado: Exito (Verda), Error (Rojo), Advertencia (Amarillo), Información (Azul clarito), etc.
+	</details>
+	Estrucutra del diseño:
+	<detail>
+		Header(cabacera) fijo o dinámico con menú principal.
+		Cuerpo divido en secciones claras y visualmente diferenciadas.
+		Sideabar (barra lateral) opcional para navegación o contenido adicional.
+		Footer (pie de página) con enlaces legales y de contacto.
+	</detail>
+	Colores y tipografía:
+	<details>
+		Colores lo he mencionando anterior mente.
+		Tipografia principal: sans-serif para modernidad y legibilidad.
+		Tipografia secundaria: serif o cursiva para títulos o énfasis.
+		Tamaños jerárquicos: titulo, subtitulos, texto normal,etc.
+		Colores tipograficos: alto contraste con fondo, color para enlaces y estados.
+	</details>
+	Componentes de interfaz 
+	<details>
+		Botones. 
+		<details>
+			Tipos: Menú, botón de acción, botón de hipervínculo, botón repetidor, botón desplegable.
+			Estados: Identificador, activado, desactivado, sobrevolado (hover), presionado (avive).
+			Estilos: Colores y sombras para cada estado.
+		</details>
+		Enlaces:
+		<details>
+			Interactivos: barras de búsqueda, paginación.
+			Contenedores: pestañas, acordeones, etc.
+			Controles: navegación, contenido informativo, estructuras.
+			Soporte para diferentes 
+		</details>
+	</details>
 </details>
