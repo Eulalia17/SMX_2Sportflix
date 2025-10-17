@@ -289,7 +289,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 	<details>
 		Botones. 
 		<details>
-			Tipos: Menú, botón de acción, botón de hipervínculo, botón repetidor, botón desplegable.
+			Tipos: Menú, botón de acción, botón de hipervínculo, botón repetidor, botón  desplegable.
 			Estados: Identificador, activado, desactivado, sobrevolado (hover), presionado (avive).
 			Estilos: Colores y sombras para cada estado.
 		</details>
@@ -298,7 +298,92 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 			Interactivos: barras de búsqueda, paginación.
 			Contenedores: pestañas, acordeones, etc.
 			Controles: navegación, contenido informativo, estructuras.
-			Soporte para diferentes 
+			Soporte para diferentes estados (normal,hover,visitado,etc).
+		</details>
+		Casillas de verificación:
+		<details>
+			Componentes: caja, marca de verificación, etiqueta.
+			Estados: marcado, desmarcado, indeterminado (por ejemplo, en selección múltiple parcial).
+		</details>
+		Menús desplegables:
+		<details> 
+			Elementos: botones, iconos, control activador.
+			Lista de opciones con indicador de opción predeterminada.
+			Etiquetas claras y cierre con animación.
+			Uso de clases CSS para estilos y estados.
+			Botones divididos para funciones combinadas (por ejemplo, acción + menú).
+		</details>
+		Deslizadores (sliders)
+		<details> 
+			Componentes: barra, manija (thumb), valor numérico.
+			Etiquetas claras para valores mínimos y máximos.
+			Marcas para intervalos o puntos destacados.
+			Área sombreada para rango seleccionado.
+			Dirección: horizontal o vertical.
+			Eventos para interacción (drag, click).
+		</details>
+		Menús deslizadores:
+		<details> 
+			Principal con submenús desplegables.
+			Pestañas para secciones.
+			Menú de pie de página con enlaces secundarios.
+			Panel lateral (sidebar) con navegación secundaria.
+			Breadcrumbs (migas de pan) para orientación.
+			Botón para volver a página inicio.
+			Widgets de navegación adicionales (filtros, buscadores).
+		</details>
+		Barras de herramientas:
+		<details> 
+			Conjunto de iconos y botones para acciones ràpidas.
+		</details>
+		Barras de búsquedas
+		<details>
+			Campo de texto con botón o icono de búsqueda.
+			Autocompletado y sugerencias.
+		</details>
+		Pestañas:
+		<details>
+			Navegación de pestañas para continido relacionado.
+			Cambio de estado visual y de continido según pestaña activa.
+		</details>
+		Botones de retroceso
+		<details> 
+			Iconos o botones para regresar a la página anterior.
+		</details>
+		Imagénes
+		<details> 
+			Soporte para imagénes responsivas.
+			Uso de formatos optimizados (webpp, svg para iconos).
+			Alt-text para accesibilidad.
+		</details>
+		Cabeceras
+		<details> 
+			Jerarquia clara (h1, h2, h3, etc).
+			Diseño con separación y posible uso de iconos o elementos gráficos.
+		</details>
+		Pies de página:
+		<details>
+			Información de contacto, redes sociales, enlaces legales y mapa del sitio.
+		</details>
+		Barras laterales:
+		<details>
+			Contenido adicional: widgets, publicidad, navegación secundaria, etc.
+		</details>
+		Áreas de cuerpo de la página:
+		<details> 
+			Zonas bien definidas para contenido principal.
+			Uso de tarjetas, listas, o grids según contenido.
+		</details>
+		Formularios:
+		<details> 
+			Campos claros y accesibles.
+			Validaciones visibles.
+			Botones de envío y reset.
+		</details>
+		Notificaciones:
+		<details> 
+			Mensajes emergentes (toast, modales) con estados: éxito, error, advertencia, info.
+			Posición fija (arriba o abajo) para no interferir con el contenido.
 		</details>
 	</details>
 </details>
