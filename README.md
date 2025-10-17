@@ -257,7 +257,8 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
             suficiente. 
 </details>
 
-### Mackup 
+## Mackup 
+<summary> Para el diseño web </summary>
 <details>
 	Equilibrio del diseño:
 	<details> 
