@@ -8,6 +8,7 @@ Nombre del proyecto: SMX2-Sportflix
 
 1.Introducción - ¿qué estamos haciendo?
 
+Estamos haciendo un projecto que consiste en crear una web que en nuestro caso es de notícias de fórmula 1 y tendrá apartados exclusivamente con pilotos 3D españoles, también su apartado de soporte para mirar los problemas frecuentes que suceden en nuestra web, su apartado de última hora y también su apartado de introducción explicando quienes somos. 
 2.Briefing de ideas
 
 3.Informe Backend
