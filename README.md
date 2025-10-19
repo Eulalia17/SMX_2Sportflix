@@ -302,12 +302,12 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 		Colores de estado: Exito (Verda), Error (Rojo), Advertencia (Amarillo), Información (Azul clarito), etc.
 	</details>
 	Estrucutra del diseño:
-	<detail>
+	<details>
 		Header(cabacera) fijo o dinámico con menú principal.
 		Cuerpo divido en secciones claras y visualmente diferenciadas.
 		Sideabar (barra lateral) opcional para navegación o contenido adicional.
 		Footer (pie de página) con enlaces legales y de contacto.
-	</detail>
+	</details>
 	Colores y tipografía:
 	<details>
 		Colores lo he mencionando anterior mente.
@@ -422,7 +422,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 <details>
 	<sumary>Apartado</sumary>
 		</details>
-
+</details>
 
 
 
