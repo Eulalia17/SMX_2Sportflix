@@ -417,4 +417,4 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 			Posición fija (arriba o abajo) para no interferir con el contenido.
 		</details>
 		
-7f.Mapa de navegabilidad
+## 7f.Mapa de navegabilidad
