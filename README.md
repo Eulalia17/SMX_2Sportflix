@@ -104,7 +104,7 @@ Programación (optativa)
 
   Lógicos: Tener el drive del proyecto abierto, visual studio instalado, enlaces a recursos para hacer el proyecto, trello, github y tener el microsoft office abierto para hacer la
   infraestructura de red.
-  
+  </details>
 ### Recursos
 <Details>
 	 <summary>Nuestros Recursos</summary>
