@@ -1,6 +1,6 @@
 # SMX2_Sportflix
 
-## 1. Índice
+## Índice
 <details>
 	<summary>Apartados</summary>
 
@@ -50,7 +50,7 @@ k.Copias de seguridad
 
 </details>
 
-Introducción - ¿qué estamos haciendo?
+### 1.Introducción - ¿qué estamos haciendo?
 <details>
 	<summary>Explicación</summary>
 </details>
