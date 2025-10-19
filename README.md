@@ -248,10 +248,7 @@ Contraseñas:ppm75345
 
 Fecha de registro: 11-09-25 a las 15:40:25.
 
-</details>
-
 ### 6. Reflexiones, dificultades y dudas que tienes sobre la base de datos
-<details>
 ¿Qué partes te han resultado más difíciles de pensar?
 
 
