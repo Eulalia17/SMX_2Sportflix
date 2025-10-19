@@ -118,6 +118,7 @@ Cloudflare (https://raiolanetworks.com/blog/cloudflare/) y (https://developers.c
 Promox (https://www.nakivo.com/es/blog/top-10-proxmox-cli-commands/) y (https://www.nakivo.com/blog/proxmox-install/)
 </Details>
 
+
 ## 3. Informe Backend
 
 <details>
@@ -200,9 +201,6 @@ El tipo de dato que utilizaremos es de texto, número, fecha, links y la definic
 
 
 ### 4. Relaciones entre las entidades
-
-<details>
-
 <summary>Relaciones entre las entidades</summary>	
 ¿Cómo se relacionan unas entidades con otras?
 Ejemplo:
@@ -232,7 +230,6 @@ Ejemplo:
 
 
 ### 5. Ejemplo de datos (simulación)
-<details>
 <summary>Datos</summary>
 
 	
@@ -254,7 +251,7 @@ Fecha de registro: 11-09-25 a las 15:40:25.
 </details>
 
 ### 6. Reflexiones, dificultades y dudas que tienes sobre la base de datos
-
+<details>
 ¿Qué partes te han resultado más difíciles de pensar?
 
 
