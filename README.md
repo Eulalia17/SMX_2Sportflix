@@ -270,11 +270,13 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 ## 6.Red
 <details>
 	<summary>Apartados</summary>
-6.a.Diagrama de la red
+##6a.Diagrama de la red
 
-6.b.Mapa físico
 
-6.c.Mapa lógico
+###6.b.Mapa físico
+
+
+###6.c.Mapa lógico
 	
 </details>
 
