@@ -267,6 +267,11 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 
 ## 5. Tecnologías a utilizar
 
+## 6.Red
+<details>
+	<summary>Apartados</summary>
+</details>
+
 ## 7.e Mockup 
 <details>
 <summary> Para el diseño web </summary>
