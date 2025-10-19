@@ -281,7 +281,9 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 </details>
 
 ## 7. Web
-## 7.e Mockup 
+<details>
+	<summary>Apartados</summary>
+# 7.e Mockup 
 <details>
 <summary> Para el diseño web </summary>
 	Equilibrio del diseño:
