@@ -268,9 +268,12 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
             suficiente. 
 </details>
 
+
+
+
 ## 3.Mockup 
-<summary> Para el diseño web </summary>
 <details>
+<summary> Para el diseño web </summary>
 	Equilibrio del diseño:
 	<details> 
 		Uso balanceado entre espacios vacíos y elementos visuales para evitar las saturaciónes.
