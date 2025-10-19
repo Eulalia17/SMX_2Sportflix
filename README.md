@@ -263,7 +263,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 </details>
 
 
-### 4.Arquitectura del software
+### 4. Arquitectura del software
 
 
 ## 7.e Mockup 
