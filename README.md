@@ -55,7 +55,11 @@ k.Copias de seguridad
 	<summary>Explicación</summary>
 Estamos haciendo un projecto que consiste en crear una web que en nuestro caso es de notícias de fórmula 1 y tendrá apartados exclusivamente con pilotos 3D españoles, también su apartado de soporte para mirar los problemas frecuentes que suceden en nuestra web, su apartado de última hora y también su apartado de introducción explicando quienes somos. 
 </details>
-  
+
+  ### 2.Briefing de ideas
+  <details>
+	 <summary>Apartados</summary> 
+	  
 ### Idea seleccionada y justificación: 
 Porque hemos escogido esta idea: Lo hemos escogido porque es original, también porque hay mucha información sobre los temas que hemos escogido para la web y para finalizar nuestra web se puede personalizar lo que también nos ayudaría a que el público este más atento a nuestra web y sea más llamativo. 
 
