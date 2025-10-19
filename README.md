@@ -416,6 +416,8 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 			Mensajes emergentes (toast, modales) con estados: éxito, error, advertencia, info.
 			Posición fija (arriba o abajo) para no interferir con el contenido.
 		</details>
-		<details>
+
 # 7f.Mapa de navegabilidad
+<details>
+	<sumary></sumary>
 		</details>
