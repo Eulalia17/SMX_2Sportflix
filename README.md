@@ -289,7 +289,6 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 7.e Mockup 
 <details>
 <summary> Para el diseño web </summary>
-</details>
 	Equilibrio del diseño:
 	<details> 
 		Uso balanceado entre espacios vacíos y elementos visuales para evitar las saturaciónes.
