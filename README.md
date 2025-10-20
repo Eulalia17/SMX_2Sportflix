@@ -281,7 +281,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 </details>
 
 ## 7. Web
-<details></details>
+<details>
 	<summary>Apartados</summary>
 
  7.d Diseño
@@ -423,6 +423,8 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 	<sumary>Apartado</sumary>
 		</details>
 </details>
+
+
 
 
 
