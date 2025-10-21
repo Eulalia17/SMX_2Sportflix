@@ -422,9 +422,9 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 	<sumary>Apartado</sumary>
 		
 </details>
-<gitclone></gitclone>
 
-### 8.Servicios	
+
+# 8.Servicios	
 <details>
 	<summary>Apartados</summary>
 	
