@@ -1,6 +1,6 @@
 # SMX2_Sportflix
 
-## Índice
+# Índice
 <details>
 	<summary>Apartados</summary>
 
@@ -50,13 +50,13 @@ k.Copias de seguridad
 
 </details>
 
-### 1.Introducción - ¿qué estamos haciendo?
+# 1.Introducción - ¿qué estamos haciendo?
 <details>
 	<summary>Explicación</summary>
 Estamos haciendo un projecto que consiste en crear una web que en nuestro caso es de notícias de fórmula 1 y tendrá apartados exclusivamente con pilotos 3D españoles, también su apartado de soporte para mirar los problemas frecuentes que suceden en nuestra web, su apartado de última hora y también su apartado de introducción explicando quienes somos. 
 </details>
 
-  ### 2.Briefing de ideas
+  # 2.Briefing de ideas
   <details>
 	 <summary>Apartados</summary> 
 	  
@@ -119,7 +119,7 @@ Promox (https://www.nakivo.com/es/blog/top-10-proxmox-cli-commands/) y (https://
 </Details>
 
 
-## 3. Informe Backend
+# 3. Informe Backend
 
 <details>
 <summary>Nuestro informe</summary>
@@ -263,11 +263,11 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 </details>
 
 
-## 4. Arquitectura del software
+# 4. Arquitectura del software
 
-## 5. Tecnologías a utilizar
+# 5. Tecnologías a utilizar
 
-## 6.Red
+# 6.Red
 <details>
 	<summary>Apartados</summary>
 6a.Diagrama de la red
@@ -280,7 +280,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 	
 </details>
 
-## 7. Web
+# 7. Web
 <details>
 	<summary>Apartados</summary>
 
