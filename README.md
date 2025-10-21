@@ -50,13 +50,13 @@ k.Copias de seguridad
 
 </details>
 
-# 1.Introducción - ¿qué estamos haciendo?
+## 1.Introducción - ¿qué estamos haciendo?
 <details>
 	<summary>Explicación</summary>
 Estamos haciendo un projecto que consiste en crear una web que en nuestro caso es de notícias de fórmula 1 y tendrá apartados exclusivamente con pilotos 3D españoles, también su apartado de soporte para mirar los problemas frecuentes que suceden en nuestra web, su apartado de última hora y también su apartado de introducción explicando quienes somos. 
 </details>
 
-  # 2.Briefing de ideas
+## 2.Briefing de ideas
   <details>
 	 <summary>Apartados</summary> 
 	  
@@ -119,7 +119,7 @@ Promox (https://www.nakivo.com/es/blog/top-10-proxmox-cli-commands/) y (https://
 </Details>
 
 
-# 3. Informe Backend
+## 3. Informe Backend
 
 <details>
 <summary>Nuestro informe</summary>
@@ -263,11 +263,11 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 </details>
 
 
-# 4. Arquitectura del software
+## 4. Arquitectura del software
 
-# 5. Tecnologías a utilizar
+## 5. Tecnologías a utilizar
 
-# 6.Red
+## 6.Red
 <details>
 	<summary>Apartados</summary>
 6a.Diagrama de la red
@@ -280,7 +280,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 	
 </details>
 
-# 7. Web
+## 7. Web
 <details>
 	<summary>Apartados</summary>
 
@@ -424,7 +424,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 </details>
 
 
-# 8.Servicios	
+## 8.Servicios	
 <details>
 	<summary>Apartados</summary>
 	
@@ -439,10 +439,10 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 8.k Copias de seguridad
 </details>
 
-# 9. Conclusiones
+## 9. Conclusiones
 
 
-# 10.Bibliografía
+## 10.Bibliografía
 <details>
 	<summary>Bibliografía</summary>
 Github (https://docs.github.com/es/get-started/start-your-journey/hello-world) , (https://gist.github.com/dasdo/9ff71c5c0efa037441b6) y (https://prestashop.es) MySQL (https://www.mysqltutorial.org/) y (https://blog.baehost.com/comandos-basicos-para-mysql/) Cloudflare (https://raiolanetworks.com/blog/cloudflare/) y (https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/local-management/tunnel-useful-commands/) Promox (https://www.nakivo.com/es/blog/top-10-proxmox-cli-commands/) y (https://www.nakivo.com/blog/proxmox-install/)
