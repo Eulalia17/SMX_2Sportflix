@@ -423,6 +423,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 <img width="798" height="638" alt="image" src="https://github.com/user-attachments/assets/257bd7d0-5780-4e30-b017-f9d9d9e214fb" />
 <img width="797" height="636" alt="image" src="https://github.com/user-attachments/assets/848dbfc6-981e-4e5c-8458-bebae7abbba4" />
 <img width="791" height="633" alt="image" src="https://github.com/user-attachments/assets/985844d7-6a14-4856-acc2-a0c82ed5d9da" />
+<img width="504" height="635" alt="image" src="https://github.com/user-attachments/assets/a440ff9b-42bf-4f81-a0c9-26d02369b5d9" />
 
 
 
