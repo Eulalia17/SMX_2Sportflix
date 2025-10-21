@@ -441,6 +441,9 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 <img width="359" height="637" alt="image" src="https://github.com/user-attachments/assets/07a81988-369a-4fc7-a985-0a96f219944d" />
 <img width="380" height="624" alt="image" src="https://github.com/user-attachments/assets/cce6031c-9d0c-43c4-88c5-a3b525789d4b" />
 <img width="413" height="636" alt="image" src="https://github.com/user-attachments/assets/9b78e1d8-22b0-4d7c-a967-e3e27ca057d8" />
+<img width="362" height="638" alt="image" src="https://github.com/user-attachments/assets/99b5b574-fd7b-493d-b210-fc258ac675dc" />
+<img width="351" height="625" alt="image" src="https://github.com/user-attachments/assets/e94d7166-b6eb-4b6b-9da5-394467790fcc" />
+<img width="376" height="636" alt="image" src="https://github.com/user-attachments/assets/5224e54e-5750-45ff-bef7-f1bddfb50b52" />
 
 
 ### 7f.Mapa de navegabilidad
