@@ -422,7 +422,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 	<sumary>Apartado</sumary>
 		
 </details>
-
+</details>
 
 ### 8.Servicios	
 <details>
