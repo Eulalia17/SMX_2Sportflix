@@ -415,7 +415,9 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 	Mensajes emergentes (toast, modales) con estados: éxito, error, advertencia, info.
 	Posición fija (arriba o abajo) para no interferir con el contenido.
 	</details>
-Diseño mockup:
+	Diseño mockup
+		<details>
+			<summary>Diseño</summary>
 <img width="1011" height="566" alt="image" src="https://github.com/user-attachments/assets/31a6b91c-be2a-4d3e-afcf-f87e207f40f2" />
 
 
