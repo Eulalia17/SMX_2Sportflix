@@ -431,6 +431,14 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 <img width="508" height="636" alt="image" src="https://github.com/user-attachments/assets/524cbc36-5ba2-41f6-946b-e7d42979deba" />
 <img width="508" height="636" alt="image" src="https://github.com/user-attachments/assets/7cdea7a2-8007-43a4-a39d-dad4418a6121" />
 <img width="508" height="638" alt="image" src="https://github.com/user-attachments/assets/36122147-442e-4b5d-bbd6-d2c508e2d5a1" />
+<img width="512" height="635" alt="image" src="https://github.com/user-attachments/assets/8fe64e21-dca2-42f9-a277-b5784e24726b" />
+<img width="510" height="641" alt="image" src="https://github.com/user-attachments/assets/154242e1-1ac8-469a-be65-6a4f96437d0c" />
+<img width="508" height="634" alt="image" src="https://github.com/user-attachments/assets/5d38e4da-1e2c-4439-a301-90c0653aeb6b" />
+<img width="797" height="635" alt="image" src="https://github.com/user-attachments/assets/066172c1-58b3-4191-b1ae-f5f3f94602d9" />
+<img width="798" height="634" alt="image" src="https://github.com/user-attachments/assets/b838e5d2-101c-4266-9b96-1ed38378e8b4" />
+<img width="383" height="627" alt="image" src="https://github.com/user-attachments/assets/831a64c6-09cb-4247-9856-afb4d53b15fb" />
+<img width="415" height="639" alt="image" src="https://github.com/user-attachments/assets/f624c7f1-d368-4d2a-aa33-5e89f03223bb" />
+<img width="359" height="637" alt="image" src="https://github.com/user-attachments/assets/07a81988-369a-4fc7-a985-0a96f219944d" />
 
 
 ### 7f.Mapa de navegabilidad
