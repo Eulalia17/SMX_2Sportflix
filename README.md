@@ -417,7 +417,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 		</details>
 
         Capturas diseño Mockup:
-		<img width="1011" height="566" alt="image" src="https://github.com/user-attachments/assets/4c975d7d-efd1-42ed-9b65-87475e7b4acc" />
+	<img width="1011" height="566" alt="image" src="https://github.com/user-attachments/assets/4c975d7d-efd1-42ed-9b65-87475e7b4acc" />
 
 
 ### 7f.Mapa de navegabilidad
