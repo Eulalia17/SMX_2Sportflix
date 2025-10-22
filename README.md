@@ -416,8 +416,8 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 	Posición fija (arriba o abajo) para no interferir con el contenido.
 	</details>
 	Diseño mockup
-		<details>
-			<summary>Diseño</summary>
+	<details>
+	<summary>Diseño</summary>
 
 <img width="1011" height="566" alt="image" src="https://github.com/user-attachments/assets/31a6b91c-be2a-4d3e-afcf-f87e207f40f2" />
 
@@ -470,7 +470,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 <img width="351" height="625" alt="image" src="https://github.com/user-attachments/assets/e94d7166-b6eb-4b6b-9da5-394467790fcc" />
 
 <img width="376" height="636" alt="image" src="https://github.com/user-attachments/assets/5224e54e-5750-45ff-bef7-f1bddfb50b52" />
-
+</details>
 
 ### 7f.Mapa de navegabilidad
 <details>
