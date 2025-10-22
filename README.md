@@ -286,7 +286,9 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 
  7.d Diseño
 
+
 7.e Mockup 
+
 <details>
 <summary> Para el diseño web </summary>
 	Equilibrio del diseño:
