@@ -264,6 +264,9 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 
 
 ## 4. Arquitectura del software
+<details> 
+	<sumary>Apartados</sumary>
+</details>
 
 ## 5. Tecnologías a utilizar
 
