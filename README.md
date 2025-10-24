@@ -284,7 +284,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 <details>
 	<summary>Apartados</summary>
 
- 7.d Diseño
+7.d Diseño
 
 
 7.e Mockup 
