@@ -480,10 +480,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 		
 </details>
 
-### 7g. Arquitectura
-<details>
-	<sumary>Apartados</sumary>
-</details>
+
 ## 8.Servicios	
 <details>
 	<summary>Apartados</summary>
