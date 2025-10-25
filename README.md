@@ -424,71 +424,94 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 	<details>
 	<summary>Diseño</summary>
 En nuestra pantalla de inicio de la web "SPORTFLIX", nos hemos inspirado en Netflix y desportes, con el logo de F1 y un coche de F1 en una pista de carreras. Tambien hemos puesto un iniciar sesión y al lado un meno desplegable.
+		
 <img width="1011" height="566" alt="image" src="https://github.com/user-attachments/assets/31a6b91c-be2a-4d3e-afcf-f87e207f40f2" />
 		
 En esta sección esplicaremos "¿Quines somo?"de la web. Hemos mencionado los creadores que somos yo y mi compañero. Somos estudiantes de segundo año de SMX, con la intención de crear una web de noticias de F1 inspirada en Netflix, pero con el objetivo claro paracerse a "Marca".
+
 <img width="795" height="633" alt="image" src="https://github.com/user-attachments/assets/e3dc652c-bd5e-4d11-a388-b6255c957640" />
 
 En este apartado podemos encontar nuevas noticias de última hora. 
+
 <img width="798" height="638" alt="image" src="https://github.com/user-attachments/assets/257bd7d0-5780-4e30-b017-f9d9d9e214fb" />
 
 En este apartado hablaremos sobre los pilotos como por ejemplo sobre Fernando Alonso.
+
 <img width="797" height="636" alt="image" src="https://github.com/user-attachments/assets/848dbfc6-981e-4e5c-8458-bebae7abbba4" />
 
 En esta sección es sobre ayuda, explicamos que para aceder a la paginia de inicio se debe ingresar vuestro correo electrónico y la contraseña asociada e ese correo.
+
 <img width="791" height="633" alt="image" src="https://github.com/user-attachments/assets/985844d7-6a14-4856-acc2-a0c82ed5d9da" />
 
 En este apartado hablaremos sobre el menu de navegacion principal con varias seciones.
 <img width="504" height="635" alt="image" src="https://github.com/user-attachments/assets/a440ff9b-42bf-4f81-a0c9-26d02369b5d9" />
 
 En esta sección es sobre la historia de los pilotos de F1. Explicaremos sobre el origen del Campeonato Mundial de Pilotos en 1950 hasta la actualidad. En la imagen podemos ver un monoplazo de Senna, un monoplazo de Max Verstappen y un Renault de Alonso.
+
 <img width="797" height="637" alt="image" src="https://github.com/user-attachments/assets/9b1f8c57-3e67-4fb9-b000-2ce4cda21b3f" />
 
-Hemos creado una ficha dedicada a Ayrton Senna porque fue la mejor leyanda de F1
+Hemos creado una ficha dedicada a Ayrton Senna porque fue la mejor leyanda de F1.
+
 <img width="509" height="639" alt="image" src="https://github.com/user-attachments/assets/2bc4dd3d-ff63-481b-ae27-cb69d2de740b" />
 
 En esta sección os hablaremos sobre los pilotos actuales.
+
 <img width="793" height="634" alt="image" src="https://github.com/user-attachments/assets/2a1cd6e5-8432-43ea-8e7a-818c48089699" />
 
 Hemos crado una ficha dedicado a Checo Perez porque fue uno de los grandes pilotos de la actualidad.
+
 <img width="512" height="635" alt="image" src="https://github.com/user-attachments/assets/62ef6f53-5348-4266-8230-e63809ea6191" />
 
 Una ficha dedicado a Max Verstappen, es el terror en la pista de carreras.
+
 <img width="508" height="636" alt="image" src="https://github.com/user-attachments/assets/524cbc36-5ba2-41f6-946b-e7d42979deba" />
 
 Una ficha al mejor español de la historia Fernando Alonso, porque hay una buena rivalidad popular en redes sociales que es entre el o Hamilton y hemos elegido a Alonso.
+
 <img width="508" height="636" alt="image" src="https://github.com/user-attachments/assets/7cdea7a2-8007-43a4-a39d-dad4418a6121" />
 
 Una ficha al segundo mejor piloto español a Carlitos Sainz Vázquez de Castro (Smoot Operator).
+
 <img width="508" height="638" alt="image" src="https://github.com/user-attachments/assets/36122147-442e-4b5d-bbd6-d2c508e2d5a1" />
 
-Una ficha a Charles Lecler,porque tuvo el peor pasado de todos los pilotos y porque es mejor amigo de Carlitos
+Una ficha a Charles Lecler,porque tuvo el peor pasado de todos los pilotos y porque es mejor amigo de Carlitos.
+
 <img width="512" height="635" alt="image" src="https://github.com/user-attachments/assets/8fe64e21-dca2-42f9-a277-b5784e24726b" /> 
 
 Una ficha a Oscar Piastri,porque siendo joven tiene mucho talento y carisma a la hora de conducir un coche.
+
 <img width="510" height="641" alt="image" src="https://github.com/user-attachments/assets/154242e1-1ac8-469a-be65-6a4f96437d0c" />
 
 Una ficha a Lando Norris , porque aunque tiene talento , es de papaya rules (un apodo que esta Oscar tambien esta incluido), algunas personas no le gusta su actitud pero a mi si.
+
 <img width="508" height="634" alt="image" src="https://github.com/user-attachments/assets/5d38e4da-1e2c-4439-a301-90c0653aeb6b" />
 
 Una sección de escuderias. Presentamos una ilustración con los logos de Ferrari,Mercedes , Red Bull y etc. Porque hablaremos sobre las escuderias de F1 , su función ,mencionaremos los equipos mas actuales y la plantilla.
+
 <img width="797" height="635" alt="image" src="https://github.com/user-attachments/assets/066172c1-58b3-4191-b1ae-f5f3f94602d9" />
 
 Es una sección de los coches. En el texto descriptivo que hemos puesto describimos como son los monoplazos aerodinámicos , ultra-ligeros, construidos con fibra de carbon , etc.
+
 <img width="798" height="634" alt="image" src="https://github.com/user-attachments/assets/b838e5d2-101c-4266-9b96-1ed38378e8b4" />
 
 Articulo dedicado a la escuderia de Ferrari. Mostramos su logo, un coche.
+
 <img width="383" height="627" alt="image" src="https://github.com/user-attachments/assets/831a64c6-09cb-4247-9856-afb4d53b15fb" />
 
-Articulo sobre McLaren con su descripción resalta que McLaren (sigue innovando en cada carrera y desafiando los limites.)
+Articulo sobre McLaren con su descripción resalta que McLaren (sigue innovando en cada carrera y desafiando los limites).
+
 <img width="415" height="639" alt="image" src="https://github.com/user-attachments/assets/f624c7f1-d368-4d2a-aa33-5e89f03223bb" />
 
 Articulo de Williams , hemos puesto un breve descripcion (ha demostrado su excelencia en la F1 y anima a descubrir mas sobre su historia).
+
 <img width="359" height="637" alt="image" src="https://github.com/user-attachments/assets/07a81988-369a-4fc7-a985-0a96f219944d" />
 
 Articulo de Red Bull , hemos puesto de titular (la escuderia red bull en la f1 ). Invitando a descubrir su historia y los exitos.
+
 <img width="351" height="625" alt="image" src="https://github.com/user-attachments/assets/e94d7166-b6eb-4b6b-9da5-394467790fcc" />
+
 Articulo de Mercedes, hemos puesto de descripción(la velocidad y precisión de Mercedes).  
+
 <img width="376" height="636" alt="image" src="https://github.com/user-attachments/assets/5224e54e-5750-45ff-bef7-f1bddfb50b52" />
 </details>
 
