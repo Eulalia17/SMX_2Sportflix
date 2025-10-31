@@ -1,7 +1,7 @@
 # SMX2_Sportflix
 
 # Índice
-<details>
+<>
 	<summary>Apartados</summary>
 
 Nombre del proyecto: Sportflix
