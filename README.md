@@ -6,53 +6,52 @@
 
 Nombre del proyecto: SMX2-Sportflix
 
-1.Introducción - ¿qué estamos haciendo?
+1. Introducción
 
-2.Briefing de ideas
+2. Briefing de ideas
 
-3.Informe Backend
+3. Informe Backend
 
-4.Arquitectura del software
+4. Arquitectura del software
 
-5.Tecnologías a utilizar
+5. Tecnologías a utilizar
 
-6.Red
+6. Red
 
-a.Diagrama de la red
+a. Diagrama de la red
 
-b.Mapa físico
+b. Mapa físico
 
-c.Mapa lógico
+c. Mapa lógico
 
-7.Web
+7. Web
 
-d.Diseño
+d. Diseño
 
-e.Mockup
+e. Mockup
 
-f.Mapa de navegabilidad
+f. Mapa de navegabilidad
 
-8.Servicios
+8. Servicios
 
-g.DNS
+g. DNS
 
-h.DHCP
+h. DHCP
 
-i.Apache
+i. Apache
 
-j.Firewall
+j. Firewall
 
-k.Copias de seguridad
+k. Copias de seguridad
 
-9.Conclusiones
+9. Conclusiones
 
-10.Bibliografía
+10. Bibliografía
 
 </details>
 
 ## 1.Introducción - ¿qué estamos haciendo?
 <details>
-	<summary>Explicación</summary>
 Estamos haciendo un projecto que consiste en crear una web que en nuestro caso es de notícias de fórmula 1 y tendrá apartados exclusivamente con pilotos 3D españoles, también su apartado de soporte para mirar los problemas frecuentes que suceden en nuestra web, su apartado de última hora y también su apartado de introducción explicando quienes somos. 
 </details>
 
