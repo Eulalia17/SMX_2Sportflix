@@ -51,12 +51,12 @@ k. Copias de seguridad
 </details>
 
 ## 1. Introducción
-
+<Details>
 Estamos haciendo un projecto que consiste en crear una web que en nuestro caso es de notícias de fórmula 1 y tendrá apartados exclusivamente con pilotos 3D españoles, también su apartado de soporte para mirar los problemas frecuentes que suceden en nuestra web, su apartado de última hora y también su apartado de introducción explicando quienes somos. 
 </details>
 
 ## 2.Briefing de ideas
-
+<Details>
 	 <summary>Apartados</summary> 
 	  
 ### Idea seleccionada y justificación: 
