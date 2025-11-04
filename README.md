@@ -424,7 +424,8 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 	<summary>Diseño</summary>
 En nuestra pantalla de inicio de la web "SPORTFLIX", nos hemos inspirado en Netflix y desportes, con el logo de F1 y un coche de F1 en una pista de carreras. Tambien hemos puesto un iniciar sesión y al lado un meno desplegable.
 		
-<img width="1011" height="566" alt="image" src="https://github.com/user-attachments/assets/31a6b91c-be2a-4d3e-afcf-f87e207f40f2" />
+<img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/94747aec-3159-41f7-b05c-dcd5b039a308" />
+
 		
 En esta sección esplicaremos "¿Quines somo?"de la web. Hemos mencionado los creadores que somos yo y mi compañero. Somos estudiantes de segundo año de SMX, con la intención de crear una web de noticias de F1 inspirada en Netflix, pero con el objetivo claro paracerse a "Marca".
 
