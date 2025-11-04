@@ -71,7 +71,7 @@ Porque hemos escogido esta idea: Lo hemos escogido porque es original, también 
 * 5 Diseñar en 3D los coches a mostrar en la web y si es posible hacer lo mismo con los pilotos.
 
 
-### Publico al que va dirigido: 
+### Público al que va dirigido: 
 A todos los públicos que le gusté el deporte y sobretodo la fórmula 1.
 
 ### Modulos que vamos a tocar: (Asignaturas)
