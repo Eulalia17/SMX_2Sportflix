@@ -291,229 +291,45 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 
 7.e Mockup 
 
-<details>
-<summary> Para el diseño web </summary>
-	Equilibrio del diseño:
-	<details> 
-	Uso balanceado entre espacios vacíos y elementos visuales para evitar las saturaciónes.
-	Las distribuciónes simétrica y la asimétrica según el objetivo que nosotros le queremos dar a nuestra pagina web.
-	</details>
-	Colores del diseño:
-	<details> 
-	Colores principales: rojo y blanco.
-	Colores secundarios : negro y blanco.
-	Colores de estado: Exito (Verda), Error (Rojo), Advertencia (Amarillo), Información (Azul clarito), etc.
-	</details>
-	Estrucutra del diseño:
-	<details>
-	Header(cabacera) fijo o dinámico con menú principal.
-	Cuerpo divido en secciones claras y visualmente diferenciadas.
-	Sideabar (barra lateral) opcional para navegación o contenido adicional.
-	Footer (pie de página) con enlaces legales y de contacto.
-	</details>
-	Colores y tipografía:
-	<details>
-	Colores lo he mencionando anterior mente.
-	Tipografia principal: sans-serif para modernidad y legibilidad.
-	Tipografia secundaria: serif o cursiva para títulos o énfasis.
-	Tamaños jerárquicos: titulo, subtitulos, texto normal,etc.
-	Colores tipograficos: alto contraste con fondo, color para enlaces y estados.
-	</details>
-	Componentes de interfaz 
-	<details>
-	Botones. 
-	<details>
-	Tipos: Menú, botón de acción, botón de hipervínculo, botón repetidor, botón  desplegable.
-	Estados: Identificador, activado, desactivado, sobrevolado (hover), presionado (avive).
-	Estilos: Colores y sombras para cada estado.
-	</details>
-	Enlaces:
-	<details>
-	Interactivos: barras de búsqueda, paginación.
-	Contenedores: pestañas, acordeones, etc.
-	Controles: navegación, contenido informativo, estructuras.
-	Soporte para diferentes estados (normal,hover,visitado,etc).
-	</details>
-	Casillas de verificación:
-	<details>
-	Componentes: caja, marca de verificación, etiqueta.
-	Estados: marcado, desmarcado, indeterminado (por ejemplo, en selección múltiple parcial).
-	</details>
-	Menús desplegables:
-	<details> 
-	Elementos: botones, iconos, control activador.
-	Lista de opciones con indicador de opción predeterminada.
-	Etiquetas claras y cierre con animación.
-	Uso de clases CSS para estilos y estados.
-	Botones divididos para funciones combinadas (por ejemplo, acción + menú).
-	</details>
-	Deslizadores (sliders)
-	<details> 
-	Componentes: barra, manija (thumb), valor numérico.
-	Etiquetas claras para valores mínimos y máximos.
-	Marcas para intervalos o puntos destacados.
-	Área sombreada para rango seleccionado.
-	Dirección: horizontal o vertical.
-	Eventos para interacción (drag, click).
-	</details>
-	Menús deslizadores:
-	<details> 
-	Principal con submenús desplegables.
-	Pestañas para secciones.
-	Menú de pie de página con enlaces secundarios.
-	Panel lateral (sidebar) con navegación secundaria.
-	Breadcrumbs (migas de pan) para orientación.
-	Botón para volver a página inicio.
-	Widgets de navegación adicionales (filtros, buscadores).
-	</details>
-	Barras de herramientas:
-	<details> 
-	Conjunto de iconos y botones para acciones ràpidas.
-	</details>
-	Barras de búsquedas
-	<details>
-	Campo de texto con botón o icono de búsqueda.
-	Autocompletado y sugerencias.
-	</details>
-	Pestañas:
-	<details>
-	Navegación de pestañas para continido relacionado.
-	Cambio de estado visual y de continido según pestaña activa.
-	</details>
-	Botones de retroceso
-	<details> 
-	Iconos o botones para regresar a la página anterior.
-	</details>
-	Imagénes
-	<details> 
-	Soporte para imagénes responsivas.
-	Uso de formatos optimizados (webpp, svg para iconos).
-	Alt-text para accesibilidad.
-	</details>
-	Cabeceras
-	<details> 
-	Jerarquia clara (h1, h2, h3, etc).
-	Diseño con separación y posible uso de iconos o elementos gráficos.
-	</details>
-	Pies de página:
-	<details>
-	Información de contacto, redes sociales, enlaces legales y mapa del sitio.
-	</details>
-	Barras laterales:
-	<details>
-	Contenido adicional: widgets, publicidad, navegación secundaria, etc.
-	</details>
-	Áreas de cuerpo de la página:
-	<details> 
-	Zonas bien definidas para contenido principal.
-	Uso de tarjetas, listas, o grids según contenido.
-	</details>
-	Formularios:
-	<details> 
-	Campos claros y accesibles.
-	Validaciones visibles.
-	Botones de envío y reset.
-	</details>
-	Notificaciones:
-	<details> 
-	Mensajes emergentes (toast, modales) con estados: éxito, error, advertencia, info.
-	Posición fija (arriba o abajo) para no interferir con el contenido.
-	</details>
-	Diseño mockup
-	<details>
-	<summary>Diseño</summary>
-En nuestra pantalla de inicio de la web "SPORTFLIX", nos hemos inspirado en Netflix y desportes, con el logo de F1 y un coche de F1 en una pista de carreras. Tambien hemos puesto un iniciar sesión y al lado un meno desplegable.
-		
-<img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/94747aec-3159-41f7-b05c-dcd5b039a308" />
+## Diseño Web - Lineamientos Base
 
-		
-En esta sección esplicaremos "¿Quines somo?"de la web. Hemos mencionado los creadores que somos yo y mi compañero. Somos estudiantes de segundo año de SMX, con la intención de crear una web de noticias de F1 inspirada en Netflix, pero con el objetivo claro paracerse a "Marca".
+### Equilibrio del diseño, Colores y Estructura
+- Mantener un uso balanceado entre espacios vacíos y elementos visuales para evitar saturaciones.
+- Uso de distribución simétrica o asimétrica según el objetivo de la página.
+- Colores principales: **Rojo** y **Blanco**  
+  Colores secundarios: **Negro** y **Blanco**  
+  Colores de estado: Éxito (**Verde**), Error (**Rojo**), Advertencia (**Amarillo**), Información (**Azul clarito**), etc.
+- Estructura del diseño:  
+  Header (cabecera) fijo o dinámico con menú principal.  
+  Cuerpo dividido en secciones diferenciadas visualmente.  
+  Sidebar (barra lateral) opcional.  
+  Footer (pie de página) con enlaces legales y de contacto.
 
-<img width="795" height="633" alt="image" src="https://github.com/user-attachments/assets/e3dc652c-bd5e-4d11-a388-b6255c957640" />
+### Colores y Tipografía
+- Tipografía principal: **Sans-serif** para modernidad y legibilidad.  
+- Tipografía secundaria: **Serif o cursiva** para títulos y puntos destacados.  
+- Tamaños con jerarquía visual (título, subtítulo, texto normal...).  
+- Colores tipográficos con alto contraste, color especial para enlaces y estados.
 
-En este apartado podemos encontar nuevas noticias de última hora. 
+### Componentes de Interfaz
+- **Botones:** menú, acción, hipervínculo, repetidor, desplegable.  
+  Estados: identificador, activado, desactivado, hover, presionado.  
+- **Enlaces:** soportan estados (normal, hover, visitado).  
+  Elementos interactivos: barras de búsqueda, paginación, pestañas, acordeones, etc.  
+- **Casillas de verificación:** marcado, desmarcado, indeterminado.  
+- **Menús desplegables:** lista de opciones, opción predeterminada, cierre animado, botones divididos.  
+- **Sliders:** barra, thumb, valores mínimo/máximo, rango sombreado, horizontal o vertical.  
+- **Menús deslizadores:** submenús, pestañas, breadcrumbs, sidebar secundaria, filtros y buscadores.  
+- **Barras de herramientas:** acciones rápidas mediante iconos y botones.  
+- **Imágenes:** responsivas, usar WebP y SVG para iconos, alt-text para accesibilidad.  
+- **Formularios:** campos claros, validaciones visibles, botones enviar/reset.  
+- **Notificaciones:** toasts / modales para éxito, error, advertencia, info.
 
-<img width="798" height="638" alt="image" src="https://github.com/user-attachments/assets/257bd7d0-5780-4e30-b017-f9d9d9e214fb" />
+### Redacción
+- Redacción clara, directa y sin saturación técnica innecesaria.  
+- Mantener coherencia de nombres/terminología en componentes, estructuras y estados UI.
 
-En este apartado hablaremos sobre los pilotos como por ejemplo sobre Fernando Alonso.
 
-<img width="797" height="636" alt="image" src="https://github.com/user-attachments/assets/848dbfc6-981e-4e5c-8458-bebae7abbba4" />
-
-En esta sección es sobre ayuda, explicamos que para aceder a la paginia de inicio se debe ingresar vuestro correo electrónico y la contraseña asociada e ese correo.
-
-<img width="791" height="633" alt="image" src="https://github.com/user-attachments/assets/985844d7-6a14-4856-acc2-a0c82ed5d9da" />
-
-En este apartado hablaremos sobre el menu de navegacion principal con varias seciones.
-<img width="504" height="635" alt="image" src="https://github.com/user-attachments/assets/a440ff9b-42bf-4f81-a0c9-26d02369b5d9" />
-
-En esta sección es sobre la historia de los pilotos de F1. Explicaremos sobre el origen del Campeonato Mundial de Pilotos en 1950 hasta la actualidad. En la imagen podemos ver un monoplazo de Senna, un monoplazo de Max Verstappen y un Renault de Alonso.
-
-<img width="797" height="637" alt="image" src="https://github.com/user-attachments/assets/9b1f8c57-3e67-4fb9-b000-2ce4cda21b3f" />
-
-Hemos creado una ficha dedicada a Ayrton Senna porque fue la mejor leyanda de F1.
-
-<img width="509" height="639" alt="image" src="https://github.com/user-attachments/assets/2bc4dd3d-ff63-481b-ae27-cb69d2de740b" />
-
-En esta sección os hablaremos sobre los pilotos actuales.
-
-<img width="793" height="634" alt="image" src="https://github.com/user-attachments/assets/2a1cd6e5-8432-43ea-8e7a-818c48089699" />
-
-Hemos crado una ficha dedicado a Checo Perez porque fue uno de los grandes pilotos de la actualidad.
-
-<img width="512" height="635" alt="image" src="https://github.com/user-attachments/assets/62ef6f53-5348-4266-8230-e63809ea6191" />
-
-Una ficha dedicado a Max Verstappen, es el terror en la pista de carreras.
-
-<img width="508" height="636" alt="image" src="https://github.com/user-attachments/assets/524cbc36-5ba2-41f6-946b-e7d42979deba" />
-
-Una ficha al mejor español de la historia Fernando Alonso, porque hay una buena rivalidad popular en redes sociales que es entre el o Hamilton y hemos elegido a Alonso.
-
-<img width="508" height="636" alt="image" src="https://github.com/user-attachments/assets/7cdea7a2-8007-43a4-a39d-dad4418a6121" />
-
-Una ficha al segundo mejor piloto español a Carlitos Sainz Vázquez de Castro (Smoot Operator).
-
-<img width="508" height="638" alt="image" src="https://github.com/user-attachments/assets/36122147-442e-4b5d-bbd6-d2c508e2d5a1" />
-
-Una ficha a Charles Lecler,porque tuvo el peor pasado de todos los pilotos y porque es mejor amigo de Carlitos.
-
-<img width="512" height="635" alt="image" src="https://github.com/user-attachments/assets/8fe64e21-dca2-42f9-a277-b5784e24726b" /> 
-
-Una ficha a Oscar Piastri,porque siendo joven tiene mucho talento y carisma a la hora de conducir un coche.
-
-<img width="510" height="641" alt="image" src="https://github.com/user-attachments/assets/154242e1-1ac8-469a-be65-6a4f96437d0c" />
-
-Una ficha a Lando Norris , porque aunque tiene talento , es de papaya rules (un apodo que esta Oscar tambien esta incluido), algunas personas no le gusta su actitud pero a mi si.
-
-<img width="508" height="634" alt="image" src="https://github.com/user-attachments/assets/5d38e4da-1e2c-4439-a301-90c0653aeb6b" />
-
-Una sección de escuderias. Presentamos una ilustración con los logos de Ferrari,Mercedes , Red Bull y etc. Porque hablaremos sobre las escuderias de F1 , su función ,mencionaremos los equipos mas actuales y la plantilla.
-
-<img width="797" height="635" alt="image" src="https://github.com/user-attachments/assets/066172c1-58b3-4191-b1ae-f5f3f94602d9" />
-
-Es una sección de los coches. En el texto descriptivo que hemos puesto describimos como son los monoplazos aerodinámicos , ultra-ligeros, construidos con fibra de carbon , etc.
-
-<img width="798" height="634" alt="image" src="https://github.com/user-attachments/assets/b838e5d2-101c-4266-9b96-1ed38378e8b4" />
-
-Articulo dedicado a la escuderia de Ferrari. Mostramos su logo, un coche.
-
-<img width="383" height="627" alt="image" src="https://github.com/user-attachments/assets/831a64c6-09cb-4247-9856-afb4d53b15fb" />
-
-Articulo sobre McLaren con su descripción resalta que McLaren (sigue innovando en cada carrera y desafiando los limites).
-
-<img width="415" height="639" alt="image" src="https://github.com/user-attachments/assets/f624c7f1-d368-4d2a-aa33-5e89f03223bb" />
-
-Articulo de Williams , hemos puesto un breve descripcion (ha demostrado su excelencia en la F1 y anima a descubrir mas sobre su historia).
-
-<img width="359" height="637" alt="image" src="https://github.com/user-attachments/assets/07a81988-369a-4fc7-a985-0a96f219944d" />
-
-Articulo de Red Bull , hemos puesto de titular (la escuderia red bull en la f1 ). Invitando a descubrir su historia y los exitos.
-
-<img width="351" height="625" alt="image" src="https://github.com/user-attachments/assets/e94d7166-b6eb-4b6b-9da5-394467790fcc" />
-
-Articulo de Mercedes, hemos puesto de descripción(la velocidad y precisión de Mercedes).  
-
-<img width="376" height="636" alt="image" src="https://github.com/user-attachments/assets/5224e54e-5750-45ff-bef7-f1bddfb50b52" />
-</details>
 
 ### 7f.Mapa de navegabilidad
 <details>
