@@ -286,8 +286,6 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 <details>
 	<summary>Apartados</summary>
 
-7.e Mockup 
-
 ## 7.d Diseño Web - Lineamientos Base
 
 ### Equilibrio del diseño, Colores y Estructura
@@ -324,8 +322,9 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 
 ### Redacción
 - Redacción clara, directa y sin saturación técnica innecesaria.  
-- Mantener coherencia de nombres/terminología en componentes, estructuras y estados UI.
+- Mantener coherencia de nombres/terminología en componentes, estructuras y esta#dos UI.
 
+### 7e.Mockup 
 
 
 ### 7f.Mapa de navegabilidad
