@@ -286,12 +286,9 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 <details>
 	<summary>Apartados</summary>
 
-7.d Diseño
-
-
 7.e Mockup 
 
-## Diseño Web - Lineamientos Base
+## 7.d Diseño Web - Lineamientos Base
 
 ### Equilibrio del diseño, Colores y Estructura
 - Mantener un uso balanceado entre espacios vacíos y elementos visuales para evitar saturaciones.
