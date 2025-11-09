@@ -357,6 +357,10 @@ En esta sección os mostraremos como será la función donde puedes modificar, a
 <img width="528" height="425" alt="image" src="https://github.com/user-attachments/assets/36ca5a8f-3c07-461d-bd63-7fd47401c7de" />
 
 
+En esta sección os mostraremos como será la función del administrador.
+<img width="535" height="422" alt="image" src="https://github.com/user-attachments/assets/094c38b2-66c4-4421-afdb-80300aef9dd3" />
+
+
 En esta sección explicaremos "¿Quiénes somos?"de la web. Hemos mencionado los creadores que somos yo y mi compañero. Somos estudiantes de segundo año de SMX, con la intención de crear una web de noticias de F1 inspirada en Netflix, pero con el objetivo claro de parecerse a "Marca".
 
 <img width="496" height="398" alt="image" src="https://github.com/user-attachments/assets/52f120cb-7ac4-483d-bbb8-7d0bf43385c4" />
