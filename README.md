@@ -340,7 +340,8 @@ En esta sección explicaremos "¿Quiénes somos?"de la web. Hemos mencionado los
 
 En este apartado podemos encontrar nuevas noticias de última hora. 
 
-<img width="798" height="638" alt="image" src="https://github.com/user-attachments/assets/257bd7d0-5780-4e30-b017-f9d9d9e214fb" />
+<img width="496" height="396" alt="image" src="https://github.com/user-attachments/assets/3de29ac8-18a5-455a-9a96-cf18dcf719ec" />
+
 
 En este apartado hablaremos sobre los pilotos como por ejemplo sobre Fernando Alonso.
 
