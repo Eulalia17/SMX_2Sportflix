@@ -284,7 +284,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 
 ## 7. Web
 <details>
-	<summary>7.d,e,f</summary>
+	<summary>Diseño, Mockup, Mapa de navegabilidad</summary>
 
 ## 7.d Diseño Web - Lineamientos Base
 
