@@ -366,7 +366,7 @@ Hemos creado una ficha dedicada a Ayrton Senna porque fue la mejor leyenda de F1
 
 En esta sección os hablaremos sobre los pilotos actuales.
 
-<img width="793" height="634" alt="image" src="https://github.com/user-attachments/assets/2a1cd6e5-8432-43ea-8e7a-818c48089699" />
+<img width="573" height="435" alt="image" src="https://github.com/user-attachments/assets/82107f3d-8f42-48c1-83d2-00def98086d5" />
 
 Hemos creado una ficha dedicada a Checo Perez porque fue uno de los grandes pilotos de la actualidad.
 
