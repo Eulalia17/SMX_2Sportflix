@@ -428,6 +428,7 @@ Una sección de escuderías. Presentamos una ilustración con los logos de Ferra
 
 <img width="572" height="432" alt="image" src="https://github.com/user-attachments/assets/ae09dc7d-055e-4c08-a5e8-211061cc74e6" />
 
+
 En esta sección os mostramos la escudería de ferrari.
 
 <img width="526" height="423" alt="image" src="https://github.com/user-attachments/assets/e4d6a2a1-e815-4789-b699-1835785fb390" />
