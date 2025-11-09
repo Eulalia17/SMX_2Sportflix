@@ -451,6 +451,10 @@ Artículo de Red Bull , hemos puesto de titular (la escudería red bull en la f1
 Artículo de Mercedes, hemos puesto de descripción(la velocidad y precisión de Mercedes).  
 
 <img width="376" height="636" alt="image" src="https://github.com/user-attachments/assets/5224e54e-5750-45ff-bef7-f1bddfb50b52" />
+
+
+# Enlace canva:
+https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
 </details>
 
 
