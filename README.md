@@ -344,6 +344,18 @@ En este apartado os enseñamos todas nuestra políticas que tenemos en nuestra w
 <img width="452" height="358" alt="image" src="https://github.com/user-attachments/assets/7f5a313b-39f2-4e81-a2ff-2dba774d0d43" />
 
 
+En esta sección os mostraremos como será el apartado login / register.
+<img width="451" height="359" alt="image" src="https://github.com/user-attachments/assets/99a16176-2994-482d-a974-b078a51cdd32" />
+
+
+En esta sección os enseñaremos la función mi lista para guardar a tus pilotos favoritos, escuderías.
+<img width="531" height="424" alt="image" src="https://github.com/user-attachments/assets/5a7f7f86-deee-4f5a-bd55-d58bc38d5497" />
+
+
+En esta sección os mostraremos como será la función donde puedes modificar, añadir y eliminar perfil.
+<img width="528" height="425" alt="image" src="https://github.com/user-attachments/assets/36ca5a8f-3c07-461d-bd63-7fd47401c7de" />
+
+
 En esta sección explicaremos "¿Quiénes somos?"de la web. Hemos mencionado los creadores que somos yo y mi compañero. Somos estudiantes de segundo año de SMX, con la intención de crear una web de noticias de F1 inspirada en Netflix, pero con el objetivo claro de parecerse a "Marca".
 
 <img width="496" height="398" alt="image" src="https://github.com/user-attachments/assets/52f120cb-7ac4-483d-bbb8-7d0bf43385c4" />
