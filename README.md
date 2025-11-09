@@ -402,7 +402,7 @@ Una sección de escuderías. Presentamos una ilustración con los logos de Ferra
 
 Es una sección de los coches. En el texto descriptivo que hemos puesto describimos cómo son los mono plazos aerodinámicos , ultra-ligeros, construidos con fibra de carbono , etc.
 
-<img width="798" height="634" alt="image" src="https://github.com/user-attachments/assets/b838e5d2-101c-4266-9b96-1ed38378e8b4" />
+<img width="576" height="433" alt="image" src="https://github.com/user-attachments/assets/86e3c6b0-67b1-441b-9bc7-72ad4fc1b106" />
 
 Artículo dedicado a la escudería de Ferrari. Mostramos su logo, un coche.
 
