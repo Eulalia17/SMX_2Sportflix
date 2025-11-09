@@ -357,7 +357,8 @@ En este apartado hablaremos sobre el menú de navegación principal con varias s
 
 En esta sección es sobre la historia de los pilotos de F1. Explicaremos el origen del Campeonato Mundial de Pilotos en 1950 hasta la actualidad. En la imagen podemos ver un mono plazo de Senna, un mono plazo de Max Verstappen y un Renault de Alonso.
 
-<img width="797" height="637" alt="image" src="https://github.com/user-attachments/assets/9b1f8c57-3e67-4fb9-b000-2ce4cda21b3f" />
+<img width="575" height="431" alt="image" src="https://github.com/user-attachments/assets/765703f3-010e-4b78-a239-f50696d48c67" />
+
 
 Hemos creado una ficha dedicada a Ayrton Senna porque fue la mejor leyenda de F1.
 
