@@ -453,6 +453,22 @@ En esta sección os mostramos la escudería de RB Formula One Team.
 
 <img width="532" height="426" alt="image" src="https://github.com/user-attachments/assets/c006f767-c0f2-412b-bb77-d488c69667b9" />
 
+En esta sección os mostramos la escudería de Aston Martin.
+
+<img width="530" height="421" alt="image" src="https://github.com/user-attachments/assets/74e217bc-3e8e-4515-8797-e95addcd4a64" />
+
+En esta sección os mostramos la escudería de Haas F1 Team.
+
+<img width="532" height="423" alt="image" src="https://github.com/user-attachments/assets/01c00199-861a-4cb9-b4db-e18d65734d8e" />
+
+En esta sección os mostramos la escudería de Kick Sauber.
+
+<img width="531" height="424" alt="image" src="https://github.com/user-attachments/assets/008e62d7-b107-427a-b2c1-191337d60715" />
+
+En esta sección os mostramos la escudería de Alpine F1.
+
+<img width="532" height="426" alt="image" src="https://github.com/user-attachments/assets/e4189bae-31e7-447a-b56e-499be3b891f8" />
+
 Es una sección de los coches. En el texto descriptivo que hemos puesto describimos cómo son los mono plazos aerodinámicos , ultra-ligeros, construidos con fibra de carbono , etc.
 
 <img width="576" height="433" alt="image" src="https://github.com/user-attachments/assets/86e3c6b0-67b1-441b-9bc7-72ad4fc1b106" />
