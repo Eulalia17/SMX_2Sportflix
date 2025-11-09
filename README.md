@@ -335,7 +335,8 @@ En nuestra pantalla de inicio de la web "SPORTFIX", nos hemos inspirado en Netfl
 		
 En esta sección explicaremos "¿Quiénes somos?"de la web. Hemos mencionado los creadores que somos yo y mi compañero. Somos estudiantes de segundo año de SMX, con la intención de crear una web de noticias de F1 inspirada en Netflix, pero con el objetivo claro de parecerse a "Marca".
 
-<img width="795" height="633" alt="image" src="https://github.com/user-attachments/assets/e3dc652c-bd5e-4d11-a388-b6255c957640" />
+<img width="496" height="398" alt="image" src="https://github.com/user-attachments/assets/52f120cb-7ac4-483d-bbb8-7d0bf43385c4" />
+
 
 En este apartado podemos encontrar nuevas noticias de última hora. 
 
