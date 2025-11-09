@@ -433,6 +433,26 @@ En esta sección os mostramos la escudería de ferrari.
 
 <img width="526" height="423" alt="image" src="https://github.com/user-attachments/assets/e4d6a2a1-e815-4789-b699-1835785fb390" />
 
+En esta sección os mostramos la escudería de McLaren.
+
+<img width="531" height="424" alt="image" src="https://github.com/user-attachments/assets/00fb9a70-e361-413a-9d52-219a0ce2ac2f" />
+
+En esta sección os mostramos la escudería de Williams.
+
+<img width="529" height="426" alt="image" src="https://github.com/user-attachments/assets/5e25e815-cb39-49f6-9bde-3a52fa0aa727" />
+
+En esta sección os mostramos la escudería de Red Bull.
+
+<img width="531" height="423" alt="image" src="https://github.com/user-attachments/assets/2d90bc8f-5b61-4eff-a8d8-e0aa9f29839f" />
+
+En esta sección os mostramos la escudería de Mercedes.
+
+<img width="530" height="424" alt="image" src="https://github.com/user-attachments/assets/a23309d5-2454-45f3-9b6e-452d9333ccd5" />
+
+En esta sección os mostramos la escudería de RB Formula One Team.
+
+<img width="532" height="426" alt="image" src="https://github.com/user-attachments/assets/c006f767-c0f2-412b-bb77-d488c69667b9" />
+
 Es una sección de los coches. En el texto descriptivo que hemos puesto describimos cómo son los mono plazos aerodinámicos , ultra-ligeros, construidos con fibra de carbono , etc.
 
 <img width="576" height="433" alt="image" src="https://github.com/user-attachments/assets/86e3c6b0-67b1-441b-9bc7-72ad4fc1b106" />
