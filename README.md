@@ -345,7 +345,8 @@ En este apartado podemos encontrar nuevas noticias de última hora.
 
 En este apartado hablaremos sobre los pilotos como por ejemplo sobre Fernando Alonso.
 
-<img width="797" height="636" alt="image" src="https://github.com/user-attachments/assets/848dbfc6-981e-4e5c-8458-bebae7abbba4" />
+<img width="493" height="397" alt="image" src="https://github.com/user-attachments/assets/2f6431b7-6184-4df1-a87e-d34f8a546189" />
+
 
 En esta sección es sobre ayuda, explicamos que para acceder a la página de inicio se debe ingresar vuestro correo electrónico y la contraseña asociada a ese correo.
 
