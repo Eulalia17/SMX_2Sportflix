@@ -350,7 +350,7 @@ En este apartado hablaremos sobre los pilotos como por ejemplo sobre Fernando Al
 
 En esta sección es sobre ayuda, explicamos que para acceder a la página de inicio se debe ingresar vuestro correo electrónico y la contraseña asociada a ese correo.
 
-<img width="791" height="633" alt="image" src="https://github.com/user-attachments/assets/985844d7-6a14-4856-acc2-a0c82ed5d9da" />
+<img width="497" height="391" alt="image" src="https://github.com/user-attachments/assets/4f2d8bc0-5316-459b-85dd-b9d7120ea969" />
 
 En este apartado hablaremos sobre el menú de navegación principal con varias secciones.
 <img width="504" height="635" alt="image" src="https://github.com/user-attachments/assets/a440ff9b-42bf-4f81-a0c9-26d02369b5d9" />
