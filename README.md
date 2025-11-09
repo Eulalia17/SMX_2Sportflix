@@ -345,6 +345,7 @@ En este apartado os enseñamos todas nuestra políticas que tenemos en nuestra w
 
 
 En esta sección os mostraremos como será el apartado login / register.
+
 <img width="451" height="359" alt="image" src="https://github.com/user-attachments/assets/99a16176-2994-482d-a974-b078a51cdd32" />
 
 
