@@ -78,25 +78,37 @@ A todos los públicos que le gusté el deporte y sobretodo la fórmula 1.
 
 Seguridad:
 
+MO6: Firewall: pfsense o Sophos.
+
+MO6: Backup: Trunas y/o rsync.
+
+MO6: Plan de contingencia y explicar los aspectos de seguridad que se han implementado o que se puedan implementar.
+
+MO4: Diferenciar roles de usuarios en el sistema.
+
 Servicios de red:
+
+MO5-MO6: Diagrama de red, mapa físico, mapa lógico de la infraestructura.
+
+MO4-MO7: Servicio DHCP en un servidor Windows diferente.
+
+MO7: Servidor DNS primario.
 
 Sistemas operativos:
 
-Seguretat:
+Aplicaciones web:
 
-Aplicaciones web
+MO8: Mapa de navegabilidad y Mockups.
+
+MO8: Web responsive.
 
 Programación (optativa)
 
-* MO5-MO6 -> Diagrama de red,mapa fisico,mapa lógico de la infraestrucutra.
-* MO4-MO7 -> Servicio DHCP en un servidor Windows diferente.
-* MO7 -> Servidor DNS primario.
-* MO6 -> Firewall: pfsense o Sophos.
-* MO6 -> Backup: Trunas y/o rsync.
-* MO8 -> Mapa de navegabilidad y Mockups.
-* MO8 -> web responsive.
-* MO4 -> Diferenciar roles de usuarios en el sistema.
-* MO6 -> Plan de contigencia y explicar los aspects de seguridad que se han implementado o que se puedan implementar.
+MO8: HTML (estructura básica de páginas web).
+
+MO8: CSS (diseño y estilos de páginas web).
+
+MO8: JavaScript (funcionalidades interactivas).
 
 ### Materiales necesarios (fisicos y lógicos).
   Físicos: Tener una libreta a mano para apuntar ideas, comandos, así podernos organizar, ordenador.
