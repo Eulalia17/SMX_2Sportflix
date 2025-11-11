@@ -520,13 +520,11 @@ Artículo de Mercedes, hemos puesto de descripción(la velocidad y precisión de
 
 <img width="376" height="636" alt="image" src="https://github.com/user-attachments/assets/5224e54e-5750-45ff-bef7-f1bddfb50b52" />
 
-
 ### Enlace canva:
 https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
 
 ### 7f.Mapa de navegabilidad
-<details>
-	<sumary>Mapa de navegabilidad</sumary>
+<sumary>Mapa de navegabilidad</sumary>
 		
 </details>
 
