@@ -299,7 +299,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 <details>
 	<summary>Diseño, Mockup, Mapa de navegabilidad</summary>
 
-## 7.d Diseño Web - Lineamientos Base
+## 7.d Diseño Web 
 
 ### Equilibrio del diseño, Colores y Estructura
 - Mantener un uso balanceado entre espacios vacíos y elementos visuales para evitar saturaciones.
