@@ -76,7 +76,7 @@ A todos los públicos que le gusté el deporte y sobretodo la fórmula 1.
 
 ### Modulos que vamos a tocar: (Asignaturas)
 
-# Seguridad:
+### Seguridad:
 
 MO6: Firewall: pfsense o Sophos.
 
@@ -86,7 +86,7 @@ MO6: Plan de contingencia y explicar los aspectos de seguridad que se han implem
 
 MO4: Diferenciar roles de usuarios en el sistema.
 
-# Servicios de red:
+### Servicios de red:
 
 MO5-MO6: Diagrama de red, mapa físico, mapa lógico de la infraestructura.
 
@@ -94,7 +94,7 @@ MO4-MO7: Servicio DHCP en un servidor Windows diferente.
 
 MO7: Servidor DNS primario.
 
-# Sistemas operativos:
+### Sistemas operativos:
 
 MO4: Instalación y configuración de sistemas operativos (Windows Server / Linux) para alojar los diferentes servicios del proyecto.
 
@@ -110,13 +110,13 @@ MO4: Implementación de políticas básicas de seguridad y actualización del si
 
 MO4: Automatización de tareas administrativas mediante scripts (bash o PowerShell).
 
-# Aplicaciones web:
+### Aplicaciones web:
 
 MO8: Mapa de navegabilidad y Mockups.
 
 MO8: Web responsive.
 
-# Programación (optativa)
+### Programación (optativa)
 
 MO8: HTML (estructura básica de páginas web).
 
