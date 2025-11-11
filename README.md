@@ -523,12 +523,10 @@ Artículo de Mercedes, hemos puesto de descripción(la velocidad y precisión de
 
 # Enlace canva:
 https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
-</details>
-
 
 ### 7f.Mapa de navegabilidad
 <details>
-	<sumary>Apartado</sumary>
+	<sumary>Mapa de navegabilidad</sumary>
 		
 </details>
 
