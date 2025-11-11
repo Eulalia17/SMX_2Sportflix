@@ -272,6 +272,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 ## 6.Red
 <details>
 	<summary>Apartados</summary>
+
 6a.Diagrama de la red
 
 
