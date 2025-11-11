@@ -521,7 +521,7 @@ Artículo de Mercedes, hemos puesto de descripción(la velocidad y precisión de
 <img width="376" height="636" alt="image" src="https://github.com/user-attachments/assets/5224e54e-5750-45ff-bef7-f1bddfb50b52" />
 
 
-# Enlace canva:
+### Enlace canva:
 https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
 
 ### 7f.Mapa de navegabilidad
@@ -531,7 +531,7 @@ https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
 </details>
 
 
-## 8.Servicios	
+# 8.Servicios	
 <details>
 	<summary>Apartados</summary>
 	
@@ -546,10 +546,10 @@ https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
 8.k Copias de seguridad
 </details>
 
-## 9. Conclusiones
+# 9. Conclusiones
 
 
-## 10.Bibliografía
+# 10.Bibliografía
 <details>
 	<summary>Bibliografía</summary>
 Github (https://docs.github.com/es/get-started/start-your-journey/hello-world) , (https://gist.github.com/dasdo/9ff71c5c0efa037441b6) y (https://prestashop.es) MySQL (https://www.mysqltutorial.org/) y (https://blog.baehost.com/comandos-basicos-para-mysql/) Cloudflare (https://raiolanetworks.com/blog/cloudflare/) y (https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/local-management/tunnel-useful-commands/) Promox (https://www.nakivo.com/es/blog/top-10-proxmox-cli-commands/) y (https://www.nakivo.com/blog/proxmox-install/)
