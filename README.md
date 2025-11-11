@@ -367,7 +367,7 @@ En esta sección os enseñaremos la función mi lista para guardar a tus pilotos
 
 
 En esta sección os mostraremos como será la función donde puedes modificar, añadir y eliminar perfil.
-<img width="528" height="425" alt="image" src="https://github.com/user-attachments/assets/36ca5a8f-3c07-461d-bd63-7fd47401c7de" />
+<img width="356" height="585" alt="image" src="https://github.com/user-attachments/assets/e58df532-49bc-44b0-8642-caf7d9cc7921" />
 
 
 En esta sección os mostraremos como será la función del administrador.
