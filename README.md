@@ -55,7 +55,7 @@ k. Copias de seguridad
 Estamos haciendo un projecto que consiste en crear una web que en nuestro caso es de notícias de fórmula 1 y tendrá apartados exclusivamente con pilotos 3D españoles, también su apartado de soporte para mirar los problemas frecuentes que suceden en nuestra web, su apartado de última hora y también su apartado de introducción explicando quienes somos. 
 </details>
 
-## 2.Briefing de ideas
+## 2. Briefing de ideas
 <Details>
 	 <summary>Apartados</summary> 
 	  
@@ -295,7 +295,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 
 ## 5. Tecnologías a utilizar
 
-## 6.Red
+## 6. Red
 <details>
 	<summary>Diagrama de red y mapas lógicos y físicos</summary>
 
@@ -304,10 +304,10 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 <img width="1025" height="761" alt="image" src="https://github.com/user-attachments/assets/7063ad88-f83f-47fb-a6a7-840643012833" />
 
 
-6.b.Mapa físico
+### 6.b Mapa físico
 
 
-6.c.Mapa lógico
+### 6.c Mapa lógico
 	
 </details>
 
@@ -353,7 +353,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 - Redacción clara, directa y sin saturación técnica innecesaria.  
 - Mantener coherencia de nombres/terminología en componentes, estructuras y esta#dos UI.
 
-### 7e.Mockup 
+### 7.e Mockup 
 En nuestra pantalla de inicio de la web "SPORTFIX", nos hemos inspirado en Netflix y deportes, con el logo de F1 y un coche de F1 en una pista de carreras. También hemos puesto un iniciar sesión y al lado un menú desplegable con su footer también con algunas noticias, pilotos, algunas razones para unirte y las políticas de nuestra web. 
 		
 <img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/94747aec-3159-41f7-b05c-dcd5b039a308" />
@@ -525,13 +525,13 @@ Artículo de Mercedes, hemos puesto de descripción(la velocidad y precisión de
 ### Enlace canva:
 https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
 
-### 7f.Mapa de navegabilidad
+### 7.f Mapa de navegabilidad
 <sumary>Mapa de navegabilidad</sumary>
 		
 </details>
 
 
-## 8.Servicios	
+## 8. Servicios	
 <details>
 	<summary>Apartados</summary>
 	
@@ -549,7 +549,7 @@ https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
 ## 9. Conclusiones
 
 
-## 10.Bibliografía
+## 10. Bibliografía
 <details>
 	<summary>Bibliografía</summary>
 Github (https://docs.github.com/es/get-started/start-your-journey/hello-world) , (https://gist.github.com/dasdo/9ff71c5c0efa037441b6) y (https://prestashop.es) MySQL (https://www.mysqltutorial.org/) y (https://blog.baehost.com/comandos-basicos-para-mysql/) Cloudflare (https://raiolanetworks.com/blog/cloudflare/) y (https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/local-management/tunnel-useful-commands/) Promox (https://www.nakivo.com/es/blog/top-10-proxmox-cli-commands/) y (https://www.nakivo.com/blog/proxmox-install/)
