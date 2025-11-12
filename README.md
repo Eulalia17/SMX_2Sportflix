@@ -362,16 +362,6 @@ En nuestra pantalla de inicio de la web "SPORTFIX", nos hemos inspirado en Netfl
 <img width="876" height="399" alt="image" src="https://github.com/user-attachments/assets/3bcd5b00-654e-4261-8240-2839a154eabc" />
 <img width="634" height="420" alt="image" src="https://github.com/user-attachments/assets/af540d3a-364d-4c03-bb0d-db10ecc15571" />
 
-En este apartado os enseñamos todas nuestra políticas que tenemos en nuestra web:
-<img width="448" height="359" alt="image" src="https://github.com/user-attachments/assets/9e4b1c13-27b0-4f51-afc2-d5e6743ca1d9" />
-<img width="449" height="357" alt="image" src="https://github.com/user-attachments/assets/3e2e3d02-9653-4178-beac-fe7831b9e54c" />
-<img width="450" height="361" alt="image" src="https://github.com/user-attachments/assets/f3d719c5-7e8a-4b09-a00c-533f1cf40f78" />
-<img width="448" height="360" alt="image" src="https://github.com/user-attachments/assets/0e0496da-11b6-4dd6-ad5f-098abfa83642" />
-<img width="450" height="358" alt="image" src="https://github.com/user-attachments/assets/52db5aac-f944-4b5b-85bb-e67b8758eed1" />
-<img width="449" height="359" alt="image" src="https://github.com/user-attachments/assets/1703aa45-c39a-4d65-8c68-97a70a562743" />
-<img width="449" height="359" alt="image" src="https://github.com/user-attachments/assets/4e235867-5789-4e08-9c68-cf9cf0654062" />
-<img width="452" height="358" alt="image" src="https://github.com/user-attachments/assets/7f5a313b-39f2-4e81-a2ff-2dba774d0d43" />
-
 
 En esta sección os mostraremos como será el apartado login / register.
 
