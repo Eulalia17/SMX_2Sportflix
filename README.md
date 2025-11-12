@@ -299,7 +299,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 <details>
 	<summary>Diagrama de red y mapas lógicos y físicos</summary>
 
-### 6a.Diagrama de la red
+### 6a. Diagrama de la red
 
 <img width="1025" height="761" alt="image" src="https://github.com/user-attachments/assets/7063ad88-f83f-47fb-a6a7-840643012833" />
 
