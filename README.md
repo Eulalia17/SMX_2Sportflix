@@ -357,7 +357,7 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 En nuestra pantalla de inicio de la web "SPORTFIX", nos hemos inspirado en Netflix y deportes, con el logo de F1 y un coche de F1 en una pista de carreras. También hemos puesto un iniciar sesión y al lado un menú desplegable con su footer también con algunas noticias, pilotos, algunas razones para unirte y las políticas de nuestra web. 
 		
 <img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/94747aec-3159-41f7-b05c-dcd5b039a308" />
-<img width="767" height="435" alt="image" src="https://github.com/user-attachments/assets/44a49fb4-e336-4a54-b01d-34c3f2ae26c1" />
+<img width="1016" height="435" alt="image" src="https://github.com/user-attachments/assets/44a49fb4-e336-4a54-b01d-34c3f2ae26c1" />
 <img width="874" height="440" alt="image" src="https://github.com/user-attachments/assets/843a8252-6f0a-43d4-922b-72f216319ba2" />
 <img width="876" height="399" alt="image" src="https://github.com/user-attachments/assets/3bcd5b00-654e-4261-8240-2839a154eabc" />
 <img width="634" height="420" alt="image" src="https://github.com/user-attachments/assets/af540d3a-364d-4c03-bb0d-db10ecc15571" />
@@ -452,41 +452,6 @@ En esta sección os mostramos la escudería de ferrari.
 
 <img width="526" height="423" alt="image" src="https://github.com/user-attachments/assets/e4d6a2a1-e815-4789-b699-1835785fb390" />
 
-En esta sección os mostramos la escudería de McLaren.
-
-<img width="531" height="424" alt="image" src="https://github.com/user-attachments/assets/00fb9a70-e361-413a-9d52-219a0ce2ac2f" />
-
-En esta sección os mostramos la escudería de Williams.
-
-<img width="529" height="426" alt="image" src="https://github.com/user-attachments/assets/5e25e815-cb39-49f6-9bde-3a52fa0aa727" />
-
-En esta sección os mostramos la escudería de Red Bull.
-
-<img width="531" height="423" alt="image" src="https://github.com/user-attachments/assets/2d90bc8f-5b61-4eff-a8d8-e0aa9f29839f" />
-
-En esta sección os mostramos la escudería de Mercedes.
-
-<img width="530" height="424" alt="image" src="https://github.com/user-attachments/assets/a23309d5-2454-45f3-9b6e-452d9333ccd5" />
-
-En esta sección os mostramos la escudería de RB Formula One Team.
-
-<img width="532" height="426" alt="image" src="https://github.com/user-attachments/assets/c006f767-c0f2-412b-bb77-d488c69667b9" />
-
-En esta sección os mostramos la escudería de Aston Martin.
-
-<img width="530" height="421" alt="image" src="https://github.com/user-attachments/assets/74e217bc-3e8e-4515-8797-e95addcd4a64" />
-
-En esta sección os mostramos la escudería de Haas F1 Team.
-
-<img width="532" height="423" alt="image" src="https://github.com/user-attachments/assets/01c00199-861a-4cb9-b4db-e18d65734d8e" />
-
-En esta sección os mostramos la escudería de Kick Sauber.
-
-<img width="531" height="424" alt="image" src="https://github.com/user-attachments/assets/008e62d7-b107-427a-b2c1-191337d60715" />
-
-En esta sección os mostramos la escudería de Alpine F1.
-
-<img width="532" height="426" alt="image" src="https://github.com/user-attachments/assets/e4189bae-31e7-447a-b56e-499be3b891f8" />
 
 Es una sección de los coches. En el texto descriptivo que hemos puesto describimos cómo son los mono plazos aerodinámicos , ultra-ligeros, construidos con fibra de carbono , etc.
 
