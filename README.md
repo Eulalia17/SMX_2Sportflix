@@ -419,29 +419,6 @@ Hemos creado una ficha dedicada a Checo Perez porque fue uno de los grandes pilo
 
 <img width="512" height="635" alt="image" src="https://github.com/user-attachments/assets/62ef6f53-5348-4266-8230-e63809ea6191" />
 
-Una ficha dedicada a Max Verstappen, es el terror en la pista de carreras.
-
-<img width="508" height="636" alt="image" src="https://github.com/user-attachments/assets/524cbc36-5ba2-41f6-946b-e7d42979deba" />
-
-Una ficha al mejor español de la historia Fernando Alonso, porque hay una buena rivalidad popular en redes sociales que es entre él o Hamilton y hemos elegido a Alonso.
-
-<img width="508" height="636" alt="image" src="https://github.com/user-attachments/assets/7cdea7a2-8007-43a4-a39d-dad4418a6121" />
-
-Una ficha al segundo mejor piloto español a Carlitos Sainz Vázquez de Castro (Smooth Operator).
-
-<img width="508" height="638" alt="image" src="https://github.com/user-attachments/assets/36122147-442e-4b5d-bbd6-d2c508e2d5a1" />
-
-Una ficha a Charles Lecler,porque tuvo el peor pasado de todos los pilotos y porque es el mejor amigo de Carlitos.
-
-<img width="512" height="635" alt="image" src="https://github.com/user-attachments/assets/8fe64e21-dca2-42f9-a277-b5784e24726b" /> 
-
-Una ficha a Oscar Piastri,porque siendo joven tiene mucho talento y carisma a la hora de conducir un coche.
-
-<img width="510" height="641" alt="image" src="https://github.com/user-attachments/assets/154242e1-1ac8-469a-be65-6a4f96437d0c" />
-
-Una ficha a Lando Norris , porque aunque tiene talento , es de papaya rules (un apodo que esta Oscar también está incluido), algunas personas no le gusta su actitud pero a mi si.
-
-<img width="508" height="634" alt="image" src="https://github.com/user-attachments/assets/5d38e4da-1e2c-4439-a301-90c0653aeb6b" />
 
 Una sección de escuderías. Presentamos una ilustración con los logos de Ferrari,Mercedes , Red Bull y etc. Porque hablaremos sobre las escuderías de F1 , su función ,mencionaremos los equipos más actuales y la plantilla.
 
