@@ -461,21 +461,6 @@ Artículo dedicado a la escudería de Ferrari. Mostramos su logo, un coche.
 
 <img width="383" height="627" alt="image" src="https://github.com/user-attachments/assets/831a64c6-09cb-4247-9856-afb4d53b15fb" />
 
-El artículo sobre McLaren con su descripción resalta que McLaren (sigue innovando en cada carrera y desafiando los límites).
-
-<img width="415" height="639" alt="image" src="https://github.com/user-attachments/assets/f624c7f1-d368-4d2a-aa33-5e89f03223bb" />
-
-Artículo de Williams , hemos puesto un breve descripción (ha demostrado su excelencia en la F1 y anima a descubrir más sobre su historia).
-
-<img width="359" height="637" alt="image" src="https://github.com/user-attachments/assets/07a81988-369a-4fc7-a985-0a96f219944d" />
-
-Artículo de Red Bull , hemos puesto de titular (la escudería red bull en la f1 ). Invitando a descubrir su historia y los éxitos.
-
-<img width="351" height="625" alt="image" src="https://github.com/user-attachments/assets/e94d7166-b6eb-4b6b-9da5-394467790fcc" />
-
-Artículo de Mercedes, hemos puesto de descripción(la velocidad y precisión de Mercedes).  
-
-<img width="376" height="636" alt="image" src="https://github.com/user-attachments/assets/5224e54e-5750-45ff-bef7-f1bddfb50b52" />
 
 ### Enlace canva:
 https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
