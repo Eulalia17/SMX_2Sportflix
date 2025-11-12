@@ -359,7 +359,7 @@ En nuestra pantalla de inicio de la web "SPORTFIX", nos hemos inspirado en Netfl
 <img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/94747aec-3159-41f7-b05c-dcd5b039a308" />
 <img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/44a49fb4-e336-4a54-b01d-34c3f2ae26c1" />
 <img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/843a8252-6f0a-43d4-922b-72f216319ba2" />
-<img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/3bcd5b00-654e-4261-8240-2839a154eabc" />
+<img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/a3145822-e452-4083-9aad-b329e47c14e1" />
 <img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/af540d3a-364d-4c03-bb0d-db10ecc15571" />
 
 
