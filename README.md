@@ -469,8 +469,9 @@ Artículo dedicado a la escudería de Ferrari. Mostramos su logo, un coche.
 https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
 
 ### 7.f Mapa de navegabilidad
+<details>
 <sumary>Mapa de navegabilidad</sumary>
-		
+Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?node-id=0-1&t=iLyWYkiAOAoIzT9d-1		
 </details>
 
 
