@@ -309,7 +309,7 @@ Y aquí os muestro una captura de nuestro diagrama definitivo:
 ### Enlace diagrama Canva y archivo de MySQL Workbench
 Canva: https://www.canva.com/design/DAG4k7iY37E/NoqqAwjC69FU2OK2PILwGA/edit
 
-MySQL Workbench:  
+MySQL Workbench:
 </details>
 
 
