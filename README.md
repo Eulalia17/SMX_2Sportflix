@@ -309,10 +309,7 @@ Y aquí os muestro una captura de nuestro diagrama definitivo:
 ### Enlace diagrama Canva y archivo de MySQL Workbench
 Canva: https://www.canva.com/design/DAG4k7iY37E/NoqqAwjC69FU2OK2PILwGA/edit
 
-MySQL Workbench: https://github.com/Eulalia17/SMX_2Sportflix/blob/main/Diagrama%20base%20de%20datos%20Sportflix.mwb
-https://raw.githubusercontent.com/Eulalia17/SMX_2Sportflix/main/Diagrama%20base%20de%20datos%20Sportflix.mwb
-
-
+MySQL Workbench: <a src=\Diagrama base de datos Sportflix.mwb>Diagrama Relacional</a>
 
 </details>
 
