@@ -288,9 +288,28 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
 
 ### 7. Diagrama de base de datos
 
-Primero hemos realizado un borrador de nuestro diagrama de base de datos de nuestro proyecto en canva para después hacer el definitivo en MySQL WorkBench.
+Primero hemos realizado un borrador del diagrama de base de datos de nuestro proyecto en canva para después hacer el definitivo en MySQL WorkBench.
 <img width="1103" height="641" alt="image" src="https://github.com/user-attachments/assets/65418b17-ff1d-402d-9c34-eaa50a0586d0" />
 
+Los cambios que hemos realizado han sido los siguientes:
+
+Tabla Lista -> Tabla intermedia entre Usuarios y Pilotos: "Pilotos_favoritos"
+
+Tabla Marcas se elimina porque la información se guardará en la tabla Escuderia
+
+Tabla Historial -> Cambia de nombre a Auditoria_registro y eliminamos el atributo acción
+
+Tabla Ayuda -> Eliminada, el manual de uso y ayuda será estático en la web
+
+Tabla Perfil -> Eliminada yta que tendremos todos los datos de cada perfil en la tabla usuarios
+
+Y aquí os muestro una captura de nuestro diagrama definitivo:
+<img width="777" height="479" alt="image" src="https://github.com/user-attachments/assets/842edf6b-bef1-42b8-ba4a-2d1b2e796c74" />
+
+### Enlace diagrama Canva y archivo de MySQL Workbench
+Canva: https://www.canva.com/design/DAG4k7iY37E/NoqqAwjC69FU2OK2PILwGA/edit
+
+MySQL Workbench:  
 </details>
 
 
