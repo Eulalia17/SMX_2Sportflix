@@ -310,6 +310,7 @@ Y aquí os muestro una captura de nuestro diagrama definitivo:
 Canva: https://www.canva.com/design/DAG4k7iY37E/NoqqAwjC69FU2OK2PILwGA/edit
 
 MySQL Workbench:
+
 </details>
 
 
