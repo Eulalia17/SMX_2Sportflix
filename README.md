@@ -285,6 +285,12 @@ Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vam
             Lo que no tenemos claro sobre la información que hay que guardar es lo del número   
             de identificación porque con el nombre y apellido pensamos que con eso es    
             suficiente. 
+
+### 7. Diagrama de base de datos
+
+Primero hemos realizado un borrador de nuestro diagrama de base de datos de nuestro proyecto en canva para después hacer el definitivo en MySQL WorkBench.
+<img width="1103" height="641" alt="image" src="https://github.com/user-attachments/assets/65418b17-ff1d-402d-9c34-eaa50a0586d0" />
+
 </details>
 
 
