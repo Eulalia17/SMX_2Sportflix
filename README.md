@@ -316,7 +316,8 @@ MySQL Workbench: <a src=\Diagrama base de datos Sportflix.mwb>Diagrama Relaciona
 
 ## 4. Arquitectura del software
 <details> 
-Funcionalidades:
+Funcionalidades: En este apartado asignamos unos requisitos y funcionalidades, asignando prioridades y fechas de entrega para cada tarea del proyecto y también hemos organizado cada ítem indicando su estado actual y objetivo correspondiente.
+	
 <img width="914" height="453" alt="image" src="https://github.com/user-attachments/assets/f7186cac-dbec-4bff-95de-71de30f78ebb" />
 
 <img width="911" height="218" alt="image" src="https://github.com/user-attachments/assets/a1d992c3-9111-499b-8b5e-fcb63fe8bc71" />
