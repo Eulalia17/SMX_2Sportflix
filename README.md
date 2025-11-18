@@ -316,7 +316,11 @@ MySQL Workbench: <a src=\Diagrama base de datos Sportflix.mwb>Diagrama Relaciona
 
 ## 4. Arquitectura del software
 <details> 
-	<sumary>Apartados</sumary>
+Funcionalidades:
+<img width="914" height="453" alt="image" src="https://github.com/user-attachments/assets/f7186cac-dbec-4bff-95de-71de30f78ebb" />
+
+<img width="911" height="218" alt="image" src="https://github.com/user-attachments/assets/a1d992c3-9111-499b-8b5e-fcb63fe8bc71" />
+
 </details>
 
 ## 5. Tecnologías a utilizar
