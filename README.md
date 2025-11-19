@@ -437,6 +437,16 @@ Objetivo 4: Servidor web
 
 4.4 Definir nombre del dominio que será https://sportflix.com/. 
 
+<details>
+	<summary>Obejtivo 5</summary>
+
+Objetivo 5: Servidor DNS
+
+5.1 Instalar y configurar MV con ubuntu server 22.04.
+5.2 Buscar guía de instalación para servidor DNS de Pi-hole.
+
+5.3 Instalar Pi-hole.
+	
 </details>
 
 </details>
