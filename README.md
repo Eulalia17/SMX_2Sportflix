@@ -327,6 +327,7 @@ En este apartado asignamos unos requisitos y funcionalidades, asignando priorida
 <details>
 	<summary>Objetivo 1,2,3,4,5,6</summary>
 <details>
+	<summary>Objetivo 1</summary>
 Objetivo 1: Implementar un servidor web
 
 1.1 Instalación y configuración básica del servidor CP1.2 – Se ha instalado y configurado un sistema operativo en red
