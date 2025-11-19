@@ -372,7 +372,32 @@ Configuración de acceso a la base de datos desde el archivo de conexión del pr
 
 Comprobación final del correcto funcionamiento del servicio web y del acceso mediante navegador.
 <details>
-<summary>Objetivo2</summary>  	
+<summary>Objetivo2</summary>
+
+Objetivo 2: Programar la front-page (visual studio).
+2.1 Crear la estructura del index.html con CSS
+ CP2.1.6 – Los ficheros de lenguaje de marcas empleados tienen un código correcto y adecuado, transmiten al usuario la información correctamente y ofrecen una buena experiencia de usuario a nivel gráfico.
+Descripción de la tarea:
+Se ha creado la estructura base del archivo index.html utilizando etiquetas HTML semánticas.
+Se ha añadido una hoja de estilos CSS que define la distribución principal de la landing page, la tipografía, paleta de colores, espaciados y elementos visuales necesarios.
+El código cumple los estándares de accesibilidad y ofrece una presentación clara e intuitiva al usuario.
+
+
+2.2 Crear el header y el footer comunes de todas las páginas
+ CP2.1.6 – Los ficheros de lenguaje de marcas empleados tienen un código correcto y adecuado, transmiten al usuario la información correctamente y ofrecen una buena experiencia de usuario a nivel gráfico.
+Descripción de la tarea:
+Se han programado el header y footer globales que se integrarán en todas las páginas del proyecto.
+El header incluye el logotipo, el menú de navegación y los enlaces principales.
+El footer contiene la información de contacto, enlaces secundarios y secciones informativas necesarias.
+Ambos elementos están maquetados con CSS para mantener coherencia visual en toda la web.
+
+2.3 Programar el formulario de contacto de la front-page
+CP2.1.6 – Los ficheros de lenguaje de marcas empleados tienen un código correcto y adecuado, transmiten al usuario la información correctamente y ofrecen una buena experiencia de usuario a nivel gráfico.
+Descripción de la tarea:
+Se ha desarrollado un formulario de contacto integrado en la front-page con campos de nombre, correo electrónico, mensaje y botón de envío.
+El formulario se ha maquetado con CSS manteniendo la estética del resto de la página.
+Se han aplicado validaciones básicas en HTML5 (required, type="email") para mejorar la experiencia del usuario y garantizar la correcta introducción de datos.
+	
 </details>
 
 </details>
