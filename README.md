@@ -316,7 +316,8 @@ MySQL Workbench: <a src=\Diagrama base de datos Sportflix.mwb>Diagrama Relaciona
 
 ## 4. Arquitectura del software
 <details> 
-Funcionalidades: En este apartado asignamos unos requisitos y funcionalidades, asignando prioridades y fechas de entrega para cada tarea del proyecto y también hemos organizado cada ítem indicando su estado actual y objetivo correspondiente.
+Funcionalidades 
+En este apartado asignamos unos requisitos y funcionalidades, asignando prioridades y fechas de entrega para cada tarea del proyecto y también hemos organizado cada ítem indicando su estado actual y objetivo correspondiente.
 	
 <img width="914" height="453" alt="image" src="https://github.com/user-attachments/assets/f7186cac-dbec-4bff-95de-71de30f78ebb" />
 
@@ -325,6 +326,51 @@ Funcionalidades: En este apartado asignamos unos requisitos y funcionalidades, a
 ### Objetivos
 <details>
 	<summary>Objetivos</summary>
+
+Objetivo 1: Implementar un servidor web
+1.1 Instalación y configuración básica del servidor CP1.2 – Se ha instalado y configurado un sistema operativo en red
+Descripción de la tarea: Se ha instalado un sistema operativo en red (por ejemplo Ubuntu Server 22.04). Se ha configurado la red con una IP estática, el hostname del servidor y el acceso remoto mediante SSH.
+El servidor queda actualizado y preparado para la instalación de servicios web.
+
+1.2 Configurar la política de usuarios y privilegios
+CP1.2 – Se ha instalado y configurado un sistema operativo en red
+Descripción de la tarea:
+Se han creado los usuarios necesarios para la administración del servidor.
+Se han asignado los permisos adecuados mediante sudo y grupos específicos.
+Se ha configurado la seguridad del acceso, deshabilitando el acceso root por SSH y asegurando contraseñas/claves.
+
+1.3 [David] Instalación y configuración de los servicios web Apache, MySQL DB, PHP 8.2 y PHPMYADMIN para el proyecto Sportflix
+CP3.1.1 – Se configura y se garantiza el funcionamiento de un servicio de servidor web
+Descripción de la tarea: Se ha instalado y configurado el stack necesario para desplegar el proyecto del repositorio:
+https://github.com/Eulalia17/SMX_2Sportflix
+
+Las acciones realizadas incluyen:
+
+Instalación del servidor web Apache.
+
+Instalación del motor de base de datos MySQL DB, creación de la base de datos y del usuario asignado al proyecto.
+
+
+Instalación de PHP 8.2 junto a los módulos necesarios para el funcionamiento del sitio.
+
+
+Instalación y configuración de phpMyAdmin.
+
+
+Clonado del repositorio SMX_2Sportflix en el directorio web del servidor.
+
+
+Configuración del bloque de servidor (server block) en NGINX para apuntar a la ruta del proyecto.
+
+
+Asignación de permisos adecuados al directorio del proyecto.
+
+
+Configuración de acceso a la base de datos desde el archivo de conexión del proyecto.
+
+
+Comprobación final del correcto funcionamiento del servicio web y del acceso mediante navegador.
+
 </details>
 
 ## 5. Tecnologías a utilizar
