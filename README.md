@@ -478,6 +478,13 @@ Objetivo 6: Servidor TRUENAS + RSYNC
  
 6.11 Hacer la transferencia de archivos a través de conexiones de red en la terminal de nuestra MV. 
 
+### Arquitectura del sistema
+
+<details>
+
+<img width="911" height="361" alt="image" src="https://github.com/user-attachments/assets/0e271397-e234-414d-b4a9-91ec4283ac16" />
+
+
 </details>
 
 
