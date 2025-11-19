@@ -372,7 +372,7 @@ Configuración de acceso a la base de datos desde el archivo de conexión del pr
 
 Comprobación final del correcto funcionamiento del servicio web y del acceso mediante navegador.
 <details>
-<summary>Objetivo2</summary>
+<summary>Objetivo 2</summary>
 
 Objetivo 2: Programar la front-page (visual studio).
 
@@ -413,7 +413,17 @@ Se ha desarrollado un formulario de contacto integrado en la front-page con camp
 El formulario se ha maquetado con CSS manteniendo la estética del resto de la página.
 
 Se han aplicado validaciones básicas en HTML5 (required, type="email") para mejorar la experiencia del usuario y garantizar la correcta introducción de datos.
-	
+<details>
+	<summary>Objetivo 3</summary>
+
+Objetivo 3: Servidor MySQL
+
+3.1 Instalar y configurar MV con Ubuntu Server LTS versión 22.04.
+
+3.2 Instalar y configurar MySQL versión 8.0 para crear y gestionar bases de datos.
+
+3.3 Instalar y configurar PHPMYADMIN para administrar nuestra base de datos a través de una interfaz web permitiendo realizar tareas que serán crear/eliminar bases de datos y tablas, editar datos, ejecutar consultas SQL y exportar/importar bases de datos sin necesidad de usar la línea de comandos.
+
 </details>
 
 </details>
