@@ -424,6 +424,19 @@ Objetivo 3: Servidor MySQL
 
 3.3 Instalar y configurar PHPMYADMIN para administrar nuestra base de datos a través de una interfaz web permitiendo realizar tareas que serán crear/eliminar bases de datos y tablas, editar datos, ejecutar consultas SQL y exportar/importar bases de datos sin necesidad de usar la línea de comandos.
 
+<details>
+	<summary>Objetivo 4</summary>
+
+Objetivo 4: Servidor web
+
+4.1 Configurar MV con ubuntu server 22.04.
+
+4.2 Buscar guía de instalación para instalar Apache y PHP.
+
+4.3 Instalar Apache.
+
+4.4 Definir nombre del dominio que será https://sportflix.com/. 
+
 </details>
 
 </details>
