@@ -325,9 +325,10 @@ En este apartado asignamos unos requisitos y funcionalidades, asignando priorida
 
 ### Objetivos
 <details>
-	<summary>Objetivos</summary>
-
+	<summary>Objetivo 1,2,3,4,5,6</summary>
+<details>
 Objetivo 1: Implementar un servidor web
+
 1.1 Instalación y configuración básica del servidor CP1.2 – Se ha instalado y configurado un sistema operativo en red
 Descripción de la tarea: Se ha instalado un sistema operativo en red (por ejemplo Ubuntu Server 22.04). Se ha configurado la red con una IP estática, el hostname del servidor y el acceso remoto mediante SSH.
 El servidor queda actualizado y preparado para la instalación de servicios web.
@@ -370,7 +371,7 @@ Configuración de acceso a la base de datos desde el archivo de conexión del pr
 
 
 Comprobación final del correcto funcionamiento del servicio web y del acceso mediante navegador.
-
+</details>
 </details>
 
 ## 5. Tecnologías a utilizar
