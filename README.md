@@ -447,10 +447,37 @@ Objetivo 5: Servidor DNS
 5.2 Buscar guía de instalación para servidor DNS de Pi-hole.
 
 5.3 Instalar Pi-hole.
-	
-</details>
+
+<details>
+	<summary>Objetivo 6</summary>
+
+Objetivo 6: Servidor TRUENAS + RSYNC
+
+
+6.1 Instalar y configurar  MV con la ISO del truenas versión 25.04.2.6, tipo BSD y versión freeBSD 64 bits para que funcione bien la máquina.
+
+6.2 Buscar guía de instalación para Truenas y rsync.
+
+6.3 Instalar Truenas y recibir el enlace con la IP y ponerlo en el buscador de google.
+
+6.4 Poner el usuario truenas_admin y la contraseña.
+
+6.5 Crear un dataset.
+
+6.6 Activar el protocolo SMB.
+
+6.7 Desencriptar el dataset.
+
+6.8 Activar todos los permisos de escribir, leer y ejecutar. 
+
+6.9 Crear y configurar una MV Linux para el Rsync.
+ 
+6.10 Entramos al terminal para apuntar los comandos siguiendo las instrucciones de la guía del tutorial de Rsync.
+ 
+6.11 Hacer la transferencia de archivos a través de conexiones de red en la terminal de nuestra MV. 
 
 </details>
+
 
 ## 5. Tecnologías a utilizar
 
