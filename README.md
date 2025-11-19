@@ -372,6 +372,7 @@ Configuración de acceso a la base de datos desde el archivo de conexión del pr
 
 Comprobación final del correcto funcionamiento del servicio web y del acceso mediante navegador.
 </details>
+<summary>Objetivo 2</summary>
 </details>
 
 ## 5. Tecnologías a utilizar
