@@ -324,8 +324,7 @@ En este apartado asignamos unos requisitos y funcionalidades, asignando priorida
 <img width="911" height="218" alt="image" src="https://github.com/user-attachments/assets/a1d992c3-9111-499b-8b5e-fcb63fe8bc71" />
 
 ### Objetivos
-<details>
-	<summary>Objetivo 1,2,3,4,5,6</summary>
+<>
 <details>
 	<summary>Objetivo 1</summary>
 Objetivo 1: Implementar un servidor web
