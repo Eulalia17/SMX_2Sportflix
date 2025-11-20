@@ -491,6 +491,69 @@ Objetivo 6: Servidor TRUENAS + RSYNC
 
 <img width="911" height="140" alt="image" src="https://github.com/user-attachments/assets/72184075-c32a-4e19-9522-5e4cf1cfd0f1" />
 
+
+### Diagrama de la base de datos
+<details>
+Resumen de la DB de tu aplicación web:
+¿Qué datos son necesarios para mi aplicación? 
+Los datos importantes son administración, usuarios, pilotos, escuderías, notícias, coches y auditoría.
+
+¿Qué datos voy a pedir al usuario y que tipos de usuarios voy a tener?
+Los datos a pedir al usuario son el correo electrónico y su contraseña para que se puedan crear su cuenta y también que puedan tener su propio perfil de usuario y voy a tener cualquier tipo de usuario.
+
+¿Qué tipo de dato necesitaré para cada información? (Aquí tienes la documentación oficial de MySQL)
+El tipo de datos que necesitamos son:
+             
+IDs → INT UNSIGNED AUTO_INCREMENT
+
+
+Nombres, correos, modelos, etc. → VARCHAR(15-40)
+
+
+Contraseñas → VARCHAR(14) 
+
+
+Fechas → DATETIME
+
+
+Contenido largo → TEXT
+
+
+Listas cerradas → ENUM()
+
+
+URLs → VARCHAR(255)
+
+
+Tablas puente (N:N) → dos INT UNSIGNED
+
+
+¿Qué clave primaria voy a implantar en cada tabla? ¿Cómo las relacionaré entre ellas?
+La clave primaria: id_usuario, id_noticias, id_pilotos, id_escuderías, id_registro, id_coches. 
+Las relacionaré de esta forma:
+Usuarios → Auditoria: relación 1:N
+
+
+Usuarios ↔ Pilotos: relación N:N mediante Pilotos_favoritos
+
+
+Escuderías → Pilotos: relación 1:N
+
+
+Escuderías → Coches: relación 1:N
+
+
+Pilotos ↔ Noticias: relación N:N mediante Pilotos_has_Noticias
+
+
+Escuderías ↔ Noticias: relación N:N mediante Escuderías_has_Noticias
+
+
+Coches ↔ Noticias: relación N:N mediante Noticias_has_Coches
+
+Mi Diagrama de Base de datos
+<img width="802" height="529" alt="image" src="https://github.com/user-attachments/assets/25a4fa83-df89-46a4-aa32-1d6658d3677a" />
+
 </details>
 
 
