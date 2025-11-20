@@ -1,4 +1,5 @@
-# SMX2_Sportflix
+<img width="1024" height="1024" alt="Logo deportivo SPORTFLIX con kart" src="https://github.com/user-attachments/assets/c2b6118c-a4df-4427-91e8-d66104f33d7f" />
+
 
 # Índice
 <details>
