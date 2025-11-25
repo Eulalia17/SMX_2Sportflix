@@ -554,6 +554,24 @@ Mi Diagrama de Base de datos
 
 
 ## 5. Tecnologías a utilizar
+<details>
+	- Estos son nuestras tecnologías:
+	1. En el apartado de hardware
+	1.1. Router del aula
+	     - Se utilizará para proporcionar conexión de red a todos los equipos y gestionar el tráfico interno y externo de 			internet.
+	1.2. Servidor:
+	  	1.2.1. Truenas
+			- Versión --> 25.04.2.6
+			- Para alojar servicios como páginas web, base de datos y almacenamiento en red, además de centralizar recursos 				para prácticas y gestión del aula.
+		1.2.2. Apache
+			- Versión --> 2.4.x estable
+			- Lo he puesto anteriormente.
+		1.2.3. MySQL
+			- Versión --> 8.0.x LTS estable
+			- Lo he puesto anteriormente.
+	1.3. HDD para Backup
+		- Realizará copias de seguridad de la información del servidor y evitar pérdida de datos ante fallos o errores.
+</details>
 
 ## 6. Red
 <details>
