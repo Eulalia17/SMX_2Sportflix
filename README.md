@@ -557,7 +557,7 @@ Mi Diagrama de Base de datos
 
 ## 6. Red
 <details>
-	<summary>Diagrama de red y mapas lógicos y físicos</summary>
+	<summary>Diagrama de red</summary>
 
 ### 6.a Diagrama de la red
 
