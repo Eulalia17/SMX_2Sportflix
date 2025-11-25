@@ -561,7 +561,7 @@ Mi Diagrama de Base de datos
 
 ### 6.a Diagrama de la red
 
-- 
+
 <img width="1025" height="761" alt="image" src="https://github.com/user-attachments/assets/7063ad88-f83f-47fb-a6a7-840643012833" />
 
 	
