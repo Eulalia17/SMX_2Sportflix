@@ -11,7 +11,7 @@ Nombre del proyecto: Sportflix
 
 2. Briefing de ideas
 
-3. Informe Backend (Incluye el diagrama de la base de datos
+3. Informe Backend (Incluye el diagrama de la base de datos.)
 
 4. Arquitectura del software
 
