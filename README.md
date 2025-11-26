@@ -556,58 +556,110 @@ Mi Diagrama de Base de datos
 
 ## 5. Tecnologías a utilizar
 <details>
-	- Estos son nuestras tecnologías:
+- Estos son nuestras tecnologías:
+	
 	1. En el apartado de hardware
+	
 		1.1. Router del aula
+		
 	     - Se utilizará para proporcionar conexión de red a todos los equipos y gestionar el tráfico interno y externo de 			internet.
+		 
 		1.2. Servidor:
+		
 	  		1.2.1. Truenas
+			
 				- Versión --> 25.04.2.6
+				
 				- Para alojar servicios como páginas web, base de datos y almacenamiento en red, además de centralizar 						recursos para prácticas y gestión del aula.
+				
 			1.2.2. Apache
+			
 				- Versión --> 2.4.x estable
+				
 				- Lo he puesto anteriormente.
+				
 			1.2.3. MySQL
+			
 				- Versión --> 8.0.x LTS estable
+				
 				- Lo he puesto anteriormente.
+				
 		1.3. HDD para Backup
+		
 			- Realizará copias de seguridad de la información del servidor y evitar pérdida de datos ante fallos o errores.
+			
 	2. Sistemas operativos
+	
 		2.1. Ubuntu server
+		
 			- Versión --> Ubuntu LTS 24.10 
+			
 			- Usaremos ubuntu server para gestionar y ejecutar servicios en un servidor para el alojamiento de sitios web, 				administración de bases de datos.
+			
 	3. Inerfaz de usuarios (Frontend)
+	
 		3.1. HTML 5
+		
 			- Versión --> HTML 5
+			
 			- Lo utilizaremos para definir el estilo visual y la presentación de nuestra página HTML.
+			
 		3.2. CSS 3
+		
 			- Versión --> CSS 3
+			
 			- Lo utilizaremos para definir el estil visual y la presentación de nuestra página HTML.
+			
 		3.3. Javascript
+		
 			- Versión--> ES2020
+			
 			- Lo utilizaremos para hacer nuestra página interactiva, permitiendo que reaccionen a las acciones del usuario 					y muestra el contenido dinámico.
+			
 		3.4. Bootstrap 5
+		
 			- Versió --> Bootstrap 5
+			
 			- Lo utilizamos para crear la página web.
+			
      4. Lógica de negocio (Backend)
+	 
 		4.1. PHP
+		
 			- Versión --> PHP 8.4
+			
 			- Lo utilizaremos para crear la página web.
+			
 	5. Servidor web
+	
 		5.1. Apache
+		
 			- Versión --> Apache 2.4 
+			
 			- Lo usuaremos para alojar páginas web y ejecutar.
+			
 		5.2. PHP
+		
 			- Versión --> PHP 8.4
+			
 			- Lo usaremos para alojar páginas web y ejecutar.
+			
 	6. Base de datos
+	
 		6.1. MySQL
+		
 			- Versión --> MySQL 8.0
+			
 			- Lo utilizaremos para gestionar y almacenar las bases de datos
+			
 	7. Sistema gestor de base de datos
+	
 		7.1. PHPMyAdmin
+		
 			- Versión --> PHPmyAdmin
+			
 			- Lo utilizaremos para administrador bases de datos en MySQL
+			
 </details>
 
 ## 6. Red
