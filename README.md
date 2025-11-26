@@ -1,4 +1,5 @@
-<img width="600" height="600" alt="Logo deportivo SPORTFLIX con kart" src="https://github.com/user-attachments/assets/c2b6118c-a4df-4427-91e8-d66104f33d7f" />
+<img width="672" height="677" alt="image" src="https://github.com/user-attachments/assets/80dba62e-8d83-4fd6-b0b3-5089749d29e6" />
+
 
 
 # Índice
