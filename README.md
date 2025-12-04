@@ -548,6 +548,19 @@ Escuderías ↔ Noticias: relación N:N mediante Escuderías_has_Noticias
 
 Coches ↔ Noticias: relación N:N mediante Noticias_has_Coches
 
+- Las funcionalidades de la BD:
+  	- Auditoria_registro --> A.P
+  	- Noticias --> C.F
+  	- Usuarios --> B.S
+  	- Pilotos_favoritos --> C.F
+  	- Pilotos_has_noticias --> C.F
+  	- Escuderias_has_noticias --> C.F
+  	- Noticas_has_coches --> C.F
+  	- Coches --> C.F
+  	- Pilotos --> C.F
+  	- Escuderías --> C.F
+
+  
 Mi Diagrama de Base de datos
 <img width="802" height="529" alt="image" src="https://github.com/user-attachments/assets/25a4fa83-df89-46a4-aa32-1d6658d3677a" />
 
