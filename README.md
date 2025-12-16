@@ -842,8 +842,9 @@ Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2
 
 ## 9. Conclusiones
 
+## 10. Diseño y programación del sitio web.
 
-## 10. Bibliografía
+## 11. Bibliografía
 <details>
 	<summary>Bibliografía</summary>
 
