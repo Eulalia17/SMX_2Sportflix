@@ -840,9 +840,9 @@ Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2
 8.k Copias de seguridad
 </details>
 
-## 9. Conclusiones
+## 9. Diseño y programación del sitio web.
 
-## 10. Diseño y programación del sitio web.
+## 10. Conclusiones
 
 ## 11. Bibliografía
 <details>
