@@ -842,9 +842,17 @@ Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2
 
 ## 9. Diseño y programación del sitio web.
 
-## 10. Conclusiones
+## 10. Implementación de la infraestructura
 
-## 11. Bibliografía
+## 11. Seguridad
+
+## 12. Control
+
+## 13. Cierre
+
+## 14.Conclusiones
+
+## 15. Bibliografía
 <details>
 	<summary>Bibliografía</summary>
 
