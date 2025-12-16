@@ -841,14 +841,43 @@ Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2
 </details>
 
 ## 9. Diseño y programación del sitio web.
+<details>
+	<sumary>Diseño y programación</sumary>
+9.1. Maquetación web con HTML, CSS, JS.
+9.2. Crear la DB en MySQL.
+9.3. Trabajar PHP.
+</details>
 
 ## 10. Implementación de la infraestructura
+<details>
+	<sumary>Implementación de la infraestructura</sumary>
+10.1. Configuración un entorno de backup
+10.2. Instalar y configurar un DNS primario 
+10.3. Instalar y configurar un servidor DHCP 
+10.4. Configurar servidor APACHE
+10.5. Configurar firewall (pfSense)
+</details>
 
 ## 11. Seguridad
+<details>
+	<sumary>Seguridad</sumary>
+11.1. Plan contigencia
+11.2. Auditoria de seguridad
+</details>
 
 ## 12. Control
+<details> 
+	<sumary>Control</sumary>
+12.1. La programación de las funcionalidades
+12.2. Evaluar requisito web responsive
+</details>
 
 ## 13. Cierre
+<details>
+	<summary>Final</summary>
+13.1. Cloudflare
+13.2. Revisiones
+</details>
 
 ## 14.Conclusiones
 
