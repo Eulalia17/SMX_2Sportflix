@@ -832,6 +832,9 @@ Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2
 8.g DNS
 
 ¿Qué es?
+
+El DNS es un sistema de nomenclatura jerárquico y distribuido que se encarga de traducir los nombres de dominio legibles por humanos en direcciones IP.
+
 ¿Por qué es necesario?
 ¿Dónde hay información oficial?
 Extras
