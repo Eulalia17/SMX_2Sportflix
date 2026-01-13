@@ -850,6 +850,21 @@ Incidencias
 El DHCP es un protocolo de red que permite asignar automáticamente parámetros de configuración IP a los dispositivos de una red.
 
 ¿Por qué es necesario?
+
+El DNS es fundamental para el funcionamiento de Internet y de las redes locales por varias razones:
+Evita que los usuarios tengan que memorizar direcciones IP.
+Permite cambiar la IP de un servidor sin afectar al acceso por nombre.
+Facilita la administración de servicios (web, correo, FTP, etc.).
+
+Hace posible servicios como:
+
+Navegación web
+Correo electrónico
+Autenticación de dominios
+
+
+Mejora la escalabilidad y organización de las redes.
+
 ¿Dónde hay información oficial?
 Extras
 Instalación (DNS y del DHCP)
