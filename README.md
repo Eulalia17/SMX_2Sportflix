@@ -836,20 +836,6 @@ Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2
 El DNS es un sistema de nomenclatura jerárquico y distribuido que se encarga de traducir los nombres de dominio legibles por humanos en direcciones IP.
 
 ¿Por qué es necesario?
-¿Dónde hay información oficial?
-Extras
-Instalación (DNS y del DHCP)
-Detalles de la MV
-Pasos a seguir
-Incidencias
-
-8.h DHCP
-
-¿Qué es?
-
-El DHCP es un protocolo de red que permite asignar automáticamente parámetros de configuración IP a los dispositivos de una red.
-
-¿Por qué es necesario?
 
 El DNS es fundamental para el funcionamiento de Internet y de las redes locales por varias razones:
 Evita que los usuarios tengan que memorizar direcciones IP.
@@ -864,6 +850,21 @@ Autenticación de dominios
 
 
 Mejora la escalabilidad y organización de las redes.
+
+¿Dónde hay información oficial?
+Extras
+Instalación (DNS y del DHCP)
+Detalles de la MV
+Pasos a seguir
+Incidencias
+
+8.h DHCP
+
+¿Qué es?
+
+El DHCP es un protocolo de red que permite asignar automáticamente parámetros de configuración IP a los dispositivos de una red.
+
+¿Por qué es necesario?
 
 ¿Dónde hay información oficial?
 Extras
