@@ -884,6 +884,21 @@ El DHCP es un protocolo de red que permite asignar automáticamente parámetros 
 ¿Por qué es necesario?
 
 ¿Dónde hay información oficial?
+
+IETF
+
+RFC 2131 – Dynamic Host Configuration Protocol
+
+RFC 2132 – DHCP Options and BOOTP Vendor Extensions
+
+Documentación oficial de:
+
+ISC DHCP
+
+Linux (isc-dhcp-server)
+
+Microsoft Windows Server DHCP
+
 Extras
 Instalación (DNS y del DHCP)
 Detalles de la MV
