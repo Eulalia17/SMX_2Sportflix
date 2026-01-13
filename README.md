@@ -829,7 +829,7 @@ Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2
 <details>
 	<summary>Apartados</summary>
 	
-8.g DNS
+### 8.g DNS
 
 ¿Qué es?
 
@@ -875,7 +875,7 @@ Detalles de la MV
 Pasos a seguir
 Incidencias
 
-8.h DHCP
+### 8.h DHCP
 
 ¿Qué es?
 
