@@ -852,6 +852,23 @@ Autenticación de dominios
 Mejora la escalabilidad y organización de las redes.
 
 ¿Dónde hay información oficial?
+
+IETF (Internet Engineering Task Force)
+
+RFC 1034 – Concepts and Facilities
+
+RFC 1035 – Implementation and Specification
+
+ICANN (gestión de dominios y DNS raíz)
+
+ISC BIND (implementación más usada de DNS)
+
+Documentación oficial de sistemas operativos:
+
+Linux (BIND, systemd-resolved)
+
+Microsoft (Windows Server DNS)
+
 Extras
 Instalación (DNS y del DHCP)
 Detalles de la MV
