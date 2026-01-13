@@ -846,6 +846,9 @@ Incidencias
 8.h DHCP
 
 ¿Qué es?
+
+El DHCP es un protocolo de red que permite asignar automáticamente parámetros de configuración IP a los dispositivos de una red.
+
 ¿Por qué es necesario?
 ¿Dónde hay información oficial?
 Extras
