@@ -838,6 +838,7 @@ El DNS es un sistema de nomenclatura jerárquico y distribuido que se encarga de
 ¿Por qué es necesario?
 
 El DNS es fundamental para:
+
 Evita que los usuarios tengan que memorizar direcciones IP.
 Permite cambiar la IP de un servidor sin afectar al acceso por nombre.
 Facilita la administración de servicios (web, correo, FTP, etc.).
