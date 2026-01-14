@@ -883,6 +883,19 @@ El DHCP es un protocolo de red que permite asignar automáticamente parámetros 
 
 ¿Por qué es necesario?
 
+DHCP es esencial en redes medianas y grandes por los siguientes motivos:
+
+Automatiza la configuración de red.
+
+Evita errores humanos al asignar IPs manualmente.
+
+Previene conflictos de direcciones IP duplicadas.
+
+Reduce el tiempo de administración.
+
+Facilita la movilidad de dispositivos (portátiles, móviles, etc.).
+
+
 ¿Dónde hay información oficial?
 
 IETF
