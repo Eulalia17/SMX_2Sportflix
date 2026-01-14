@@ -837,7 +837,7 @@ El DNS es un sistema de nomenclatura jerárquico y distribuido que se encarga de
 
 ¿Por qué es necesario?
 
-El DNS es fundamental para el funcionamiento de Internet y de las redes locales por varias razones:
+El DNS es fundamental para:
 Evita que los usuarios tengan que memorizar direcciones IP.
 Permite cambiar la IP de un servidor sin afectar al acceso por nombre.
 Facilita la administración de servicios (web, correo, FTP, etc.).
@@ -883,9 +883,9 @@ El DHCP es un protocolo de red que permite asignar automáticamente parámetros 
 
 ¿Por qué es necesario?
 
-DHCP es esencial en redes medianas y grandes por los siguientes motivos:
+DHCP es esencial para:
 
-Automatiza la configuración de red.
+Automatizar la configuración de red.
 
 Evita errores humanos al asignar IPs manualmente.
 
