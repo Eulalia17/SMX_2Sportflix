@@ -895,9 +895,9 @@ ISC BIND (implementación más usada de DNS)
 
 Documentación oficial de sistemas operativos:
 
-Linux (BIND, systemd-resolved)
+(https://www.cloudflare.com/es-es/learning/dns/what-is-dns/)
 
-Microsoft (Windows Server DNS)
+https://www.ibm.com/es-es/think/topics/dns-server
 
 Extras
 Instalación (DNS y del DHCP)
@@ -938,9 +938,9 @@ Documentación oficial de:
 
 ISC DHCP
 
-Linux (isc-dhcp-server)
+https://www.fortinet.com/lat/resources/cyberglossary/dynamic-host-configuration-protocol-dhcp
 
-Microsoft Windows Server DHCP
+https://www.redeszone.net/tutoriales/internet/que-es-protocolo-dhcp/
 
 Extras
 Instalación (DNS y del DHCP)
