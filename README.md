@@ -883,24 +883,14 @@ Mejora la escalabilidad y organización de las redes.
 
 ¿Dónde hay información oficial?
 
-IETF (Internet Engineering Task Force)
-
-RFC 1034 – Concepts and Facilities
-
-RFC 1035 – Implementation and Specification
-
-ICANN (gestión de dominios y DNS raíz)
-
-ISC BIND (implementación más usada de DNS)
-
-Documentación oficial de sistemas operativos:
-
 (https://www.cloudflare.com/es-es/learning/dns/what-is-dns/)
 
 https://www.ibm.com/es-es/think/topics/dns-server
 
+https://punkymo.gitbook.io/miwiki/servicios/servidores-dns
+
 Extras
-Instalación (DNS y del DHCP)
+Instalación (DNS)
 Detalles de la MV
 Pasos a seguir
 Incidencias
@@ -928,19 +918,11 @@ Facilita la movilidad de dispositivos (portátiles, móviles, etc.).
 
 ¿Dónde hay información oficial?
 
-IETF
-
-RFC 2131 – Dynamic Host Configuration Protocol
-
-RFC 2132 – DHCP Options and BOOTP Vendor Extensions
-
-Documentación oficial de:
-
-ISC DHCP
-
 https://www.fortinet.com/lat/resources/cyberglossary/dynamic-host-configuration-protocol-dhcp
 
 https://www.redeszone.net/tutoriales/internet/que-es-protocolo-dhcp/
+
+https://punkymo.gitbook.io/miwiki/servicios/servidores-dhcp
 
 Extras
 Instalación (DNS y del DHCP)
