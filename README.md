@@ -948,8 +948,9 @@ Detalles de la MV
 Pasos a seguir
 Incidencias
 
-10.4. Configurar servidor APACHE
-10.5. Configurar firewall (pfSense)
+### 10.4. Configurar servidor APACHE
+
+### 10.5. Configurar firewall (pfSense)
 </details>
 
 ## 11. Seguridad
