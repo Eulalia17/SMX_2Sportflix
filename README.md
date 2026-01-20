@@ -831,6 +831,30 @@ Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2
 	
 ### 8.g DNS
 
+### 8.h DHCP
+
+8.i Apache
+
+8.j Firewall
+
+8.k Copias de seguridad
+</details>
+
+## 9. Diseño y programación del sitio web.
+<details>
+	<sumary>Diseño y programación</sumary>
+9.1. Maquetación web con HTML, CSS, JS.
+9.2. Crear la DB en MySQL.
+9.3. Trabajar PHP.
+</details>
+
+## 10. Implementación de la infraestructura
+<details>
+	<sumary>Implementación de la infraestructura</sumary>
+10.1. Configuración un entorno de backup
+
+### 10.2. Instalar y configurar un DNS primario 
+
 ¿Qué es?
 
 El DNS es un sistema de nomenclatura jerárquico y distribuido que se encarga de traducir los nombres de dominio legibles por humanos en direcciones IP.
@@ -881,7 +905,7 @@ Detalles de la MV
 Pasos a seguir
 Incidencias
 
-### 8.h DHCP
+### 10.3. Instalar y configurar un servidor DHCP 
 
 ¿Qué es?
 
@@ -924,27 +948,6 @@ Detalles de la MV
 Pasos a seguir
 Incidencias
 
-8.i Apache
-
-8.j Firewall
-
-8.k Copias de seguridad
-</details>
-
-## 9. Diseño y programación del sitio web.
-<details>
-	<sumary>Diseño y programación</sumary>
-9.1. Maquetación web con HTML, CSS, JS.
-9.2. Crear la DB en MySQL.
-9.3. Trabajar PHP.
-</details>
-
-## 10. Implementación de la infraestructura
-<details>
-	<sumary>Implementación de la infraestructura</sumary>
-10.1. Configuración un entorno de backup
-10.2. Instalar y configurar un DNS primario 
-10.3. Instalar y configurar un servidor DHCP 
 10.4. Configurar servidor APACHE
 10.5. Configurar firewall (pfSense)
 </details>
