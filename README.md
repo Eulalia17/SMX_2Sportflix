@@ -968,19 +968,29 @@ https://punkymo.gitbook.io/miwiki/servicios/servidores-dhcp
 
 ## Detalles de la MV
 
-Equipo Cliente: Únicamente un adaptador en modo Red Interna (Cap 2).
+Equipo Cliente: Únicamente un adaptador en modo Red Interna.
+
+<img width="561" height="276" alt="image" src="https://github.com/user-attachments/assets/5621955d-d69a-48b0-b68d-31cfc68a2d65" />
 
 ## Pasos a Seguir
 
-Habilitar DHCP: Acceder a http://192.168.135.35/admin e ir a Settings -> DHCP (Cap 52). 
+Habilitar DHCP: Acceder a http://192.168.135.35/admin e ir a Settings -> DHCP. 
+
+<img width="231" height="287" alt="image" src="https://github.com/user-attachments/assets/dae78ae4-8fc1-4368-8bd6-5ed2f0b73dfb" />
 
 Verificación del Puerto: Comprobar con sudo lsof -i que el proceso pihole-FTL escucha en el puerto bootps (67 UDP) (Cap 12). 
 
+<img width="622" height="262" alt="image" src="https://github.com/user-attachments/assets/db86cd54-bbde-43a5-8a22-e52005a04c38" />
+
 ## Prueba en Cliente
 
-Verificar IP recibida con ip a (Cap 23). 
+Verificar IP recibida con ip a. 
 
-Confirmar resolución DNS con nslookup (Cap 25).
+<img width="624" height="217" alt="image" src="https://github.com/user-attachments/assets/7a504df1-82b3-4680-8c0e-211a55cfd671" />
+
+Confirmar resolución DNS con nslookup.
+
+<img width="337" height="325" alt="image" src="https://github.com/user-attachments/assets/76be6a2e-da3d-46df-bff0-8107733ab098" />
 
 ## Incidencias
 
