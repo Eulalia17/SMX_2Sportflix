@@ -891,7 +891,14 @@ Adaptador 1 (enp0s3): Adaptador Puente (Internet y panel web).
 
 Adaptador 2 (enp0s8): Red Interna (Servicio a clientes locales). 
 
-Capturas necesarias: Cap 1 (Ajustes de red MV Servidor) y Cap 3 (ip a inicial).
+Capturas necesarias: 
+ 
+<img width="623" height="291" alt="image" src="https://github.com/user-attachments/assets/efb8e8f1-0f84-4eb5-905c-991921efff60" />
+
+<img width="624" height="297" alt="image" src="https://github.com/user-attachments/assets/78b42adf-2ae1-4404-81d8-ccea4adccf6e" />
+
+<img width="625" height="283" alt="image" src="https://github.com/user-attachments/assets/afaff1f3-302c-4e20-b2ac-fea63c7a2859" />
+
 
 ## Pasos a Seguir
 
@@ -899,17 +906,41 @@ Configuración de Netplan: Editar el archivo /etc/netplan/00-installer-config.ya
 
 YAML: Configurar enp0s3 con DHCP y enp0s8 con IP estática 10.10.10.254/24. 
 
-Validación: Aplicar con sudo netplan apply (Cap 5) y verificar con ip a (Cap 8). 
+Validación: 
 
-Instalación: Ejecutar curl -sSL https://install.pi-hole.net | bash (Cap 16). 
+Aplicar con sudo netplan apply
 
-Contraseña: Establecer clave con sudo pihole setpassword (Cap 18). 
+<img width="420" height="29" alt="image" src="https://github.com/user-attachments/assets/ca761cbb-a8f5-41d6-afe8-e0cf4f848823" />
 
-Prueba: Ejecutar nslookup y ping google.com (Cap 9 y 20).
+<img width="619" height="191" alt="image" src="https://github.com/user-attachments/assets/41b95cdc-d1d3-4b90-972c-fff11fb619d9" />
+
+Verificar con ip a. 
+
+<img width="618" height="277" alt="image" src="https://github.com/user-attachments/assets/c9304531-7f0b-468a-bc27-76915d7a4565" />
+
+Instalación: Ejecutar curl -sSL https://install.pi-hole.net | bash. 
+
+<img width="464" height="433" alt="image" src="https://github.com/user-attachments/assets/ce5b2d39-8d8b-42d9-810f-6ab70e6ecd18" />
+
+Contraseña: Establecer clave con sudo pihole setpassword. 
+
+<img width="548" height="103" alt="image" src="https://github.com/user-attachments/assets/108fff45-cc0a-4f9f-82b9-2c10b394af18" />
+
+Prueba: Ejecutar nslookup y ping google.com.
+
+<img width="621" height="202" alt="image" src="https://github.com/user-attachments/assets/94ce301a-c314-4335-b453-4b816f878fe2" />
+
+<img width="299" height="177" alt="image" src="https://github.com/user-attachments/assets/9d995c95-9f24-4fea-b6e6-799c74361e80" />
+
+<img width="292" height="166" alt="image" src="https://github.com/user-attachments/assets/75cf54e9-acc8-4459-8c4c-c09163e8d9b9" />
 
 ## Incidencias
 
-Error de sintaxis: Uso accidental de comandos inexistentes como tryip en lugar de try (Cap 7). 
+Error de sintaxis: Uso accidental de comandos inexistentes como tryip en lugar de try. 
+
+<img width="409" height="22" alt="image" src="https://github.com/user-attachments/assets/f2b1cedd-f516-473b-808c-0cdc282da257" />
+
+<img width="615" height="66" alt="image" src="https://github.com/user-attachments/assets/13ef5fb2-e434-4300-b8d3-7fd563515d76" />
 
 Permisos: Advertencias de Netplan indicando que los permisos del archivo YAML son "too open" (demasiado abiertos).
 
