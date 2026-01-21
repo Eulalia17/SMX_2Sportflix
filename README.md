@@ -860,33 +860,24 @@ Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2
 <details>
 <summary>DNS</summary>
 
-¿Qué es?
+## 1. Tecnologías a Utilizar
 
-El DNS es un sistema de nomenclatura jerárquico y distribuido que se encarga de traducir los nombres de dominio legibles por humanos en direcciones IP.
+Servidor: Ubuntu Server / Debian. 
 
-¿Por qué es necesario?
+Servicio de Red: Netplan (YAML). 
 
-El DNS es fundamental para:
+Servicios de Infraestructura: Pi-Hole (DNS y DHCP). 
 
-Evita que los usuarios tengan que memorizar direcciones IP.
-
-Permite cambiar la IP de un servidor sin afectar al acceso por nombre.
-
-Facilita la administración de servicios (web, correo, FTP, etc.).
+Herramientas de Diagnóstico: ip a, nslookup, ping, lsof.
 
 
-Hace posible servicios como:
+## Introducción al Servicio
 
-Navegación web
+¿Qué es?: Un sistema de nomenclatura jerárquico que traduce nombres de dominio (legibles por humanos) en direcciones IP. 
 
-Correo electrónico
+¿Por qué es necesario?: Evita memorizar IPs, permite cambiar la IP de un servidor sin afectar el acceso por nombre y facilita la administración de servicios web o correo
 
-Autenticación de dominios
-
-
-Mejora la escalabilidad y organización de las redes.
-
-¿Dónde hay información oficial?
+## Información oficial:
 
 (https://www.cloudflare.com/es-es/learning/dns/what-is-dns/)
 
@@ -894,11 +885,33 @@ https://www.ibm.com/es-es/think/topics/dns-server
 
 https://punkymo.gitbook.io/miwiki/servicios/servidores-dns
 
-Extras
-Instalación (DNS)
-Detalles de la MV
-Pasos a seguir
-Incidencias
+## Detalles de la MV
+
+Adaptador 1 (enp0s3): Adaptador Puente (Internet y panel web). 
+
+Adaptador 2 (enp0s8): Red Interna (Servicio a clientes locales). 
+
+Capturas necesarias: Cap 1 (Ajustes de red MV Servidor) y Cap 3 (ip a inicial).
+
+## Pasos a Seguir
+
+Configuración de Netplan: Editar el archivo /etc/netplan/00-installer-config.yaml. 
+
+YAML: Configurar enp0s3 con DHCP y enp0s8 con IP estática 10.10.10.254/24. 
+
+Validación: Aplicar con sudo netplan apply (Cap 5) y verificar con ip a (Cap 8). 
+
+Instalación: Ejecutar curl -sSL https://install.pi-hole.net | bash (Cap 16). 
+
+Contraseña: Establecer clave con sudo pihole setpassword (Cap 18). 
+
+Prueba: Ejecutar nslookup y ping google.com (Cap 9 y 20).
+
+## Incidencias
+
+Error de sintaxis: Uso accidental de comandos inexistentes como tryip en lugar de try (Cap 7). 
+
+Permisos: Advertencias de Netplan indicando que los permisos del archivo YAML son "too open" (demasiado abiertos).
 
 </details>
 
@@ -908,26 +921,13 @@ Incidencias
 	
 <summary>DHCP</summary>
 
-¿Qué es?
+## Introducción al Servicio
 
-El DHCP es un protocolo de red que permite asignar automáticamente parámetros de configuración IP a los dispositivos de una red.
+¿Qué es?: Protocolo que asigna automáticamente parámetros de configuración IP (IP, máscara, DNS) a dispositivos. 
 
-¿Por qué es necesario?
+¿Por qué es necesario?: Automatiza la configuración, evita errores humanos y previene conflictos de IPs duplicadas.
 
-DHCP es esencial para:
-
-Automatizar la configuración de red.
-
-Evita errores humanos al asignar IPs manualmente.
-
-Previene conflictos de direcciones IP duplicadas.
-
-Reduce el tiempo de administración.
-
-Facilita la movilidad de dispositivos (portátiles, móviles, etc.).
-
-
-¿Dónde hay información oficial?
+## Información oficial:
 
 https://www.fortinet.com/lat/resources/cyberglossary/dynamic-host-configuration-protocol-dhcp
 
@@ -935,11 +935,25 @@ https://www.redeszone.net/tutoriales/internet/que-es-protocolo-dhcp/
 
 https://punkymo.gitbook.io/miwiki/servicios/servidores-dhcp
 
-Extras
-Instalación (DNS y del DHCP)
-Detalles de la MV
-Pasos a seguir
-Incidencias
+## Detalles de la MV
+
+Equipo Cliente: Únicamente un adaptador en modo Red Interna (Cap 2).
+
+## Pasos a Seguir
+
+Habilitar DHCP: Acceder a http://192.168.135.35/admin e ir a Settings -> DHCP (Cap 52). 
+
+Verificación del Puerto: Comprobar con sudo lsof -i que el proceso pihole-FTL escucha en el puerto bootps (67 UDP) (Cap 12). 
+
+## Prueba en Cliente
+
+Verificar IP recibida con ip a (Cap 23). 
+
+Confirmar resolución DNS con nslookup (Cap 25).
+
+## Incidencias
+
+Enlace de Resolución: En caso de que el cliente no resuelva nombres, es necesario forzar el enlace simbólico del archivo resolv.conf
 
 </details>
 
