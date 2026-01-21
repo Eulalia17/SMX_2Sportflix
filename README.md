@@ -855,6 +855,7 @@ Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2
 
 ### 10.2. Instalar y configurar un DNS primario 
 
+<summary>DNS</summary>
 ¿Qué es?
 
 El DNS es un sistema de nomenclatura jerárquico y distribuido que se encarga de traducir los nombres de dominio legibles por humanos en direcciones IP.
@@ -896,6 +897,7 @@ Pasos a seguir
 Incidencias
 
 ### 10.3. Instalar y configurar un servidor DHCP 
+<summary>DHCP</summary>
 
 ¿Qué es?
 
