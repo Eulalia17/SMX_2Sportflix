@@ -853,6 +853,9 @@ Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2
 
 ### 10.1. Configuración un entorno de backup
 <details>
+
+</details>
+
 ### 10.2. Instalar y configurar un DNS primario 
 <details>
 <summary>DNS</summary>
