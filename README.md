@@ -900,6 +900,8 @@ Detalles de la MV
 Pasos a seguir
 Incidencias
 
+</details>
+
 ### 10.3. Instalar y configurar un servidor DHCP 
 
 <summary>DHCP</summary>
@@ -936,6 +938,8 @@ Instalación (DNS y del DHCP)
 Detalles de la MV
 Pasos a seguir
 Incidencias
+
+</details>
 
 ### 10.4. Configurar servidor APACHE
 
