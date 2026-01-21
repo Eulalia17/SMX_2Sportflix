@@ -904,6 +904,8 @@ Incidencias
 
 ### 10.3. Instalar y configurar un servidor DHCP 
 
+<details>
+	
 <summary>DHCP</summary>
 
 ¿Qué es?
