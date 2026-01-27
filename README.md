@@ -4,8 +4,8 @@
 
 # Índice
 <details>
-	<summary>Apartados</summary>
-
+  <summary>&#8203;</summary> <!-- desplegable vacío -->
+	
 Nombre del proyecto: Sportflix
 
 1. Introducción
@@ -45,8 +45,8 @@ k. Copias de seguridad
 9. Conclusiones
 
 10. Bibliografía
-
 </details>
+
 
 ## 1. Introducción
 <Details>
