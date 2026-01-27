@@ -197,7 +197,7 @@ Para asegurar que toda la información importante esté organizada, accesible y 
 </details>
 
 
-## 4. Arquitectura del software
+## 🏗️ 4. Arquitectura del software
 <details>
   <summary>&#8203;</summary> <!-- desplegable vacío -->
 
