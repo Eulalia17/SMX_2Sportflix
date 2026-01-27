@@ -121,173 +121,74 @@ A todos los públicos que les guste el deporte y, sobre todo, la Fórmula 1.
 
 </details>
 
-
 ## 3. Informe Backend
-
 <details>
-<summary>Nuestro informe</summary>
-	
+  <summary>&#8203;</summary> <!-- desplegable vacío -->
+
 ### 1. Descripción general del proyecto web
+- **¿De qué trata tu web?**  
+  Crear una web de noticias de Fórmula 1 centrada en pilotos españoles, con visualización de sus coches en 3D al visitar su perfil.  
+  (*Puede incluir algún piloto de otros países si se desea.*)
 
-¿De qué trata tu web?
-            Crear una web de noticias de Fórmula 1 con los pilotos españoles y  
-            también queremos que cuando clickeis al perfil del piloto os salga su coche en 3D.
-            (*Puede ser que pongamos algún piloto de otro país.*)
-
-
-¿Qué funcionalidades ofrecerá a los usuarios?
-             Las funcionalidades que ofreceremos a los usuarios son:
-
-
-Crear una cuenta al momento de entrar a la página (Registrarse y Logearse).
-Tendrán un apartado donde podrán ver las últimas noticias de todos esos pilotos a la vez.
-Tener un apartado de favoritos para poner sus pilotos favoritos.
-Interactuar con los elementos de la web como el piloto y el coche.
- 
-
+- **¿Qué funcionalidades ofrecerá a los usuarios?**  
+  * Crear una cuenta (registro y login).  
+  * Ver últimas noticias de los pilotos.  
+  * Apartado de favoritos para guardar pilotos preferidos.  
+  * Interactuar con elementos de la web como pilotos y coches.
 
 ### 2. Identificación de entidades principales
-¿Qué elementos importantes hay en tu web que necesitan almacenarse?
-            Usuarios: nombre, apellido1, contraseña, número de identificación, fecha en la que inició  
-            sesión en la web, email.
-	
-            Piloto: Nombre, nacionalidad, estadísticas, número, equipo, edad, posición en las                      
-            carreras,trofeos, victorias, poles y mejor puesto.
-            
-            Coche: Modelo, marca, color, escuderías , eslogan, motor, democión, tipo de motor,  
-            fabricante de motor, cilindrada de motor, patrocinadores de los coches.
+- **Usuarios:** nombre, apellidos, correo electrónico, contraseña, número de identificación, fecha de registro.  
+- **Piloto:** nombre, nacionalidad, estadísticas, número, equipo, edad, posición en carreras, trofeos, victorias, poles, mejor puesto.  
+- **Coche:** modelo, marca, color, escudería, eslogan, motor, cilindrada, tipo de motor, fabricante de motor, patrocinadores.  
+- **Noticias:** origen de la web, fecha, hora, calendario de carreras, resultados, clasificación de pilotos, palmarés, clasificación de constructores.
 
-
-            Noticias: Origen de la web, fecha, horas,calendario de las carreras,resultados de las   
-            carreras, clasificación de los pilotos, palmarés de los pilotos o los coches, clasificación  
-            de los constructores.
-            
-¿Qué tema de información almacena? Datos de los usuarios como por ejemplo correo electrónico, contraseñas, nombre, apellido, número de identificación y la fecha en que se inició la cuenta. 
-
-
-También los datos del piloto como son el nombre, nacionalidad, estadísticas, número, equipo, edad, posición en las carreras, trofeos, victorias, poles y mejor puesto. También los datos importantes del coche como es el modelo, marca, color, escuderías, eslogan, motor, democión, tipo de motor, fabricante de motor, cilindrada de motor, los patrocinadores de los coches y luego para finalizar los elementos importantes de las noticias: origen de la web, fecha, horas,calendario de las carreras,resultados de las   
-carreras, clasificación de los pilotos, palmarés de los pilotos o los coches, clasificación de los constructores.
-
-
-
-
-
-
-
-
-¿Por qué necesitas guardarla en la base de datos?
-Porque así nos aseguramos que toda la información importante y necesaria esté bien guardada y dividida por apartados.
-
-
-
-
-
-
-
+**¿Por qué necesitamos guardarla en la base de datos?**  
+Para asegurar que toda la información importante esté organizada, accesible y dividida por apartados.
 
 ### 3. Datos que se deben guardar de cada entidad (atributos)
--Nombre
--Apellidos
--Correo electrónico
--Número de identificación 
--Contraseñas
--Fecha
+- Nombre  
+- Apellidos  
+- Correo electrónico  
+- Número de identificación  
+- Contraseña  
+- Fecha de registro  
 
-El tipo de dato que utilizaremos es de texto, número, fecha, links y la definición que considero que corresponde es varchar, int, decimal, date, datetime y el auto increment.
-
-
-
-
-
-
-
-
+**Tipos de datos recomendados:** varchar, int, decimal, date, datetime, auto_increment, links según corresponda.
 
 ### 4. Relaciones entre las entidades
-<summary>Relaciones entre las entidades</summary>	
-¿Cómo se relacionan unas entidades con otras?
-Ejemplo:
-
-
-            Usuarios:
-            -id usuario 
-            -nombre
-            -email
-            -contraseña
-
-
-             Pedidos:
-             -id pedido
-             -id usuario (*Id Identificación*)
-             -Fecha pedido
-              
-<img width="659" height="415" alt="image" src="https://github.com/user-attachments/assets/b815cd48-8405-49c0-bd90-d58f80f554d1" />
-
-
-
-
-
-	
-
-
-
+- Usuarios → Auditoria: relación 1:N  
+- Usuarios ↔ Pilotos: relación N:N mediante tabla intermedia `Pilotos_favoritos`  
+- Escuderías → Pilotos: relación 1:N  
+- Escuderías → Coches: relación 1:N  
+- Pilotos ↔ Noticias: relación N:N mediante `Pilotos_has_Noticias`  
+- Escuderías ↔ Noticias: relación N:N mediante `Escuderías_has_Noticias`  
+- Coches ↔ Noticias: relación N:N mediante `Noticias_has_Coches`  
 
 ### 5. Ejemplo de datos (simulación)
-<summary>Datos</summary>
+- **Usuario:**  
+  Nombre: Pepe  
+  Apellido: Morientes  
+  Correo: pepem@gmail.com  
+  ID: Pep2345  
+  Contraseña: ppm75345  
+  Fecha registro: 11-09-25 15:40:25  
 
-	
-
-Incluye un ejemplo de cada entidad con datos ficticios pero realistas.
-
-Nombre: Pepe
-
-Apellido: Morientes
-
-Correo electrónico: pepem@gmail.com
-
-Número de identificación: Pep2345
-
-Contraseñas:ppm75345
-
-Fecha de registro: 11-09-25 a las 15:40:25.
-
-### 6. Reflexiones, dificultades y dudas que tienes sobre la base de datos
-¿Qué partes te han resultado más difíciles de pensar?
-
-
-Las partes que nos ha resultado más difíciles de pensar ha sido lo que les vamos a ofrecer a los usuarios porque como estamos comenzando el proyecto posiblemente se nos puede ocurrir nuevas ideas y que también podría encajar bien en nuestro proyecto.
-
-
-¿Qué no tienes claro sobre la información que hay que guardar?
-            
-            Lo que no tenemos claro sobre la información que hay que guardar es lo del número   
-            de identificación porque con el nombre y apellido pensamos que con eso es    
-            suficiente. 
+### 6. Reflexiones, dificultades y dudas
+- **Dificultades:** definir todas las funcionalidades a ofrecer a los usuarios, ya que podrían surgir nuevas ideas a lo largo del proyecto.  
+- **Dudas:** si es necesario almacenar el número de identificación, dado que nombre y apellidos podrían ser suficientes.
 
 ### 7. Diagrama de base de datos
+- Primer borrador realizado en Canva, luego finalizado en MySQL Workbench.  
+- Cambios realizados:  
+  * Tabla `Lista` → Tabla intermedia `Pilotos_favoritos`.  
+  * Tabla `Marcas` eliminada (info incluida en `Escudería`).  
+  * Tabla `Historial` → `Auditoria_registro` (atributo `acción` eliminado).  
+  * Tabla `Ayuda` eliminada (manual estático en la web).  
+  * Tabla `Perfil` eliminada (datos incluidos en `Usuarios`).  
 
-Primero hemos realizado un borrador del diagrama de base de datos de nuestro proyecto en canva para después hacer el definitivo en MySQL WorkBench.
-<img width="1103" height="641" alt="image" src="https://github.com/user-attachments/assets/65418b17-ff1d-402d-9c34-eaa50a0586d0" />
-
-Los cambios que hemos realizado han sido los siguientes:
-
-Tabla Lista -> Tabla intermedia entre Usuarios y Pilotos: "Pilotos_favoritos"
-
-Tabla Marcas se elimina porque la información se guardará en la tabla Escuderia
-
-Tabla Historial -> Cambia de nombre a Auditoria_registro y eliminamos el atributo acción
-
-Tabla Ayuda -> Eliminada, el manual de uso y ayuda será estático en la web
-
-Tabla Perfil -> Eliminada yta que tendremos todos los datos de cada perfil en la tabla usuarios
-
-Y aquí os muestro una captura de nuestro diagrama definitivo:
-<img width="777" height="479" alt="image" src="https://github.com/user-attachments/assets/842edf6b-bef1-42b8-ba4a-2d1b2e796c74" />
-
-### Enlace diagrama Canva y archivo de MySQL Workbench
-Canva: https://www.canva.com/design/DAG4k7iY37E/NoqqAwjC69FU2OK2PILwGA/edit
-
-MySQL Workbench: <a src=\Diagrama base de datos Sportflix.mwb>Diagrama Relacional</a>
+**Enlaces:**
+- [Diagrama Canva](https://www.canva.com/design/DAG4k7iY37E/NoqqAwjC69FU2OK2PILwGA/edit)  
+- [Diagrama MySQL Workbench](\Diagrama base de datos Sportflix.mwb)  
 
 </details>
 
