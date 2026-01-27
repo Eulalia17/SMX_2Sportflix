@@ -198,258 +198,73 @@ Para asegurar que toda la información importante esté organizada, accesible y 
 
 
 ## 4. Arquitectura del software
-<details> 
-Funcionalidades 
-En este apartado asignamos unos requisitos y funcionalidades, asignando prioridades y fechas de entrega para cada tarea del proyecto y también hemos organizado cada ítem indicando su estado actual y objetivo correspondiente.
-	
-<img width="914" height="453" alt="image" src="https://github.com/user-attachments/assets/f7186cac-dbec-4bff-95de-71de30f78ebb" />
+<details>
+  <summary>&#8203;</summary> <!-- desplegable vacío -->
 
-<img width="911" height="218" alt="image" src="https://github.com/user-attachments/assets/a1d992c3-9111-499b-8b5e-fcb63fe8bc71" />
+### Funcionalidades
+En este apartado se asignan requisitos y funcionalidades, indicando prioridades y fechas de entrega, estado actual y objetivos.
 
 ### Objetivos
+
 <details>
-	<summary>Objetivo 1</summary>
-
-Objetivo 1: Implementar un servidor web
-
-1.1 Instalación y configuración básica del servidor CP1.2 – Se ha instalado y configurado un sistema operativo en red
-Descripción de la tarea: Se ha instalado un sistema operativo en red (por ejemplo Ubuntu Server 22.04). Se ha configurado la red con una IP estática, el hostname del servidor y el acceso remoto mediante SSH.
-El servidor queda actualizado y preparado para la instalación de servicios web.
-
-1.2 Configurar la política de usuarios y privilegios
-CP1.2 – Se ha instalado y configurado un sistema operativo en red
-Descripción de la tarea:
-Se han creado los usuarios necesarios para la administración del servidor.
-Se han asignado los permisos adecuados mediante sudo y grupos específicos.
-Se ha configurado la seguridad del acceso, deshabilitando el acceso root por SSH y asegurando contraseñas/claves.
-
-1.3 [David] Instalación y configuración de los servicios web Apache, MySQL DB, PHP 8.2 y PHPMYADMIN para el proyecto Sportflix
-CP3.1.1 – Se configura y se garantiza el funcionamiento de un servicio de servidor web
-Descripción de la tarea: Se ha instalado y configurado el stack necesario para desplegar el proyecto del repositorio:
-https://github.com/Eulalia17/SMX_2Sportflix
-
-Las acciones realizadas incluyen:
-
-Instalación del servidor web Apache.
-
-Instalación del motor de base de datos MySQL DB, creación de la base de datos y del usuario asignado al proyecto.
-
-
-Instalación de PHP 8.2 junto a los módulos necesarios para el funcionamiento del sitio.
-
-
-Instalación y configuración de phpMyAdmin.
-
-
-Clonado del repositorio SMX_2Sportflix en el directorio web del servidor.
-
-
-Configuración del bloque de servidor (server block) en NGINX para apuntar a la ruta del proyecto.
-
-
-Asignación de permisos adecuados al directorio del proyecto.
-
-
-Configuración de acceso a la base de datos desde el archivo de conexión del proyecto.
-
-
-Comprobación final del correcto funcionamiento del servicio web y del acceso mediante navegador.
+  <summary>Objetivo 1: Implementar un servidor web</summary>
+  1.1 Instalación y configuración básica del servidor (Ubuntu Server 22.04, IP estática, hostname, SSH).  
+  1.2 Configuración de usuarios y privilegios (sudo, grupos, seguridad SSH).  
+  1.3 Instalación y configuración de Apache, MySQL, PHP 8.2 y phpMyAdmin.  
+  1.4 Clonado del repositorio del proyecto en el directorio web y comprobación final.
 </details>
+
 <details>
-<summary>Objetivo 2</summary>
-
-Objetivo 2: Programar la front-page (visual studio).
-
-2.1 Crear la estructura del index.html con CSS
-
-CP2.1.6 – Los ficheros de lenguaje de marcas empleados tienen un código correcto y adecuado, transmiten al usuario la información correctamente y ofrecen una buena experiencia de usuario a nivel gráfico.
-
-Descripción de la tarea:
-
-Se ha creado la estructura base del archivo index.html utilizando etiquetas HTML semánticas.
-
-Se ha añadido una hoja de estilos CSS que define la distribución principal de la landing page, la tipografía, paleta de colores, espaciados y elementos visuales necesarios.
-
-El código cumple los estándares de accesibilidad y ofrece una presentación clara e intuitiva al usuario.
-
-
-2.2 Crear el header y el footer comunes de todas las páginas
-CP2.1.6 – Los ficheros de lenguaje de marcas empleados tienen un código correcto y adecuado, transmiten al usuario la información correctamente y ofrecen una buena experiencia de usuario a nivel gráfico.
-
-Descripción de la tarea:
-
-Se han programado el header y footer globales que se integrarán en todas las páginas del proyecto.
-
-El header incluye el logotipo, el menú de navegación y los enlaces principales.
-
-El footer contiene la información de contacto, enlaces secundarios y secciones informativas necesarias.
-
-Ambos elementos están maquetados con CSS para mantener coherencia visual en toda la web.
-
-2.3 Programar el formulario de contacto de la front-page
-
-CP2.1.6 – Los ficheros de lenguaje de marcas empleados tienen un código correcto y adecuado, transmiten al usuario la información correctamente y ofrecen una buena experiencia de usuario a nivel gráfico.
-
-Descripción de la tarea:
-
-Se ha desarrollado un formulario de contacto integrado en la front-page con campos de nombre, correo electrónico, mensaje y botón de envío.
-
-El formulario se ha maquetado con CSS manteniendo la estética del resto de la página.
-
-Se han aplicado validaciones básicas en HTML5 (required, type="email") para mejorar la experiencia del usuario y garantizar la correcta introducción de datos.
+  <summary>Objetivo 2: Programar la front-page (Visual Studio)</summary>
+  2.1 Crear la estructura del index.html con CSS (landing page accesible y clara).  
+  2.2 Programar header y footer globales para todas las páginas.  
+  2.3 Programar formulario de contacto con validaciones HTML5.
 </details>
+
 <details>
-	<summary>Objetivo 3</summary>
-
-Objetivo 3: Servidor MySQL
-
-3.1 Instalar y configurar MV con Ubuntu Server LTS versión 22.04.
-
-3.2 Instalar y configurar MySQL versión 8.0 para crear y gestionar bases de datos.
-
-3.3 Instalar y configurar PHPMYADMIN para administrar nuestra base de datos a través de una interfaz web permitiendo realizar tareas que serán crear/eliminar bases de datos y tablas, editar datos, ejecutar consultas SQL y exportar/importar bases de datos sin necesidad de usar la línea de comandos.
+  <summary>Objetivo 3: Servidor MySQL</summary>
+  3.1 Instalar y configurar MV con Ubuntu Server 22.04 LTS.  
+  3.2 Instalar MySQL 8.0 y gestionar bases de datos.  
+  3.3 Instalar phpMyAdmin para administración web de la base de datos.
 </details>
+
 <details>
-	<summary>Objetivo 4</summary>
-
-Objetivo 4: Servidor web
-
-4.1 Configurar MV con ubuntu server 22.04.
-
-4.2 Buscar guía de instalación para instalar Apache y PHP.
-
-4.3 Instalar Apache.
-
-4.4 Definir nombre del dominio que será https://sportflix.com/. 
+  <summary>Objetivo 4: Servidor web</summary>
+  4.1 Configurar MV con Ubuntu Server 22.04.  
+  4.2 Instalar Apache y PHP según guía.  
+  4.3 Definir el dominio: https://sportflix.com/
 </details>
+
 <details>
-	<summary>Obejtivo 5</summary>
-
-Objetivo 5: Servidor DNS
-
-5.1 Instalar y configurar MV con ubuntu server 22.04.
-
-5.2 Buscar guía de instalación para servidor DNS de Pi-hole.
-
-5.3 Instalar Pi-hole.
+  <summary>Objetivo 5: Servidor DNS</summary>
+  5.1 Configurar MV con Ubuntu Server 22.04.  
+  5.2 Instalar y configurar Pi-hole como servidor DNS.
 </details>
+
 <details>
-	<summary>Objetivo 6</summary>
-
-Objetivo 6: Servidor TRUENAS + RSYNC
-
-
-6.1 Instalar y configurar  MV con la ISO del truenas versión 25.04.2.6, tipo BSD y versión freeBSD 64 bits para que funcione bien la máquina.
-
-6.2 Buscar guía de instalación para Truenas y rsync.
-
-6.3 Instalar Truenas y recibir el enlace con la IP y ponerlo en el buscador de google.
-
-6.4 Poner el usuario truenas_admin y la contraseña.
-
-6.5 Crear un dataset.
-
-6.6 Activar el protocolo SMB.
-
-6.7 Desencriptar el dataset.
-
-6.8 Activar todos los permisos de escribir, leer y ejecutar. 
-
-6.9 Crear y configurar una MV Linux para el Rsync.
- 
-6.10 Entramos al terminal para apuntar los comandos siguiendo las instrucciones de la guía del tutorial de Rsync.
- 
-6.11 Hacer la transferencia de archivos a través de conexiones de red en la terminal de nuestra MV. 
+  <summary>Objetivo 6: Servidor TRUENAS + RSYNC</summary>
+  6.1 Instalar y configurar MV con Truenas 25.04.2.6 (FreeBSD 64 bits).  
+  6.2 Configurar dataset, protocolo SMB y permisos completos.  
+  6.3 Crear MV Linux para Rsync y transferir archivos mediante red.
+</details>
 
 ### Arquitectura del sistema
-
-<details>
-
-<img width="911" height="361" alt="image" src="https://github.com/user-attachments/assets/0e271397-e234-414d-b4a9-91ec4283ac16" />
-
-<img width="915" height="372" alt="image" src="https://github.com/user-attachments/assets/9c88b829-54d7-4aa7-a70f-e66ed6eb6b41" />
-
-<img width="911" height="232" alt="image" src="https://github.com/user-attachments/assets/32f9229f-38ed-4fa9-8695-c69b1f1152c7" />
-
-<img width="911" height="140" alt="image" src="https://github.com/user-attachments/assets/72184075-c32a-4e19-9522-5e4cf1cfd0f1" />
-
+- Diagramas de arquitectura mostrando servidores, bases de datos, clientes y conexiones de red.  
+- Integración de servicios web, backend y base de datos.  
 
 ### Diagrama de la base de datos
-<details>
-Resumen de la DB de tu aplicación web:
-¿Qué datos son necesarios para mi aplicación? 
-Los datos importantes son administración, usuarios, pilotos, escuderías, notícias, coches y auditoría.
-
-¿Qué datos voy a pedir al usuario y que tipos de usuarios voy a tener?
-Los datos a pedir al usuario son el correo electrónico y su contraseña para que se puedan crear su cuenta y también que puedan tener su propio perfil de usuario y voy a tener cualquier tipo de usuario.
-
-¿Qué tipo de dato necesitaré para cada información? (Aquí tienes la documentación oficial de MySQL)
-El tipo de datos que necesitamos son:
-             
-IDs → INT UNSIGNED AUTO_INCREMENT
-
-
-Nombres, correos, modelos, etc. → VARCHAR(15-40)
-
-
-Contraseñas → VARCHAR(14) 
-
-
-Fechas → DATETIME
-
-
-Contenido largo → TEXT
-
-
-Listas cerradas → ENUM()
-
-
-URLs → VARCHAR(255)
-
-
-Tablas puente (N:N) → dos INT UNSIGNED
-
-
-¿Qué clave primaria voy a implantar en cada tabla? ¿Cómo las relacionaré entre ellas?
-La clave primaria: id_usuario, id_noticias, id_pilotos, id_escuderías, id_registro, id_coches. 
-Las relacionaré de esta forma:
-Usuarios → Auditoria: relación 1:N
-
-
-Usuarios ↔ Pilotos: relación N:N mediante Pilotos_favoritos
-
-
-Escuderías → Pilotos: relación 1:N
-
-
-Escuderías → Coches: relación 1:N
-
-
-Pilotos ↔ Noticias: relación N:N mediante Pilotos_has_Noticias
-
-
-Escuderías ↔ Noticias: relación N:N mediante Escuderías_has_Noticias
-
-
-Coches ↔ Noticias: relación N:N mediante Noticias_has_Coches
-
-- Las funcionalidades de la BD:
-  	- Auditoria_registro --> A.P
-  	- Noticias --> C.F
-  	- Usuarios --> B.S
-  	- Pilotos_favoritos --> C.F
-  	- Pilotos_has_noticias --> C.F
-  	- Escuderias_has_noticias --> C.F
-  	- Noticas_has_coches --> C.F
-  	- Coches --> C.F
-  	- Pilotos --> C.F
-  	- Escuderías --> C.F
-
-  
-Mi Diagrama de Base de datos
-<img width="802" height="529" alt="image" src="https://github.com/user-attachments/assets/25a4fa83-df89-46a4-aa32-1d6658d3677a" />
+- Tablas principales: Administración, Usuarios, Pilotos, Escuderías, Noticias, Coches, Auditoría.  
+- Tipos de datos recomendados: INT, VARCHAR, DATETIME, TEXT, ENUM, AUTO_INCREMENT, según corresponda.  
+- Relaciones:
+  * Usuarios → Auditoría: 1:N  
+  * Usuarios ↔ Pilotos: N:N (`Pilotos_favoritos`)  
+  * Escuderías → Pilotos/Coches: 1:N  
+  * Pilotos ↔ Noticias: N:N (`Pilotos_has_Noticias`)  
+  * Escuderías ↔ Noticias: N:N (`Escuderías_has_Noticias`)  
+  * Coches ↔ Noticias: N:N (`Noticias_has_Coches`)  
 
 </details>
+
 
 
 ## 5. Tecnologías a utilizar
