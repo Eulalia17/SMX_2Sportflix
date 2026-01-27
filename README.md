@@ -55,8 +55,92 @@ Estamos haciendo un projecto que consiste en crear una web que en nuestro caso e
 </details>
 
 ## 2. Briefing de ideas
+<details>
+  <summary>&#8203;</summary> <!-- &#8203; es un "zero-width space" -->
+
+### Idea seleccionada y justificación: 
+
+Porque hemos escogido esta idea: Lo hemos escogido porque es original, también porque hay mucha información sobre los temas que hemos escogido para la web y para finalizar nuestra web se puede personalizar lo que también nos ayudaría a que el público este más atento a nuestra web y sea más llamativo. 
+  
+### Objectivos:
+* 1 Crear la página web.
+* 2 Diseñar còmo seria nuestra página web.. Diseñar una página web donde se mostrará noticias, pilotos, coches y otros detalles de la F1.
+* 3 Importar noticias de Formula 1 de las webs fiables y oficiales.  
+* 4 Guardar todos los datos en una base de datos.
+* 5 Diseñar en 3D los coches a mostrar en la web y si es posible hacer lo mismo con los pilotos.
+
+
+### Público al que va dirigido: 
+A todos los públicos que le gusté el deporte y sobretodo la fórmula 1.
+
+### Modulos que vamos a tocar: (Asignaturas)
+
+### Seguridad:
+
+MO6: Firewall: pfsense o Sophos.
+
+MO6: Backup: Trunas y/o rsync.
+
+MO6: Plan de contingencia y explicar los aspectos de seguridad que se han implementado o que se puedan implementar.
+
+MO4: Diferenciar roles de usuarios en el sistema.
+
+### Servicios de red:
+
+MO5-MO6: Diagrama de red, mapa físico, mapa lógico de la infraestructura.
+
+MO4-MO7: Servicio DHCP en un servidor Windows diferente.
+
+MO7: Servidor DNS primario.
+
+### Sistemas operativos:
+
+MO4: Instalación y configuración de sistemas operativos (Windows Server / Linux) para alojar los diferentes servicios del proyecto.
+
+MO4: Gestión de usuarios, grupos y permisos para diferenciar roles dentro del sistema (administrador, desarrollador, visitante).
+
+MO4: Configuración de servidores necesarios para el funcionamiento de la web (Apache, DNS, DHCP, etc.).
+
+MO4: Administración y monitorización del sistema para garantizar su correcto rendimiento y seguridad.
+
+MO4: Virtualización de los diferentes servidores y estaciones de trabajo utilizando herramientas como VirtualBox, VMware o Proxmox.
+
+MO4: Implementación de políticas básicas de seguridad y actualización del sistema operativo.
+
+MO4: Automatización de tareas administrativas mediante scripts (bash o PowerShell).
+
+### Aplicaciones web:
+
+MO8: Mapa de navegabilidad y Mockups.
+
+MO8: Web responsive.
+
+### Programación (optativa)
+
+MO8: HTML (estructura básica de páginas web).
+
+MO8: CSS (diseño y estilos de páginas web).
+
+MO8: JavaScript (funcionalidades interactivas).
+
+### Materiales necesarios (fisicos y lógicos).
+  Físicos: Tener una libreta a mano para apuntar ideas, comandos, así podernos organizar, ordenador.
+
+  Lógicos: Tener el drive del proyecto abierto, visual studio instalado, enlaces a recursos para hacer el proyecto, trello, github y tener el microsoft office abierto para hacer la
+  infraestructura de red.
+  </details>
+  
+### Recursos
 <Details>
-	 <summary>Apartados</summary> 
+	 <summary>Nuestros Recursos</summary>
+
+## Bibliografia: 
+
+Github (https://docs.github.com/es/get-started/start-your-journey/hello-world) , (https://gist.github.com/dasdo/9ff71c5c0efa037441b6) y (https://prestashop.es)
+MySQL (https://www.mysqltutorial.org/) y (https://blog.baehost.com/comandos-basicos-para-mysql/)
+Cloudflare (https://raiolanetworks.com/blog/cloudflare/) y (https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/local-management/tunnel-useful-commands/)
+Promox (https://www.nakivo.com/es/blog/top-10-proxmox-cli-commands/) y (https://www.nakivo.com/blog/proxmox-install/)
+</Details>
 	  
 ### Idea seleccionada y justificación: 
 Porque hemos escogido esta idea: Lo hemos escogido porque es original, también porque hay mucha información sobre los temas que hemos escogido para la web y para finalizar nuestra web se puede personalizar lo que también nos ayudaría a que el público este más atento a nuestra web y sea más llamativo. 
