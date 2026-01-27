@@ -204,6 +204,10 @@ Para asegurar que toda la información importante esté organizada, accesible y 
 ### Funcionalidades
 En este apartado se asignan requisitos y funcionalidades, indicando prioridades y fechas de entrega, estado actual y objetivos.
 
+<img width="914" height="453" alt="image" src="https://github.com/user-attachments/assets/f7186cac-dbec-4bff-95de-71de30f78ebb" />
+
+<img width="911" height="218" alt="image" src="https://github.com/user-attachments/assets/a1d992c3-9111-499b-8b5e-fcb63fe8bc71" />
+
 ### Objetivos
 
 <details>
@@ -252,6 +256,14 @@ En este apartado se asignan requisitos y funcionalidades, indicando prioridades 
 - Diagramas de arquitectura mostrando servidores, bases de datos, clientes y conexiones de red.  
 - Integración de servicios web, backend y base de datos.  
 
+<img width="911" height="361" alt="image" src="https://github.com/user-attachments/assets/0e271397-e234-414d-b4a9-91ec4283ac16" />
+
+<img width="915" height="372" alt="image" src="https://github.com/user-attachments/assets/9c88b829-54d7-4aa7-a70f-e66ed6eb6b41" />
+
+<img width="911" height="232" alt="image" src="https://github.com/user-attachments/assets/32f9229f-38ed-4fa9-8695-c69b1f1152c7" />
+
+<img width="911" height="140" alt="image" src="https://github.com/user-attachments/assets/72184075-c32a-4e19-9522-5e4cf1cfd0f1" />
+
 ### Diagrama de la base de datos
 - Tablas principales: Administración, Usuarios, Pilotos, Escuderías, Noticias, Coches, Auditoría.  
 - Tipos de datos recomendados: INT, VARCHAR, DATETIME, TEXT, ENUM, AUTO_INCREMENT, según corresponda.  
@@ -262,6 +274,8 @@ En este apartado se asignan requisitos y funcionalidades, indicando prioridades 
   * Pilotos ↔ Noticias: N:N (`Pilotos_has_Noticias`)  
   * Escuderías ↔ Noticias: N:N (`Escuderías_has_Noticias`)  
   * Coches ↔ Noticias: N:N (`Noticias_has_Coches`)  
+
+<img width="802" height="529" alt="image" src="https://github.com/user-attachments/assets/25a4fa83-df89-46a4-aa32-1d6658d3677a" />
 
 </details>
 
