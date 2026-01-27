@@ -156,6 +156,8 @@ Para asegurar que toda la información importante esté organizada, accesible y 
 **Tipos de datos recomendados:** varchar, int, decimal, date, datetime, auto_increment, links según corresponda.
 
 ### 4. Relaciones entre las entidades
+<img width="659" height="415" alt="image" src="https://github.com/user-attachments/assets/b815cd48-8405-49c0-bd90-d58f80f554d1" />
+
 - Usuarios → Auditoria: relación 1:N  
 - Usuarios ↔ Pilotos: relación N:N mediante tabla intermedia `Pilotos_favoritos`  
 - Escuderías → Pilotos: relación 1:N  
@@ -178,13 +180,15 @@ Para asegurar que toda la información importante esté organizada, accesible y 
 - **Dudas:** si es necesario almacenar el número de identificación, dado que nombre y apellidos podrían ser suficientes.
 
 ### 7. Diagrama de base de datos
-- Primer borrador realizado en Canva, luego finalizado en MySQL Workbench.  
+- Primer borrador realizado en Canva, luego finalizado en MySQL Workbench.
+  <img width="1103" height="641" alt="image" src="https://github.com/user-attachments/assets/65418b17-ff1d-402d-9c34-eaa50a0586d0" />
 - Cambios realizados:  
   * Tabla `Lista` → Tabla intermedia `Pilotos_favoritos`.  
   * Tabla `Marcas` eliminada (info incluida en `Escudería`).  
   * Tabla `Historial` → `Auditoria_registro` (atributo `acción` eliminado).  
   * Tabla `Ayuda` eliminada (manual estático en la web).  
   * Tabla `Perfil` eliminada (datos incluidos en `Usuarios`).  
+<img width="777" height="479" alt="image" src="https://github.com/user-attachments/assets/842edf6b-bef1-42b8-ba4a-2d1b2e796c74" />
 
 **Enlaces:**
 - [Diagrama Canva](https://www.canva.com/design/DAG4k7iY37E/NoqqAwjC69FU2OK2PILwGA/edit)  
