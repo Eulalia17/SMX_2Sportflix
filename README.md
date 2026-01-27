@@ -54,7 +54,7 @@ k. Copias de seguridad
 Estamos haciendo un projecto que consiste en crear una web que en nuestro caso es de notícias de fórmula 1 y tendrá apartados exclusivamente con pilotos 3D españoles, también su apartado de soporte para mirar los problemas frecuentes que suceden en nuestra web, su apartado de última hora y también su apartado de introducción explicando quienes somos. 
 </details>
 
-## 2. Briefing de ideas
+## 💡 2. Briefing de ideas
 <details>
   <summary>&#8203;</summary> <!-- &#8203; es un "zero-width space" -->
 
@@ -121,7 +121,7 @@ A todos los públicos que les guste el deporte y, sobre todo, la Fórmula 1.
 
 </details>
 
-## 3. Informe Backend
+## 🗄️3. Informe Backend
 <details>
   <summary>&#8203;</summary> <!-- desplegable vacío -->
 
