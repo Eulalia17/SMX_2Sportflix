@@ -48,7 +48,7 @@ k. Copias de seguridad
 </details>
 
 
-## <img width="186" height="296" alt="image" src="https://github.com/user-attachments/assets/ca6cc252-7c90-4f7e-b0cb-92caa41242d8" /> 1. Introducción
+## <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/ca6cc252-7c90-4f7e-b0cb-92caa41242d8" /> 1. Introducción
 <details>
   <summary>&#8203;</summary> <!-- desplegable vacío -->
 Estamos haciendo un projecto que consiste en crear una web que en nuestro caso es de notícias de fórmula 1 y tendrá apartados exclusivamente con pilotos 3D españoles, también su apartado de soporte para mirar los problemas frecuentes que suceden en nuestra web, su apartado de última hora y también su apartado de introducción explicando quienes somos. 
