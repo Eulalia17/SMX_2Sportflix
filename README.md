@@ -281,114 +281,95 @@ En este apartado se asignan requisitos y funcionalidades, indicando prioridades 
 
 
 
-## 5. Tecnologías a utilizar
+## 5. Tecnologías a utilizar 🧰
 <details>
+  <summary>&#8203;</summary> <!-- desplegable vacío -->
 
-- Estos son nuestras tecnologías:
-	
-### 1. En el apartado de hardware
-	
-### 1.1. Router del aula
-		
-- Se utilizará para proporcionar conexión de red a todos los equipos y gestionar el tráfico interno y externo deinternet.
-		 
-### 1.2. Servidor:
-		
-### 1.2.1. Truenas
-			
-- Versión --> 25.04.2.6
-				
-- Para alojar servicios como páginas web, base de datos y almacenamiento en red, además de centralizar recursos para prácticas y gestión del aula.
-				
-### 1.2.2. Apache
-			
-- Versión --> 2.4.x estable
-				
-- Lo he puesto anteriormente.
+### 1. Hardware
 
-### 1.2.3. MySQL
-			
-- Versión --> 8.0.x LTS estable
-				
-- Lo he puesto anteriormente.
-				
-### 1.3. HDD para Backup
-		
-- Realizará copias de seguridad de la información del servidor y evitar pérdida de datos ante fallos o errores.
-			
-### 2. Sistemas operativos
-	
-### 2.1. Ubuntu server
-		
-- Versión --> Ubuntu LTS 24.10 
-			
-- Usaremos ubuntu server para gestionar y ejecutar servicios en un servidor para el alojamiento de sitios web, administración de bases de datos.
-			
-### 3. Inerfaz de usuarios (Frontend)
-	
-### 3.1. HTML 5
-		
-- Versión --> HTML 5
-			
-- Lo utilizaremos para definir el estilo visual y la presentación de nuestra página HTML.
-			
-### 3.2. CSS 3
-		
-- Versión --> CSS 3
-			
-- Lo utilizaremos para definir el estil visual y la presentación de nuestra página HTML.
+#### 1.1 Router del aula
+- Se utilizará para proporcionar conexión de red a todos los equipos y gestionar el tráfico interno y externo de Internet.
 
-### 3.3. Javascript
-		
-- Versión--> ES2020
-			
-- Lo utilizaremos para hacer nuestra página interactiva, permitiendo que reaccionen a las acciones del usuario y muestra el contenido dinámico.
+#### 1.2 Servidor
 
-### 3.4. Bootstrap 5
-		
-- Versión --> Bootstrap 5
-			
-- Lo utilizamos para crear la página web.
-			
-### 4. Lógica de negocio (Backend)
-	 
-### 4.1. PHP
-		
-- Versión --> PHP 8.4
-			
-- Lo utilizaremos para crear la página web.
-			
-### 5. Servidor web
-	
-### 5.1. Apache
-		
-- Versión --> Apache 2.4 
-			
-- Lo usuaremos para alojar páginas web y ejecutar.
-			
-### 5.2. PHP
-		
-- Versión --> PHP 8.4
-			
-- Lo usaremos para alojar páginas web y ejecutar.
-			
-### 6. Base de datos
-	
-### 6.1. MySQL
-		
-- Versión --> MySQL 8.0
+##### 1.2.1 TrueNAS
+- **Versión:** 25.04.2.6  
+- Se utilizará para alojar servicios como páginas web, base de datos y almacenamiento en red, además de centralizar recursos y copias de seguridad.
 
-- Lo utilizaremos para gestionar y almacenar las bases de datos
+##### 1.2.2 Apache
+- **Versión:** 2.4.x estable  
+- Servidor web encargado de alojar y servir el contenido de la aplicación Sportflix.
 
-### 7. Sistema gestor de base de datos
-	
-### 7.1. PHPMyAdmin
-		
-- Versión --> PHPmyAdmin
-			
-- Lo utilizaremos para administrador bases de datos en MySQL
-			
+##### 1.2.3 MySQL
+- **Versión:** 8.0.x LTS  
+- Sistema gestor de bases de datos para almacenar toda la información del proyecto.
+
+#### 1.3 HDD para Backup
+- Disco duro destinado a realizar copias de seguridad y evitar la pérdida de datos ante fallos del sistema.
+
+---
+
+### 2. Sistemas Operativos
+
+#### 2.1 Ubuntu Server
+- **Versión:** Ubuntu Server LTS  
+- Se utilizará para gestionar y ejecutar los servicios del servidor web y de base de datos.
+
+---
+
+### 3. Interfaz de Usuario (Frontend)
+
+#### 3.1 HTML5
+- Define la estructura base de las páginas web.
+
+#### 3.2 CSS3
+- Se utiliza para el diseño visual y estilos de la web.
+
+#### 3.3 JavaScript
+- **Versión:** ES2020  
+- Aporta interactividad y contenido dinámico a la web.
+
+#### 3.4 Bootstrap
+- **Versión:** Bootstrap 5  
+- Framework utilizado para crear una web responsive y visualmente atractiva.
+
+---
+
+### 4. Lógica de Negocio (Backend)
+
+#### 4.1 PHP
+- **Versión:** PHP 8.4  
+- Lenguaje utilizado para el desarrollo del backend y la lógica de la aplicación.
+
+---
+
+### 5. Servidor Web
+
+#### 5.1 Apache
+- **Versión:** Apache 2.4  
+- Gestiona las peticiones HTTP y sirve las páginas web.
+
+#### 5.2 PHP
+- **Versión:** PHP 8.4  
+- Ejecuta el código del backend en el servidor.
+
+---
+
+### 6. Base de Datos
+
+#### 6.1 MySQL
+- **Versión:** MySQL 8.0  
+- Almacena y gestiona los datos del proyecto.
+
+---
+
+### 7. Sistema Gestor de Base de Datos
+
+#### 7.1 phpMyAdmin
+- Interfaz web para la administración de bases de datos MySQL.
+
 </details>
+
 
 ## 6. Red
 <details>
