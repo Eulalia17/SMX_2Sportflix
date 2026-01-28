@@ -524,7 +524,7 @@ https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?
 
 ## 🔧 8. Servicios	
 <details>
-	<summary>Apartados</summary>
+	<summary>&#8203;</summary> <!-- desplegable vacío -->
 	
 ### 8.g DNS
 
