@@ -371,9 +371,9 @@ En este apartado se asignan requisitos y funcionalidades, indicando prioridades 
 </details>
 
 
-## 6. Red
+## 🌐 6. Red
 <details>
-	<summary>Diagrama de red</summary>
+	<summary>&#8203;</summary> <!-- desplegable vacío -->
 
 ### 6.a Diagrama de la red
 
