@@ -715,7 +715,7 @@ Enlace de Resolución: En caso de que el cliente no resuelva nombres, es necesar
 ### 11.2. Auditoria de seguridad
 </details>
 
-## 🎛️ 12. Control
+## 🎮 12. Control
 <details> 
 	<summary>&#8203;</summary> <!-- desplegable vacío -->
 
