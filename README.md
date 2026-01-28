@@ -383,142 +383,143 @@ En este apartado se asignan requisitos y funcionalidades, indicando prioridades 
 	
 </details>
 
-## 7. Web
+## 7. Web 🖥️
 <details>
-	<summary>Diseño, Mockup, Mapa de navegabilidad</summary>
+  <summary>Diseño, Mockup y Mapa de navegabilidad</summary>
 
-## 7.d Diseño Web 
+---
 
-### Equilibrio del diseño, Colores y Estructura
-- Mantener un uso balanceado entre espacios vacíos y elementos visuales para evitar saturaciones.
-- Uso de distribución simétrica o asimétrica según el objetivo de la página.
-- Colores principales: **Rojo** y **Blanco**  
-  Colores secundarios: **Negro** y **Blanco**  
-  Colores de estado: Éxito (**Verde**), Error (**Rojo**), Advertencia (**Amarillo**), Información (**Azul clarito**), etc.
-- Estructura del diseño:  
-  Header (cabecera) fijo o dinámico con menú principal.  
-  Cuerpo dividido en secciones diferenciadas visualmente.  
-  Sidebar (barra lateral) opcional.  
-  Footer (pie de página) con enlaces legales y de contacto.
+## 7.d Diseño Web
 
-### Colores y Tipografía
-- Tipografía principal: **Sans-serif** para modernidad y legibilidad.  
-- Tipografía secundaria: **Serif o cursiva** para títulos y puntos destacados.  
-- Tamaños con jerarquía visual (título, subtítulo, texto normal...).  
-- Colores tipográficos con alto contraste, color especial para enlaces y estados.
+### Equilibrio del diseño, colores y estructura
+- Uso equilibrado de espacios en blanco y elementos visuales para evitar saturación.
+- Distribución simétrica o asimétrica según el objetivo de cada página.
+- **Colores principales:** Rojo y Blanco  
+- **Colores secundarios:** Negro y Blanco  
+- **Colores de estado:**  
+  - Éxito (Verde)  
+  - Error (Rojo)  
+  - Advertencia (Amarillo)  
+  - Información (Azul claro)
+- **Estructura general del diseño:**
+  - Header (cabecera) fijo o dinámico con menú principal.
+  - Cuerpo dividido en secciones visualmente diferenciadas.
+  - Sidebar (barra lateral) opcional.
+  - Footer (pie de página) con enlaces legales y de contacto.
 
-### Componentes de Interfaz
-- **Botones:** menú, acción, hipervínculo, repetidor, desplegable.  
-  Estados: identificador, activado, desactivado, hover, presionado.  
-- **Enlaces:** soportan estados (normal, hover, visitado).  
-  Elementos interactivos: barras de búsqueda, paginación, pestañas, acordeones, etc.  
-- **Casillas de verificación:** marcado, desmarcado, indeterminado.  
-- **Menús desplegables:** lista de opciones, opción predeterminada, cierre animado, botones divididos.  
-- **Sliders:** barra, thumb, valores mínimo/máximo, rango sombreado, horizontal o vertical.  
-- **Menús deslizadores:** submenús, pestañas, breadcrumbs, sidebar secundaria, filtros y buscadores.  
-- **Barras de herramientas:** acciones rápidas mediante iconos y botones.  
-- **Imágenes:** responsivas, usar WebP y SVG para iconos, alt-text para accesibilidad.  
-- **Formularios:** campos claros, validaciones visibles, botones enviar/reset.  
-- **Notificaciones:** toasts / modales para éxito, error, advertencia, info.
+---
+
+### Colores y tipografía
+- Tipografía principal: **Sans-serif** para mayor legibilidad.
+- Tipografía secundaria: **Serif o cursiva** para títulos o elementos destacados.
+- Jerarquía visual clara (títulos, subtítulos y texto).
+- Alto contraste en textos y colores diferenciados para enlaces y estados.
+
+---
+
+### Componentes de interfaz
+- **Botones:** menú, acción, hipervínculo, repetidor y desplegable.  
+  Estados: activo, desactivado, hover, presionado.
+- **Enlaces:** estados normal, hover y visitado.
+- **Elementos interactivos:** buscador, paginación, pestañas y acordeones.
+- **Checkbox:** marcado, desmarcado e indeterminado.
+- **Menús desplegables:** opciones dinámicas con animaciones.
+- **Sliders:** valores mínimo/máximo, horizontal o vertical.
+- **Menús deslizables:** submenús, breadcrumbs, filtros y sidebar secundaria.
+- **Barras de herramientas:** iconos y botones de acceso rápido.
+- **Imágenes:** responsive, uso de WebP/SVG y texto alternativo.
+- **Formularios:** validaciones claras y botones de acción.
+- **Notificaciones:** modales y toasts para éxito, error, advertencia e información.
+
+---
 
 ### Redacción
-- Redacción clara, directa y sin saturación técnica innecesaria.  
-- Mantener coherencia de nombres/terminología en componentes, estructuras y esta#dos UI.
+- Lenguaje claro, directo y sin tecnicismos innecesarios.
+- Coherencia en nombres, componentes y estructuras de la interfaz.
 
-### 7.e Mockup 
-En nuestra pantalla de inicio de la web "SPORTFIX", nos hemos inspirado en Netflix y deportes, con el logo de F1 y un coche de F1 en una pista de carreras. También hemos puesto un iniciar sesión y al lado un menú desplegable con su footer también con algunas noticias, pilotos, algunas razones para unirte y las políticas de nuestra web. 
-		
-<img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/94747aec-3159-41f7-b05c-dcd5b039a308" />
-<img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/44a49fb4-e336-4a54-b01d-34c3f2ae26c1" />
-<img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/843a8252-6f0a-43d4-922b-72f216319ba2" />
-<img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/a3145822-e452-4083-9aad-b329e47c14e1" />
-<img width="1016" height="570" alt="image" src="https://github.com/user-attachments/assets/af540d3a-364d-4c03-bb0d-db10ecc15571" />
+---
 
+## 7.e Mockup
 
-En esta sección os mostraremos como será el apartado login / register.
+La pantalla de inicio de **SPORTFIX** está inspirada en Netflix y el mundo del deporte.  
+Incluye el logo de F1, un coche en pista, acceso a iniciar sesión, menú desplegable y un footer con noticias, pilotos, motivos para unirse y políticas de la web.
 
-<img width="451" height="359" alt="image" src="https://github.com/user-attachments/assets/99a16176-2994-482d-a974-b078a51cdd32" />
+### Pantalla principal
+<img src="https://github.com/user-attachments/assets/94747aec-3159-41f7-b05c-dcd5b039a308" />
+<img src="https://github.com/user-attachments/assets/44a49fb4-e336-4a54-b01d-34c3f2ae26c1" />
+<img src="https://github.com/user-attachments/assets/843a8252-6f0a-43d4-922b-72f216319ba2" />
+<img src="https://github.com/user-attachments/assets/a3145822-e452-4083-9aad-b329e47c14e1" />
+<img src="https://github.com/user-attachments/assets/af540d3a-364d-4c03-bb0d-db10ecc15571" />
 
+### Login / Register
+<img src="https://github.com/user-attachments/assets/99a16176-2994-482d-a974-b078a51cdd32" />
 
-En esta sección os enseñaremos la función mi lista para guardar a tus pilotos favoritos, escuderías.
-<img width="531" height="424" alt="image" src="https://github.com/user-attachments/assets/5a7f7f86-deee-4f5a-bd55-d58bc38d5497" />
+### Mi lista (pilotos y escuderías favoritas)
+<img src="https://github.com/user-attachments/assets/5a7f7f86-deee-4f5a-bd55-d58bc38d5497" />
 
+### Gestión de perfiles
+<img src="https://github.com/user-attachments/assets/e58df532-49bc-44b0-8642-caf7d9cc7921" />
 
-En esta sección os mostraremos como será la función donde puedes modificar, añadir y eliminar perfil.
-<img width="356" height="585" alt="image" src="https://github.com/user-attachments/assets/e58df532-49bc-44b0-8642-caf7d9cc7921" />
+### Panel de administrador
+<img src="https://github.com/user-attachments/assets/094c38b2-66c4-4421-afdb-80300aef9dd3" />
 
+### ¿Quiénes somos?
+<img src="https://github.com/user-attachments/assets/52f120cb-7ac4-483d-bbb8-7d0bf43385c4" />
 
-En esta sección os mostraremos como será la función del administrador.
-<img width="535" height="422" alt="image" src="https://github.com/user-attachments/assets/094c38b2-66c4-4421-afdb-80300aef9dd3" />
+### Noticias de última hora
+<img src="https://github.com/user-attachments/assets/3de29ac8-18a5-455a-9a96-cf18dcf719ec" />
 
+### Pilotos (ejemplo: Fernando Alonso)
+<img src="https://github.com/user-attachments/assets/2f6431b7-6184-4df1-a87e-d34f8a546189" />
 
-En esta sección explicaremos "¿Quiénes somos?"de la web. Hemos mencionado los creadores que somos yo y mi compañero. Somos estudiantes de segundo año de SMX, con la intención de crear una web de noticias de F1 inspirada en Netflix, pero con el objetivo claro de parecerse a "Marca".
+### Ayuda
+<img src="https://github.com/user-attachments/assets/4f2d8bc0-5316-459b-85dd-b9d7120ea969" />
 
-<img width="496" height="398" alt="image" src="https://github.com/user-attachments/assets/52f120cb-7ac4-483d-bbb8-7d0bf43385c4" />
+### Menú de navegación
+<img src="https://github.com/user-attachments/assets/a440ff9b-42bf-4f81-a0c9-26d02369b5d9" />
 
+### Historia de la F1
+<img src="https://github.com/user-attachments/assets/765703f3-010e-4b78-a239-f50696d48c67" />
 
-En este apartado podemos encontrar nuevas noticias de última hora. 
+### Ficha leyenda: Ayrton Senna
+<img src="https://github.com/user-attachments/assets/2bc4dd3d-ff63-481b-ae27-cb69d2de740b" />
 
-<img width="496" height="396" alt="image" src="https://github.com/user-attachments/assets/3de29ac8-18a5-455a-9a96-cf18dcf719ec" />
+### Pilotos actuales
+<img src="https://github.com/user-attachments/assets/82107f3d-8f42-48c1-83d2-00def98086d5" />
 
+### Ficha piloto: Checo Pérez
+<img src="https://github.com/user-attachments/assets/62ef6f53-5348-4266-8230-e63809ea6191" />
 
-En este apartado hablaremos sobre los pilotos como por ejemplo sobre Fernando Alonso.
+### Escuderías
+<img src="https://github.com/user-attachments/assets/ae09dc7d-055e-4c08-a5e8-211061cc74e6" />
 
-<img width="493" height="397" alt="image" src="https://github.com/user-attachments/assets/2f6431b7-6184-4df1-a87e-d34f8a546189" />
+### Escudería Ferrari
+<img src="https://github.com/user-attachments/assets/e4d6a2a1-e815-4789-b699-1835785fb390" />
 
+### Coches de F1
+<img src="https://github.com/user-attachments/assets/86e3c6b0-67b1-441b-9bc7-72ad4fc1b106" />
 
-En esta sección es sobre ayuda, explicamos que para acceder a la página de inicio se debe ingresar vuestro correo electrónico y la contraseña asociada a ese correo.
+### Artículo Ferrari
+<img src="https://github.com/user-attachments/assets/831a64c6-09cb-4247-9856-afb4d53b15fb" />
 
-<img width="497" height="391" alt="image" src="https://github.com/user-attachments/assets/4f2d8bc0-5316-459b-85dd-b9d7120ea969" />
+---
 
-En este apartado hablaremos sobre el menú de navegación principal con varias secciones.
-<img width="504" height="635" alt="image" src="https://github.com/user-attachments/assets/a440ff9b-42bf-4f81-a0c9-26d02369b5d9" />
-
-En esta sección es sobre la historia de los pilotos de F1. Explicaremos el origen del Campeonato Mundial de Pilotos en 1950 hasta la actualidad. En la imagen podemos ver un mono plazo de Senna, un mono plazo de Max Verstappen y un Renault de Alonso.
-
-<img width="575" height="431" alt="image" src="https://github.com/user-attachments/assets/765703f3-010e-4b78-a239-f50696d48c67" />
-
-
-Hemos creado una ficha dedicada a Ayrton Senna porque fue la mejor leyenda de F1.
-
-<img width="509" height="639" alt="image" src="https://github.com/user-attachments/assets/2bc4dd3d-ff63-481b-ae27-cb69d2de740b" />
-
-En esta sección os hablaremos sobre los pilotos actuales.
-
-<img width="573" height="435" alt="image" src="https://github.com/user-attachments/assets/82107f3d-8f42-48c1-83d2-00def98086d5" />
-
-Hemos creado una ficha dedicada a Checo Perez porque fue uno de los grandes pilotos de la actualidad.
-
-<img width="512" height="635" alt="image" src="https://github.com/user-attachments/assets/62ef6f53-5348-4266-8230-e63809ea6191" />
-
-
-Una sección de escuderías. Presentamos una ilustración con los logos de Ferrari,Mercedes , Red Bull y etc. Porque hablaremos sobre las escuderías de F1 , su función ,mencionaremos los equipos más actuales y la plantilla.
-
-<img width="572" height="432" alt="image" src="https://github.com/user-attachments/assets/ae09dc7d-055e-4c08-a5e8-211061cc74e6" />
-
-
-En esta sección os mostramos la escudería de ferrari.
-
-<img width="526" height="423" alt="image" src="https://github.com/user-attachments/assets/e4d6a2a1-e815-4789-b699-1835785fb390" />
-
-
-Es una sección de los coches. En el texto descriptivo que hemos puesto describimos cómo son los mono plazos aerodinámicos , ultra-ligeros, construidos con fibra de carbono , etc.
-
-<img width="576" height="433" alt="image" src="https://github.com/user-attachments/assets/86e3c6b0-67b1-441b-9bc7-72ad4fc1b106" />
-
-Artículo dedicado a la escudería de Ferrari. Mostramos su logo, un coche.
-
-<img width="383" height="627" alt="image" src="https://github.com/user-attachments/assets/831a64c6-09cb-4247-9856-afb4d53b15fb" />
-
-
-### Enlace canva:
+### Enlace Canva
 https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
 
-### 7.f Mapa de navegabilidad
+---
+
+## 7.f Mapa de navegabilidad
 <details>
-<sumary>Mapa de navegabilidad</sumary>
-Enlace mapa de navegabilidad: https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?node-id=0-1&t=iLyWYkiAOAoIzT9d-1		
+  <summary>Mapa de navegabilidad</summary>
+
+Enlace al mapa de navegabilidad:  
+https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?node-id=0-1&t=iLyWYkiAOAoIzT9d-1
+
 </details>
+
+</details>
+
 
 
 ## 8. Servicios	
