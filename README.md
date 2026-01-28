@@ -699,8 +699,9 @@ Enlace de Resolución: En caso de que el cliente no resuelva nombres, es necesar
 </details>
 
 ### 10.4. Configurar servidor APACHE
-
+<summary>&#8203;</summary> <!-- desplegable vacío -->
 ### 10.5. Configurar firewall (pfSense)
+<summary>&#8203;</summary> <!-- desplegable vacío -->
 </details>
 
 ## 11. Seguridad
