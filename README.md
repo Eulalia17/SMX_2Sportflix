@@ -558,7 +558,7 @@ https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?
 
 ### 10.2. Instalar y configurar un DNS primario 
 <details>
-<summary>DNS</summary>
+<summary>&#8203;</summary> <!-- desplegable vacío -->
 
 ## 1. Tecnologías a Utilizar
 
@@ -650,7 +650,7 @@ Permisos: Advertencias de Netplan indicando que los permisos del archivo YAML so
 
 <details>
 	
-<summary>DHCP</summary>
+<summary>&#8203;</summary> <!-- desplegable vacío -->
 
 ## Introducción al Servicio
 
