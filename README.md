@@ -548,7 +548,7 @@ https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?
 ### 9.3. Trabajar PHP.
 </details>
 
-## 10. Implementación de la infraestructura
+## 🏗️ 10. Implementación de la infraestructura
 
 
 ### 10.1. Configuración un entorno de backup
