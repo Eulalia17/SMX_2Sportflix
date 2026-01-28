@@ -549,7 +549,7 @@ https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?
 </details>
 
 ## 🏗️ 10. Implementación de la infraestructura
-
+<details>
 ### 10.1. Configuración un entorno de backup
 <details>
   <summary>&#8203;</summary> <!-- desplegable vacío -->
@@ -705,6 +705,7 @@ Enlace de Resolución: En caso de que el cliente no resuelva nombres, es necesar
 ### 10.5. Configurar firewall (pfSense)
 <details>
 <summary>&#8203;</summary> <!-- desplegable vacío -->
+</details>
 </details>
 
 ## 🛡️ 11. Seguridad
