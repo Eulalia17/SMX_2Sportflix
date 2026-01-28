@@ -281,7 +281,7 @@ En este apartado se asignan requisitos y funcionalidades, indicando prioridades 
 
 
 
-## 5. Tecnologías a utilizar 🧰
+## 🧰 5. Tecnologías a utilizar
 <details>
   <summary>&#8203;</summary> <!-- desplegable vacío -->
 
