@@ -383,7 +383,7 @@ En este apartado se asignan requisitos y funcionalidades, indicando prioridades 
 	
 </details>
 
-## 7. Web 🖥️
+## 🖥️ 7. Web 
 <details>
   <summary>Diseño, Mockup y Mapa de navegabilidad</summary>
 
