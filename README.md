@@ -385,7 +385,7 @@ En este apartado se asignan requisitos y funcionalidades, indicando prioridades 
 
 ## 🖥️ 7. Web 
 <details>
-  <summary>Diseño, Mockup y Mapa de navegabilidad</summary>
+  <summary>&#8203;</summary> <!-- desplegable vacío -->
 
 ---
 
