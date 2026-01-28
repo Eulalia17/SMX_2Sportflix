@@ -522,7 +522,7 @@ https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?
 
 
 
-## 8. Servicios	
+## 🔧 8. Servicios	
 <details>
 	<summary>Apartados</summary>
 	
@@ -530,11 +530,11 @@ https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?
 
 ### 8.h DHCP
 
-8.i Apache
+### 8.i Apache
 
-8.j Firewall
+### 8.j Firewall
 
-8.k Copias de seguridad
+### 8.k Copias de seguridad
 </details>
 
 ## 9. Diseño y programación del sitio web.
