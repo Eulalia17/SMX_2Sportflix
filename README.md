@@ -341,7 +341,7 @@ En este apartado se asignan requisitos y funcionalidades, indicando prioridades 
 		
 			- Versión--> ES2020
 			
-			- Lo utilizaremos para hacer nuestra página interactiva, permitiendo que reaccionen a las acciones del usuario 					y muestra el contenido dinámico.
+			- Lo utilizaremos para hacer nuestra página interactiva, permitiendo que reaccionen a las acciones del usuario y muestra el contenido dinámico.
 			
 		3.4. Bootstrap 5
 		
