@@ -550,6 +550,8 @@ https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?
 
 ## 🏗️ 10. Implementación de la infraestructura
 <details>
+<summary>&#8203;</summary> <!-- desplegable vacío -->
+	
 ### 10.1. Configuración un entorno de backup
 <details>
   <summary>&#8203;</summary> <!-- desplegable vacío -->
