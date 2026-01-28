@@ -710,30 +710,36 @@ Enlace de Resolución: En caso de que el cliente no resuelva nombres, es necesar
 
 ## 11. Seguridad
 <details>
-	<sumary>Seguridad</sumary>
-11.1. Plan contigencia
-11.2. Auditoria de seguridad
+  <summary>&#8203;</summary> <!-- desplegable vacío -->
+
+### 11.1. Plan contigencia
+### 11.2. Auditoria de seguridad
 </details>
 
 ## 12. Control
 <details> 
-	<sumary>Control</sumary>
-12.1. La programación de las funcionalidades
-12.2. Evaluar requisito web responsive
+	<summary>&#8203;</summary> <!-- desplegable vacío -->
+
+### 12.1. La programación de las funcionalidades
+### 12.2. Evaluar requisito web responsive
 </details>
 
 ## 13. Cierre
 <details>
-	<summary>Final</summary>
-13.1. Cloudflare
-13.2. Revisiones
+	<summary>&#8203;</summary> <!-- desplegable vacío -->
+
+### 13.1. Cloudflare
+### 13.2. Revisiones
 </details>
 
 ## 14.Conclusiones
+<details>
+	<summary>&#8203;</summary> <!-- desplegable vacío -->
+</details>
 
 ## 15. Bibliografía
 <details>
-	<summary>Bibliografía</summary>
+	<summary>&#8203;</summary> <!-- desplegable vacío -->
 
 Github (https://docs.github.com/es/get-started/start-your-journey/hello-world) , (https://gist.github.com/dasdo/9ff71c5c0efa037441b6) y (https://prestashop.es) 
 
