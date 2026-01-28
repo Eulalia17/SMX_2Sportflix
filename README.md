@@ -110,7 +110,7 @@ A todos los públicos que les guste el deporte y, sobre todo, la Fórmula 1.
 
 ### Recursos
 <details>
-  <summary>Nuestros Recursos</summary>
+  <summary>&#8203;</summary> <!-- desplegable vacío -->
 
 **Bibliografía:**  
 - Github: [Docs GitHub](https://docs.github.com/es/get-started/start-your-journey/hello-world), [Gist](https://gist.github.com/dasdo/9ff71c5c0efa037441b6)  
