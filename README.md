@@ -537,12 +537,15 @@ https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?
 ### 8.k Copias de seguridad
 </details>
 
-## 9. Diseño y programación del sitio web.
+## 💻 9. Diseño y programación del sitio web.
 <details>
-	<sumary>Diseño y programación</sumary>
-9.1. Maquetación web con HTML, CSS, JS.
-9.2. Crear la DB en MySQL.
-9.3. Trabajar PHP.
+    <summary>&#8203;</summary> <!-- desplegable vacío -->
+
+### 9.1. Maquetación web con HTML, CSS, JS.
+
+### 9.2. Crear la DB en MySQL.
+
+### 9.3. Trabajar PHP.
 </details>
 
 ## 10. Implementación de la infraestructura
