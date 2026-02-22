@@ -717,6 +717,18 @@ Enlace de Resolución: En caso de que el cliente no resuelva nombres, es necesar
 
 <img width="601" height="121" alt="image" src="https://github.com/user-attachments/assets/c7710a0d-e976-4cd6-a51b-3edd78a5602b" />
 
+4. En esta captura os mostramos cómo está el servicio de mysql en todos los aspectos.
+
+<img width="604" height="165" alt="image" src="https://github.com/user-attachments/assets/7a27f53d-9d79-439e-a241-57b9231f506b" />
+
+5. En esta captura os mostramos la versión del mysqladmin.
+
+<img width="602" height="156" alt="image" src="https://github.com/user-attachments/assets/4dcfc1ba-965d-4590-94db-1c9b4025b747" />
+
+6. En esta captura mostramos como ha quedado la página web de php y apache con todo el contenido y el contenido de apache, y para ello utilizamos en el buscador la dirección IP que antes    nos ha dado la máquina virtual.
+
+<img width="491" height="472" alt="image" src="https://github.com/user-attachments/assets/75a5b784-c025-4c5a-9a3d-fa12105a077f" />
+
 </details>
 
 ### 10.5. Configurar firewall (pfSense)
