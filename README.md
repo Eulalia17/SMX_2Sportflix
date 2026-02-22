@@ -702,6 +702,21 @@ Enlace de Resolución: En caso de que el cliente no resuelva nombres, es necesar
 ### 10.4. Configurar servidor APACHE
 <details>
   <summary>&#8203;</summary> <!-- desplegable vacío -->
+
+### Introducción con capturas de la actividad
+
+1. En esta captura comprobamos que la ip sea la 192.168.135.48 que será la que utilicemos en el servidor real.
+
+<img width="601" height="245" alt="image" src="https://github.com/user-attachments/assets/eab013c6-923b-43ac-9922-a3721289a2e4" />
+
+2. En esta captura mostramos el contenido añadido a nuestra web de php.
+
+<img width="598" height="87" alt="image" src="https://github.com/user-attachments/assets/29e9ae28-d818-418d-a189-d91173b4f2e7" />
+
+3. En esta captura os mostramos todos los usuarios que hemos identificado.
+
+<img width="601" height="121" alt="image" src="https://github.com/user-attachments/assets/c7710a0d-e976-4cd6-a51b-3edd78a5602b" />
+
 </details>
 
 ### 10.5. Configurar firewall (pfSense)
