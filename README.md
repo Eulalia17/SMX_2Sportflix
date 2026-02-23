@@ -703,31 +703,100 @@ Enlace de Resolución: En caso de que el cliente no resuelva nombres, es necesar
 <details>
   <summary>&#8203;</summary> <!-- desplegable vacío -->
 
-### Introducción con capturas de la actividad
+### Tecnologías a Utilizar
+Servidor: Ubuntu Server / Debian.
 
-1. En esta captura comprobamos que la ip sea la 192.168.135.48 que será la que utilicemos en el servidor real.
+Servicio Web: Apache2.
+
+Lenguaje de Scripting: PHP 8.x.
+
+Base de Datos: MySQL / MariaDB.
+
+Herramientas de Diagnóstico: systemctl, mysqladmin, ip a, Navegador Web.
+
+### Introducción al Servicio
+
+¿Qué es?: Un servidor HTTP de código abierto que entrega contenido web (páginas HTML, imágenes, scripts) a los clientes a través del protocolo HTTP/HTTPS.
+
+¿Por qué es necesario?: Es la base para alojar sitios web, aplicaciones empresariales y servicios en red, permitiendo la interacción entre el usuario y el servidor mediante un navegador.
+
+Información oficial:
+
+https://httpd.apache.org/
+
+https://www.php.net/
+
+https://punkymo.gitbook.io/miwiki/servicios/servidores-web
+
+### Detalles de la MV
+
+Configuración de Red: Adaptador en modo Puente.
+
+IP del Servidor: 192.168.135.48.
+
+Componentes: LAMP Stack (Linux, Apache, MySQL, PHP).
+
+### Pasos a Seguir
+
+Instalación del Stack:
+
+Actualizar repositorios: sudo apt update.
+
+Instalar paquetes: sudo apt install apache2 php libapache2-mod-php mariadb-server.
+
+Configuración de la Web PHP:
+
+Crear un archivo de prueba en /var/www/html/info.php.
+
+Añadir contenido para mostrar la configuración del servidor y datos personalizados.
+
+Gestión de Base de Datos:
+
+Acceder a MySQL y crear/listar usuarios: SELECT user FROM mysql.user;.
+
+Verificar el estado del servicio con systemctl status mariadb.
+
+Validación de Versiones:
+
+Comprobar la versión de la administración de SQL: mysqladmin -u root -p version.
+
+Comprobación Final:
+
+Desde un cliente, acceder a http://192.168.135.48/info.php.
+
+### Capturas Necesarias
+
+1. Validación de Red: Captura del comando ip a mostrando la dirección 192.168.135.48.
 
 <img width="601" height="245" alt="image" src="https://github.com/user-attachments/assets/eab013c6-923b-43ac-9922-a3721289a2e4" />
 
-2. En esta captura mostramos el contenido añadido a nuestra web de php.
+2. Edición de Script: Captura del editor (nano/vim) con el código PHP añadido a la web.
 
 <img width="598" height="87" alt="image" src="https://github.com/user-attachments/assets/29e9ae28-d818-418d-a189-d91173b4f2e7" />
 
-3. En esta captura os mostramos todos los usuarios que hemos identificado.
+3. Gestión de Usuarios: Captura de la consola de MySQL mostrando la lista de usuarios identificados en el sistema.
 
 <img width="601" height="121" alt="image" src="https://github.com/user-attachments/assets/c7710a0d-e976-4cd6-a51b-3edd78a5602b" />
 
-4. En esta captura os mostramos cómo está el servicio de mysql en todos los aspectos.
+4. Estado del Servicio: Captura de systemctl status mysql mostrando el servicio activo y en ejecución.
 
 <img width="604" height="165" alt="image" src="https://github.com/user-attachments/assets/7a27f53d-9d79-439e-a241-57b9231f506b" />
 
-5. En esta captura os mostramos la versión del mysqladmin.
+5. Versión Administrativa: Captura de la salida del comando mysqladmin version.
 
 <img width="602" height="156" alt="image" src="https://github.com/user-attachments/assets/4dcfc1ba-965d-4590-94db-1c9b4025b747" />
 
-6. En esta captura mostramos como ha quedado la página web de php y apache con todo el contenido y el contenido de apache, y para ello utilizamos en el buscador la dirección IP que antes    nos ha dado la máquina virtual.
+6. Resultado en Navegador: Captura del navegador web mostrando la página de Apache y la info de PHP cargada correctamente desde la IP del servidor.
 
 <img width="491" height="472" alt="image" src="https://github.com/user-attachments/assets/75a5b784-c025-4c5a-9a3d-fa12105a077f" />
+
+### Incidencias
+
+Conflictos de Puerto: Si el puerto 80 está ocupado por otro servicio (como Nginx), Apache no iniciará. Se debe verificar con sudo lsof -i :80.
+
+Permisos de Directorio: Si la web muestra un error "403 Forbidden", es probable que el usuario www-data no tenga permisos de lectura sobre /var/www/html/.
+
+Módulos PHP: Si el navegador descarga el archivo .php en lugar de ejecutarlo, falta habilitar el módulo: sudo a2enmod php*.
 
 </details>
 
