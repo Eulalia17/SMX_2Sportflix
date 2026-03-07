@@ -588,6 +588,12 @@ Objetivo: Señala que cuentan con ingenieros y técnicos para maximizar el rendi
 <img src="https://github.com/user-attachments/assets/86e3c6b0-67b1-441b-9bc7-72ad4fc1b106" />
 
 ### Artículo Formula 1
+
+Identidad Visual: Destacan los logotipos oficiales de Ferrari y de la Fórmula 1, reforzando la marca.
+Contenido Principal: Una fotografía de un monoplaza de Ferrari en una carrera nocturna, capturando la estética clásica de la escudería.
+Mensaje Central: Un texto en español que define a Ferrari como un ícono mundial basado en la unión de la pasión, la velocidad y la innovación.
+Formato: Se presenta como una diapositiva o "story" digital, con un diseño gráfico moderno de estilo collage sobre un fondo oscuro.
+
 <img src="https://github.com/user-attachments/assets/831a64c6-09cb-4247-9856-afb4d53b15fb" />
 
 ---
