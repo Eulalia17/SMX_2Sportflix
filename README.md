@@ -204,10 +204,6 @@ Para asegurar que toda la información importante esté organizada, accesible y 
 ### Funcionalidades
 En este apartado se asignan requisitos y funcionalidades, indicando prioridades y fechas de entrega, estado actual y objetivos.
 
-<img width="914" height="453" alt="image" src="https://github.com/user-attachments/assets/f7186cac-dbec-4bff-95de-71de30f78ebb" />
-
-<img width="911" height="218" alt="image" src="https://github.com/user-attachments/assets/a1d992c3-9111-499b-8b5e-fcb63fe8bc71" />
-
 ### Objetivos
 
 <details>
@@ -375,6 +371,16 @@ En este apartado se asignan requisitos y funcionalidades, indicando prioridades 
 <details>
 	<summary>&#8203;</summary> <!-- desplegable vacío -->
 
+Este proyecto consiste en el diseño y despliegue de una infraestructura de red segura para la plataforma web Sportflix. El objetivo principal es crear un entorno robusto que permita ofrecer servicios en línea a usuarios externos, garantizando que el tráfico sea fluido y que la información crítica esté protegida frente a posibles amenazas o fallos del sistema.
+
+En el esquema visualizamos una estructura dividida en tres capas: el acceso externo gestionado por Cloudflare, el núcleo de red controlado por un firewall pfSense, y la capa de servicios donde residen el servidor web y la base de datos. Cada componente está interconectado de forma lógica para que la comunicación sea eficiente y esté bajo supervisión constante.
+
+La seguridad es el eje central de la implementación. Utilizamos pfSense como puerta de enlace inteligente para filtrar todas las peticiones, mientras que un servidor DNS y DHCP organiza el direccionamiento interno. Además, el uso de Cloudflare añade una capa de protección adicional contra ataques externos antes de que el tráfico llegue siquiera a nuestro router.
+
+Para la parte funcional, estamos utilizando el estándar de la industria mediante un servidor Apache. Este se encarga de procesar el código PHP y servir la interfaz visual construida con HTML5, CSS3 y JavaScript, permitiendo que el cliente final disfrute de una experiencia dinámica y moderna al navegar por la aplicación.
+
+Finalmente, la gestión de datos se realiza de forma independiente para asegurar la integridad de la información. La base de datos MySQL se apoya en un sistema de almacenamiento TrueNAS y discos dedicados para backups, lo que garantiza que, ante cualquier eventualidad técnica, los datos de Sportflix siempre puedan ser recuperados rápidamente.
+
 ### 6.a Diagrama de la red
 
 
@@ -441,10 +447,11 @@ En este apartado se asignan requisitos y funcionalidades, indicando prioridades 
 
 ## 7.e Mockup
 
+### Pantalla principal
+
 La pantalla de inicio de **SPORTFIX** está inspirada en Netflix y el mundo del deporte.  
 Incluye el logo de F1, un coche en pista, acceso a iniciar sesión, menú desplegable y un footer con noticias, pilotos, motivos para unirse y políticas de la web.
 
-### Pantalla principal
 <img src="https://github.com/user-attachments/assets/94747aec-3159-41f7-b05c-dcd5b039a308" />
 <img src="https://github.com/user-attachments/assets/44a49fb4-e336-4a54-b01d-34c3f2ae26c1" />
 <img src="https://github.com/user-attachments/assets/843a8252-6f0a-43d4-922b-72f216319ba2" />
@@ -452,54 +459,135 @@ Incluye el logo de F1, un coche en pista, acceso a iniciar sesión, menú desple
 <img src="https://github.com/user-attachments/assets/af540d3a-364d-4c03-bb0d-db10ecc15571" />
 
 ### Login / Register
+
+Nos muestra dos tarjetas blancas una al lado de a la otra sobre un fondo negro, correspondientes a los forularios de entrada de una aplicación.
+
+Lado izquierdo , podemos observer el login. Contiene campos para "Correro electrónico", "contraseña", un enlace de "¿Olvidaste tu contraseña?" y un botón rojo que dice Login.
+
+Lado derecho, podemos ver por donde mas adelante nos registraremos . Incluyendo campos para "nombre,correro electronico y contraseña". Ofrece la opción de "inciar sesión con "mediantes logo de google.
+
 <img src="https://github.com/user-attachments/assets/99a16176-2994-482d-a974-b078a51cdd32" />
 
 ### Mi lista (pilotos y escuderías favoritas)
+
+Muestra una interfaz de seleción o gestión de elementos.
+Bajo el titulo de "mi lista", se presenta una cuadrícula de tres columnas con etiquetas que van desde "lista 1" hasta "lista 19".
+
 <img src="https://github.com/user-attachments/assets/5a7f7f86-deee-4f5a-bd55-d58bc38d5497" />
 
 ### Gestión de perfiles
+
+Representa la sección de configuración del perfil de usuario. 
+Elementos visuales. Debajo del titulo "Perfil", aparecen dos iconos circulares relacionados con los coches de carreras "automovilismo" (uno con un coche de Fórmula 1 y otro con el logotipo oficial de F1).
+Botones un boton central que dice eliminar/crear nuevo perfil.Otro boton en la parte inferior para confirmar los cambios realicados.
+
 <img src="https://github.com/user-attachments/assets/e58df532-49bc-44b0-8642-caf7d9cc7921" />
 
 ### Panel de administrador
+
+Una interfaz de gestion organizada en una cuadrícula con varios módulos de control.Secciones el panel se divide en ocho categorias principales: Pilotos, Coches, Marcas, Escuderias, Noticias, Ayuda, Cuentas y Listas. Funcionalidad cada categoria dispone de un boton rojo que permite realizar acciones de mantenimiento.
+
 <img src="https://github.com/user-attachments/assets/094c38b2-66c4-4421-afdb-80300aef9dd3" />
 
 ### ¿Quiénes somos?
+
+Un apartado de la presentacion del equipo detras del proyecto, con una estética fuertemente inspirada en el automovilismo. Visauales presenta el logotipo oficial de la F1 (Formula 1) en la parte superior y una ilustración de un monoplaza rojo en un circuito de carreras en la parte inferior. Texto informativo nos indica que los creadores son Eulalia y David, alumnos de SMX2. Explican que su intención es crear una web de noticias de F1 inspirada visualmente en Netflix, pero con un enfoque de contenido similar al diario Marca.
+
 <img src="https://github.com/user-attachments/assets/52f120cb-7ac4-483d-bbb8-7d0bf43385c4" />
 
 ### Noticias de última hora
+
+Una interfaz de noticias de ultima hora con un deseño de tarjetas deslizables.
+Encabezado titulo principal "news" y subtitulo "noticias de última hora"sobre un fondo rojo desgradado. Contenido de noticias aparecen cuatro tarjetas con fotos de pilotos y titulares especificos:
+
+  Carlos Sainz
+  Charles Leclerc
+  George Rusell
+  Lando Norris
+  
 <img src="https://github.com/user-attachments/assets/3de29ac8-18a5-455a-9a96-cf18dcf719ec" />
 
 ### Pilotos (ejemplo: Fernando Alonso)
+
+Una ficha dedicada al piloto español en un entorno de color rojo. Visuales muestra una caricatura tipo avatar de Fernando Alonso vestido con un mono azul de Alpine dorsal 14. Coche en la parte inferior aparece una imagen del monoplaza historico Renault R25/R26 con los colores azul y amarillo.
+
 <img src="https://github.com/user-attachments/assets/2f6431b7-6184-4df1-a87e-d34f8a546189" />
 
 ### Ayuda
+
+Una sección de asistencia para el usuario con fondo desgradado rojo y la silueta de un monoplaza. Instrucción explica que para acceder a la página web, es necesario introducir el correo electrónico y la contraseña asociada a ese correo.
+
 <img src="https://github.com/user-attachments/assets/4f2d8bc0-5316-459b-85dd-b9d7120ea969" />
 
 ### Menú de navegación
+
+Muestra la barra de navegación lateral o menú desplegable de la aplicación. Opciones disponibles incluye enlaces a ¿Quines somos?, Ayuda, Noticias, Historia, Plotos, Escuderias, Coches y Marcas. Diseño es de color oscuro con texto en blanco, flaqueado por imagenes decorativas de pilotos y neumáticos.
+
 <img src="https://github.com/user-attachments/assets/a440ff9b-42bf-4f81-a0c9-26d02369b5d9" />
 
 ### Historia de la F1
+
+Esta sección detalla lor origenes de la competición sobre una ilustración artistica de monoplazas de distintas épocas. Fundación: Se indica que la F1 se fundó en 1950 con la primera temporada del Campeonato Mundial de Pilotos, iniciada en el circuito de Silverstone con una carrera de 24 horas.
+Evolución: Describe la transición de coches grandes con motores delanteros hacia monoplazas ligeros, aerodinámicos y con motores traseros, destacando el uso de fibra de carbono y el efecto suelo.
+Leyendas mencionadas: El texto anticipa una lista de pilotos destacados que incluye a Senna, James Hunt, Graham Lauda, Mika Hakkinen, Denny Hulme y Juan Manuel Fangio.
+
 <img src="https://github.com/user-attachments/assets/765703f3-010e-4b78-a239-f50696d48c67" />
 
 ### Ficha leyenda: Ayrton Senna
+
+Una página de tributo dedicada a uno de los pilotos más icónicos.
+Título: "AYRTON SENNA: MITO Y LEYENDA" bajo la etiqueta "LA GRANDEZA DE LA F1".
+Visual: Incluye una composición artística de Senna caminando con su casco amarillo frente a la bandera de Brasil y su monoplaza.
+
 <img src="https://github.com/user-attachments/assets/2bc4dd3d-ff63-481b-ae27-cb69d2de740b" />
 
 ### Pilotos actuales
+
+Una presentación visual de la indumentaria de pilotos famosos.
+Equipación: Se muestran los monos de Senna (Camel/Nacional), Checo Pérez (Red Bull/Oracle) y el de Fernando Alonso en su etapa de Renault (Team Spirit).
+Lista de pilotos: El texto anuncia que se mostrarán genios destacados como Checo Pérez, Fernando Alonso, Carlos Sainz, Charles Leclerc, Max Verstappen, Oscar Piastri y Lando Norris.
+
 <img src="https://github.com/user-attachments/assets/82107f3d-8f42-48c1-83d2-00def98086d5" />
 
 ### Ficha piloto: Checo Pérez
+
+Esta pantalla está diseñada como una ventana de interfaz de usuario retro.
+Mensaje: Un cuadro de texto superior indica: "Checo Pérez: El mejor de México en F1".
+Imagen: En el centro aparece una fotografía circular de Checo Pérez celebrando con la bandera de México y su coche de Red Bull Racing (dorsal 11).
+
 <img src="https://github.com/user-attachments/assets/62ef6f53-5348-4266-8230-e63809ea6191" />
 
 ### Escuderías
+
+Presenta una visión general de los equipos de la competición con un estilo artístico de pintura al óleo.
+Definición: Explica que las escuderías son organizaciones que diseñan, fabrican y operan los coches, compitiendo por el título de constructores.
+Equipos mencionados: El texto destaca a Ferrari, McLaren, Williams, Red Bull y Mercedes.
+Logotipos: Visualmente se muestran los escudos de Ferrari, Mercedes-Benz, Red Bull Racing, McLaren y Alpine.
+
 <img src="https://github.com/user-attachments/assets/ae09dc7d-055e-4c08-a5e8-211061cc74e6" />
 
-### Escudería Ferrari
-<img src="https://github.com/user-attachments/assets/e4d6a2a1-e815-4789-b699-1835785fb390" />
+### Escudería Mercedes
+
+Un desglose detallado de los miembros y especificaciones técnicas del equipo Mercedes.
+Personal Clave: * Pilotos principales: George Russell y Kimi Antonelli.
+Jefe de equipo: Toto Wolf.
+Director técnico: James Allison.
+Información Técnica: * Motor: Mercedes-Benz.
+Chasis: Menciona el diseño del modelo Mercedes W16.
+Otros Pilotos: Nombra a Valtteri Bottas y Frederik Vesti como pilotos de reserva, y a Dorian Pin, Yuanpu Cun y Alex Powell en la academia.
+
+<img src="https://github.com/user-attachments/assets/d815de21-a143-4e85-82a7-724824580990" />
 
 ### Coches de F1
+
+Presenta un collage artístico con los logotipos de los equipos más emblemáticos de la parrilla.
+Función de los equipos: Explica que las escuderías son las encargadas de diseñar, fabricar y operar los coches para competir por el título de constructores.
+Logotipos visibles: Se muestran los escudos de Ferrari, Mercedes, Red Bull Racing, McLaren y Alpine.
+Objetivo: Señala que cuentan con ingenieros y técnicos para maximizar el rendimiento en cada Gran Premio.
+
 <img src="https://github.com/user-attachments/assets/86e3c6b0-67b1-441b-9bc7-72ad4fc1b106" />
 
-### Artículo Ferrari
+### Artículo Formula 1
 <img src="https://github.com/user-attachments/assets/831a64c6-09cb-4247-9856-afb4d53b15fb" />
 
 ---
@@ -509,12 +597,51 @@ https://www.canva.com/design/DAG1Fwp_OVo/nzsDZnid_HPaMEl-ohBuFw/edit
 
 ---
 
-## 7.f Mapa de navegabilidad
+## Mapa de navegabilidad
 <details>
   <summary>Mapa de navegabilidad</summary>
 
-Enlace al mapa de navegabilidad:  
-https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?node-id=0-1&t=iLyWYkiAOAoIzT9d-1
+Interfaces de Usuario y Configuración
+Login y Registro: Formulario doble para ingresar a la plataforma (con correo y contraseña) o crear una cuenta nueva (incluye nombre y opción de Google).
+
+Mi lista: Pantalla de gestión que muestra una cuadrícula con 19 elementos ("Lista 1" a "Lista 19") y un botón para Guardar lista.
+
+Perfil: Sección para personalizar el usuario con avatares de F1, opción para eliminar/crear perfiles y un botón de Guardar perfil.
+
+Administración: Panel de control con botones para añadir, modificar o eliminar datos en categorías como Pilotos, Coches, Marcas, Escuderías, Noticias, Ayuda, Cuentas y Listas.
+
+Menú: Barra de navegación lateral que organiza todas las secciones (Historia, Pilotos, Coches, etc.).
+
+Ayuda: Pantalla informativa que explica que el acceso a la web requiere el uso de correo electrónico y contraseña.
+
+Contenido Informativo y Noticias
+¿Quiénes somos?: Presentación de los autores, Eulalia Fernández y David Blanco, quienes buscan crear una web con estética de Netflix y contenido estilo Marca.
+
+News: Sección de "Última Hora" con noticias en directo sobre los pilotos Carlos Sainz, Charles Leclerc, George Russell y Lando Norris.
+
+Historia: Relato sobre la fundación de la F1 en 1950 en Silverstone y la evolución técnica de los monoplazas.
+
+Ayrton Senna: Una página dedicada al "mito y leyenda" de este piloto brasileño.
+
+Secciones de F1 (Pilotos, Escuderías y Coches)
+Pilotos: * Ficha de Fernando Alonso con su avatar de Alpine y el Renault histórico.
+
+Presentación de los monos de carrera de leyendas y pilotos actuales (Senna, Checo Pérez, etc.).
+
+Mención especial a Checo Pérez como el mejor piloto mexicano en la F1.
+
+Escuderías:
+
+General: Definición de escudería y muestra de logos (Ferrari, Mercedes, Red Bull, McLaren, Alpine).
+
+Mercedes: Ficha técnica detallada que incluye a los pilotos (Russell y Antonelli), el chasis Mercedes W16 y el equipo directivo liderado por Toto Wolf.
+
+Coches: Explicación técnica sobre los monoplazas híbridos de fibra de carbono, el sistema KERS y la importancia de la aerodinámica.
+
+Mapa del Proyecto
+Estructura General: La última imagen muestra un esquema de flujo que conecta todas las pantallas mencionadas anteriormente, visualizando cómo se organiza la navegación del sitio web.
+
+<img src="https://github.com/user-attachments/assets/78015beb-2148-4ebf-832c-b0dbedd1dc9a" />
 
 </details>
 
@@ -526,15 +653,26 @@ https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?
 <details>
 	<summary>&#8203;</summary> <!-- desplegable vacío -->
 	
-### 8.g DNS
+### 8.1. DNS
 
-### 8.h DHCP
+Es el servicio encargado de traducir los nombres de dominio (como f1-news.com) en direcciones IP que las máquinas pueden entender. En tu proyecto, es lo que permitiría que un usuario escriba la dirección de tu web en el navegador para acceder a la página de Noticias o Historia sin tener que recordar una serie de números.
 
-### 8.i Apache
+### 8.2. DHCP
 
-### 8.j Firewall
+Es el protocolo que asigna automáticamente una dirección IP y otros parámetros de red a cada dispositivo que se conecta. Sería el responsable de que, cuando un administrador entra al panel de Administración, su ordenador reciba la configuración de red necesaria para comunicarse con el servidor de la base de datos.
 
-### 8.k Copias de seguridad
+### 8.3. Apache
+
+Es el software que "sirve" las páginas web. Cuando un usuario intenta acceder al Login o al Registro, Apache procesa la solicitud y envía los archivos visuales (HTML/CSS) al navegador del usuario para que pueda ver la interfaz.
+
+### 8.4. Firewall
+
+Es un sistema de seguridad que controla el tráfico de red entrante y saliente según reglas establecidas. En tu web, su función es proteger la sección de Cuentas y el Panel de Administración, bloqueando accesos no autorizados y permitiendo solo el tráfico legítimo para evitar ataques externos.
+
+### 8.5. Copias de seguridad
+
+Es el proceso de duplicar los datos del sitio para evitar su pérdida. Esto es vital para tu proyecto, ya que asegura que si el servidor falla, no se pierda la información de las Escuderías, los datos de los Pilotos o la configuración de los perfiles de usuario que han sido guardados.
+
 </details>
 
 ## 💻 9. Diseño y programación del sitio web.
@@ -543,9 +681,24 @@ https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?
 
 ### 9.1. Maquetación web con HTML, CSS, JS.
 
+Es la construcción de la parte visual (Front-end) que el usuario ve en el navegador.
+HTML: Define la estructura de las páginas, como los títulos de "Historia" o los campos del formulario de "Login".
+CSS: Se encarga del diseño, los colores rojos corporativos de la F1, el fondo oscuro y la disposición de las tarjetas en la sección de "News".
+JS (JavaScript): Aporta interactividad, como hacer que el menú lateral se despliegue o que los botones de "Eliminar/Crear perfil" ejecuten una acción sin recargar la página.
+
 ### 9.2. Crear la DB en MySQL.
 
+Es el "almacén" de información (Back-end) donde se guarda todo el contenido dinámico del sitio.
+Tablas: Necesitarás tablas específicas para guardar los datos de los Pilotos (nombre, dorsal), las Escuderías (Mercedes, Ferrari) y las Cuentas de usuario.
+Relaciones: Permite que, al consultar un piloto como Fernando Alonso, la base de datos sepa que pertenece a la escudería Alpine y muestre su coche correspondiente.
+
 ### 9.3. Trabajar PHP.
+
+Es el lenguaje de programación que hace de "puente" entre la web y la base de datos.
+Gestión de Formularios: Cuando un usuario rellena el registro, PHP toma esos datos y los guarda en MySQL.
+Consultas Dinámicas: PHP extrae la información de las últimas noticias para que aparezcan automáticamente en la sección de "News".
+Seguridad: Se encarga de verificar que el correo y la contraseña en el login sean correctos antes de permitir el acceso al panel de Administración.
+
 </details>
 
 ## 🏗️ 10. Implementación de la infraestructura
@@ -555,6 +708,26 @@ https://www.figma.com/design/FBrxqjpqsaJRffB4uZcP2K/Diagrama-de-navegaci%C3%B3n?
 ### 10.1. Configuración un entorno de backup
 <details>
   <summary>&#8203;</summary> <!-- desplegable vacío -->
+
+	Lo que hicimos para proteger el proyecto fue establecer un sistema de respaldo dividido en dos niveles:
+
+Backup de la Base de Datos (MySQL):
+
+Programamos exportaciones automáticas de las tablas de Cuentas, Pilotos y Escuderías para evitar perder los datos introducidos en el panel de administración.
+
+Utilizamos comandos como mysqldump para generar archivos .sql que contienen toda la estructura y datos de la web.
+
+Backup de Archivos del Servidor (Apache):
+
+Realizamos copias de la carpeta raíz de la web donde se encuentran los archivos PHP, las hojas de estilo CSS y todas las imágenes de los coches y logotipos de F1.
+
+Esto asegura que, ante un fallo del servidor, podamos restaurar la maquetación y la lógica de programación rápidamente.
+
+Frecuencia y Almacenamiento:
+
+Configuramos copias periódicas (diarias o semanales) para que cualquier cambio nuevo, como una noticia de última hora en la sección de News, quede respaldado.
+
+Los archivos de respaldo se guardan en un directorio separado o en un medio externo para mayor seguridad.
 </details>
 
 ### 10.2. Instalar y configurar un DNS primario 
