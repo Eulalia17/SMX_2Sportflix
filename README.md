@@ -878,7 +878,7 @@ Enlace de Resolución: En caso de que el cliente no resuelva nombres, es necesar
 
 </details>
 
-### 10.4. Configurar servidor APACHE
+### 10.4. Configurar servidor APACHE, PHP y MYSQL
 <details>
   <summary>&#8203;</summary> <!-- desplegable vacío -->
 
