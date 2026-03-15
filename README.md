@@ -395,7 +395,7 @@ Finalmente, la gestión de datos se realiza de forma independiente para asegurar
 
 ---
 
-## 7.d Diseño Web
+## 7. Diseño Web
 
 ### Equilibrio del diseño, colores y estructura
 - Uso equilibrado de espacios en blanco y elementos visuales para evitar saturación.
@@ -445,7 +445,7 @@ Finalmente, la gestión de datos se realiza de forma independiente para asegurar
 
 ---
 
-## 7.e Mockup
+## 7. Mockup
 
 ### Pantalla principal
 
@@ -713,9 +713,9 @@ Seguridad: Se encarga de verificar que el correo y la contraseña en el login se
 	
 ### 10.1. Configuración un entorno de backup
 <details>
-  <summary>&#8203;</summary> <!-- desplegable vacío -->
+  <summary>&#8203;</summary> 
 
-	Lo que hicimos para proteger el proyecto fue establecer un sistema de respaldo dividido en dos niveles:
+  Lo que hicimos para proteger el proyecto fue establecer un sistema de respaldo dividido en dos niveles:
 
 Backup de la Base de Datos (MySQL):
 
@@ -772,11 +772,31 @@ Adaptador 1 (enp0s3): Adaptador Puente (Internet y panel web).
 Adaptador 2 (enp0s8): Red Interna (Servicio a clientes locales). 
 
 Capturas necesarias: 
+
+Configuración de los adaptadores.
+Las dos primeras imagenes corresponden a la interfaz de configuración de VirtualBox:
+
+   - Adaptador 1 --> Está configurado como Adaptador puente (Bridged Adapter) conectado a una
+tarjeta Wi-Fi intel. Esto permite que la máquina virtual se comporte como un dispositivo 	  real más en tu red física, obteniendo una IP directamente de tu router.
+
+   - Adaptador 2 --> Esta configurado como Red Interna con el nombre "intnet". Este modo se usa para que la MV (Maquina Virtual) se comunique únicamente con otras MV que estén en esa misma red interna, aislda del internet y de tu red local fisica.
  
 <img width="623" height="291" alt="image" src="https://github.com/user-attachments/assets/efb8e8f1-0f84-4eb5-905c-991921efff60" />
 
 <img width="624" height="297" alt="image" src="https://github.com/user-attachments/assets/78b42adf-2ae1-4404-81d8-ccea4adccf6e" />
 
+Estado del sistema en Linux.
+La tercera imagen es una terminal donde se ejecutó el comando ip a. Aquí vemos tres interfaces:lo (Loopback): 
+La interfaz interna del sistema ($127.0.0.1$).
+
+enp0s3 (Corresponde al Adaptador 1):
+	Tiene la dirección IP $192.168.135.35/24$.
+	Es la que te da salida a internet o conexión con tu red doméstica (vía Adaptador Puente).
+	
+enp0s8 (Corresponde al Adaptador 2):
+	Tiene la dirección IP $10.10.10.254/24$.
+	Esta es la interfaz para la red interna. Al terminar en .254, es muy probable que esta 		máquina esté configurada para actuar como puerta de enlace (gateway) o servidor para otras 	máquinas en esa red "intnet".
+	
 <img width="625" height="283" alt="image" src="https://github.com/user-attachments/assets/afaff1f3-302c-4e20-b2ac-fea63c7a2859" />
 
 
@@ -790,33 +810,102 @@ Validación:
 
 Aplicar con sudo netplan apply
 
+El comando ejecutado aplicamos los cambios con sudo netplan apply. Este comando lee los archivos .yaml en /etc/netplan/ y configura las interfaces de red según lo que esté escrito allí.
+
 <img width="420" height="29" alt="image" src="https://github.com/user-attachments/assets/ca761cbb-a8f5-41d6-afe8-e0cf4f848823" />
+
+Los errores y advertencias
+
+Aquí aparecen tres problemas distintos:
+
+unable to resolve host fernandez1: Esto no es un error de red crítico, sino de configuración del sistema. Indica que el nombre de tu máquina (fernandez1) no está asociado a ninguna IP en el archivo /etc/hosts.
+
+Permissions for ... are too open: Netplan es muy estricto con la seguridad. Te advierte que el archivo de configuración tiene permisos que permiten que otros usuarios lo lean.
+
+Solución: Ejecuta sudo chmod 600 /etc/netplan/*.yaml.
+
+ovsdb-server.service is not running: Es una advertencia sobre Open vSwitch. Si no lo estás usando específicamente para redes virtuales complejas, puedes ignorarla; no impide que la red básica funcione.
 
 <img width="619" height="191" alt="image" src="https://github.com/user-attachments/assets/41b95cdc-d1d3-4b90-972c-fff11fb619d9" />
 
-Verificar con ip a. 
+Verificar con ip a.
+
+A pesar de las advertencias, el comando parece haber funcionado (o mantiene la configuración anterior), ya que ip a muestra que:
+
+enp0s3 sigue teniendo la IP 192.168.135.35.
+
+enp0s8 sigue teniendo la IP 10.10.10.254.
 
 <img width="618" height="277" alt="image" src="https://github.com/user-attachments/assets/c9304531-7f0b-468a-bc27-76915d7a4565" />
 
 Instalación: Ejecutar curl -sSL https://install.pi-hole.net | bash. 
 
+Estás ejecutando el comando de instalación oficial.
+
+El mensaje en rojo: Dice que el script se llamó sin privilegios de root. Sin embargo, el propio instalador detecta que tienes sudo disponible e intenta elevarse solo.
+
+El error recurrente: Aparece de nuevo sudo: unable to resolve host fernandez1. Como te mencioné antes, esto es porque el sistema intenta buscar su propio nombre en el archivo de "agenda" local (/etc/hosts) y no lo encuentra.
+
+Resultado: A pesar del aviso del host, el logo de la frambuesa en ASCII indica que el instalador ha arrancado correctamente y está actualizando la caché de paquetes para empezar la instalación.
+
 <img width="464" height="433" alt="image" src="https://github.com/user-attachments/assets/ce5b2d39-8d8b-42d9-810f-6ab70e6ecd18" />
 
 Contraseña: Establecer clave con sudo pihole setpassword. 
+
+Una vez instalado Pi-hole, has ejecutado sudo pihole setpassword.
+
+Este comando es fundamental para poder entrar en la interfaz web de administración.
+
+El mensaje final [✓] New password set confirma que ya tienes acceso a la administración gráfica.
 
 <img width="548" height="103" alt="image" src="https://github.com/user-attachments/assets/108fff45-cc0a-4f9f-82b9-2c10b394af18" />
 
 Prueba: Ejecutar nslookup y ping google.com.
 
+Has ejecutado un ping google.com con éxito.
+
+¿Qué significa? Tu máquina virtual no solo tiene una IP válida, sino que el enrutamiento hacia internet está funcionando perfectamente.
+
+Detalle técnico: Los tiempos de respuesta (alrededor de 12 ms) son muy buenos, lo que indica que el puente con tu tarjeta Wi-Fi física es estable.
+
 <img width="621" height="202" alt="image" src="https://github.com/user-attachments/assets/94ce301a-c314-4335-b453-4b816f878fe2" />
+
+Resolución de nombres con nslookup
+
+Aquí es donde se pone interesante para tu proyecto de Pi-hole. Estás consultando a qué IP corresponden los dominios ifp.es y google.com.
+
+El Servidor DNS actual: Fíjate que dice Server: 192.168.109.1.
+
+Ojo aquí: Esta IP parece ser la de tu router o el DNS por defecto de tu red.
+
+Si tu objetivo es usar Pi-hole, en el futuro deberías ver aquí la IP de tu propia máquina (la 10.10.10.254 o la 192.168.135.35, dependiendo de desde dónde hagas la consulta).
+
+Respuestas no autoritativas: Es normal, simplemente significa que tu servidor DNS local no es el "dueño" de los registros de Google, sino que ha preguntado a otros servidores superiores y te ha traído la respuesta.
 
 <img width="299" height="177" alt="image" src="https://github.com/user-attachments/assets/9d995c95-9f24-4fea-b6e6-799c74361e80" />
 
 <img width="292" height="166" alt="image" src="https://github.com/user-attachments/assets/75cf54e9-acc8-4459-8c4c-c09163e8d9b9" />
 
+Estado actual de tu laboratorio
+Red: Configurada y con salida a internet.
+
+Pi-hole: Instalado y con contraseña establecida.
+
+DNS: Actualmente sigues usando el DNS externo/router.
+
 ## Incidencias
 
 Error de sintaxis: Uso accidental de comandos inexistentes como tryip en lugar de try. 
+
+Escribi todo junto: sudo netplan tryip a.
+
+Como puedes ver en la respuesta, el sistema te da un error de "elección inválida" (invalid choice: 'tryip'). Esto sucede porque el comando tryip no existe en Netplan.
+
+Lo que realmente querías hacer eran dos comandos distintos:
+
+sudo netplan try: Se usa para probar una configuración de red. Si no la confirmas en 120 segundos, el sistema vuelve atrás (muy útil para no quedarte sin conexión si te equivocas).
+
+ip a: Es el comando para ver tus direcciones IP.
 
 <img width="409" height="22" alt="image" src="https://github.com/user-attachments/assets/f2b1cedd-f516-473b-808c-0cdc282da257" />
 
