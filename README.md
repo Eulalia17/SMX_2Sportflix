@@ -1074,7 +1074,8 @@ Módulos PHP: Si el navegador descarga el archivo .php en lugar de ejecutarlo, f
 </details>
 
 ### 10.6 Configurar TRUENAS
-
+<details>
+<summary>&#8203;</summary> <!-- desplegable vacío -->
 1. Gestión del Almacenamiento
 Muestra el panel principal del disco llamado "Deadpool"; está configurado en espejo (mirror) para seguridad y tiene 14 GB disponibles.
 <img width="618" height="505" alt="image" src="https://github.com/user-attachments/assets/c189b273-c4e7-4c0f-a6d3-a50cbb4f4a8a" />
@@ -1100,7 +1101,7 @@ Creación del nuevo usuario "sportlix"; se le da permiso para leer y escribir ar
 
 Confirmación visual de que el usuario sportlix ya está activo en el sistema.
 <img width="756" height="23" alt="image" src="https://github.com/user-attachments/assets/9dcfa841-5393-4fe7-a27e-d32474488877" />
-
+</details>
 </details>
 
 ## 🛡️ 11. Seguridad
