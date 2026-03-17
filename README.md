@@ -1072,6 +1072,35 @@ Módulos PHP: Si el navegador descarga el archivo .php en lugar de ejecutarlo, f
 <details>
 <summary>&#8203;</summary> <!-- desplegable vacío -->
 </details>
+
+### 10.6 Configurar TRUENAS
+
+1. Gestión del Almacenamiento
+Muestra el panel principal del disco llamado "Deadpool"; está configurado en espejo (mirror) para seguridad y tiene 14 GB disponibles.
+<img width="618" height="505" alt="image" src="https://github.com/user-attachments/assets/c189b273-c4e7-4c0f-a6d3-a50cbb4f4a8a" />
+<img width="382" height="529" alt="image" src="https://github.com/user-attachments/assets/6595526e-03cc-4ada-8b74-89f2f4b0d46c" />
+<img width="475" height="356" alt="image" src="https://github.com/user-attachments/assets/d3c98e21-7046-4a0d-bbee-fdb144953f3b" />
+
+2. Sincronización Automática (Rsync)
+Programación de una tarea para enviar copias de la carpeta sportflix a otro servidor (IP .83) cada medianoche de forma comprimida.
+<img width="636" height="536" alt="image" src="https://github.com/user-attachments/assets/df5a979c-931d-492a-8836-de6a608d477d" />
+<img width="640" height="527" alt="image" src="https://github.com/user-attachments/assets/94ef1b9a-3261-487b-bb86-21e01035f14e" />
+
+Resumen de la tarea anterior; indica que está pendiente y se ejecutará automáticamente en 19 horas.
+<img width="759" height="74" alt="image" src="https://github.com/user-attachments/assets/066f577d-03a1-4159-a767-0a996bfa6429" />
+
+3. Control de Usuarios
+Listado de las personas que pueden entrar al servidor, incluyendo administradores y usuarios comunes.
+<img width="753" height="172" alt="image" src="https://github.com/user-attachments/assets/92fe4996-3206-47d8-b5ec-74ac36b996ae" />
+
+Creación del nuevo usuario "sportlix"; se le da permiso para leer y escribir archivos, pero no puede entrar a la configuración del sistema (shell nologin).
+<img width="715" height="479" alt="image" src="https://github.com/user-attachments/assets/4d6a7a29-af79-41c4-b43e-ee20e3c5ab27" />
+<img width="720" height="506" alt="image" src="https://github.com/user-attachments/assets/739f30e3-d7dd-4389-8e81-68a76607c074" />
+<img width="723" height="435" alt="image" src="https://github.com/user-attachments/assets/6d5dc137-ae0a-4570-8b52-bc457f95eec2" />
+
+Confirmación visual de que el usuario sportlix ya está activo en el sistema.
+<img width="756" height="23" alt="image" src="https://github.com/user-attachments/assets/9dcfa841-5393-4fe7-a27e-d32474488877" />
+
 </details>
 
 ## 🛡️ 11. Seguridad
