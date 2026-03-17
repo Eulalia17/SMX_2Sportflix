@@ -1079,6 +1079,66 @@ Módulos PHP: Si el navegador descarga el archivo .php en lugar de ejecutarlo, f
   <summary>&#8203;</summary> <!-- desplegable vacío -->
 
 ### 11.1. Plan contigencia
+<details>
+  <summary>&#8203;</summary> <!-- desplegable vacío -->
+
+1. Identificar riesgos
+Primero, analizamos qué cosas podrían salir mal.
+● Fallos técnicos
+● Pérdida de datos
+● Errores humanos
+● Desastres naturales 
+
+2. Evaluar los riesgos
+Probabilidad:
+Fallos técnicos (medio)
+Pérdida de datos (alta)
+Errores humanos (medio)
+Desastres naturales (Baja) 
+
+Impacto:
+Fallos técnicos: No sería grave lo único que tardaría tiempo en averiguar el error. 
+Pérdida de datos: Sería muy grave en caso que en ese momento no hayamos hecho un backup de ello.
+Errores humanos: No sería grave si sabemos cual es el error y en caso que sea lo contrario la única gravedad será saber cual es el problema.
+Desastres naturales: El impacto no sería grave en caso de tener una copia.
+
+3. Definir medidas preventivas
+Copias de seguridad 
+Formación del personal 
+Sistemas de seguridad 
+
+4. Diseñar acciones de respuesta
+Si se cae el sistema → usar servidor alternativo
+Si se pierde información → restaurar backup
+
+5. Asignar responsables
+Responsable IT
+Responsable de seguridad
+Coordinador del plan
+
+6. Establecer recursos necesarios
+Herramientas
+Software
+
+7. Crear un protocolo de comunicación
+Nuestro protocolo de comunicación es comunicarnos ya sea de manera oral en clase o si se modifica algo fuera de clase pues por Whatsapp.
+
+8. Probar el plan
+Cuando tengamos todo acabado haremos varias copias de seguridad y simulacros para comprobar que el método es válido.
+
+9. Revisar y actualizar
+Cambios tecnológicos
+Comprobar nuevos posibles riesgos
+Mejoras detectadas
+
+10. Que archivos tenemos que hacer backups
+-HTML
+-CSS 
+-JS
+-Base de datos
+-Máquinas virtuales
+-MYSQL
+
 ### 11.2. Auditoria de seguridad
 </details>
 
