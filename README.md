@@ -1138,7 +1138,7 @@ Mejoras detectadas
 -Base de datos
 -Máquinas virtuales
 -MYSQL
-
+</details>
 ### 11.2. Auditoria de seguridad
 </details>
 
