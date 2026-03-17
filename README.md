@@ -1116,6 +1116,11 @@ Creación del nuevo usuario "sportlix"; se le da permiso para leer y escribir ar
 Confirmación visual de que el usuario sportlix ya está activo en el sistema.
 
 <img width="756" height="23" alt="image" src="https://github.com/user-attachments/assets/9dcfa841-5393-4fe7-a27e-d32474488877" />
+
+Creamos una tabla que contenga los siguientes datos de los servicios/tecnologías implementadas en TRUENAS.
+
+<img width="632" height="249" alt="image" src="https://github.com/user-attachments/assets/3f351859-3290-4cd4-8d05-4676db8e3415" />
+
 </details>
 </details>
 
