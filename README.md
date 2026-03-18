@@ -1121,6 +1121,20 @@ Creamos una tabla que contenga los siguientes datos de los servicios/tecnología
 
 <img width="632" height="249" alt="image" src="https://github.com/user-attachments/assets/3f351859-3290-4cd4-8d05-4676db8e3415" />
 
+10. Que archivos tenemos que hacer backups
+
+-HTML
+
+-CSS 
+
+-JS
+
+-Base de datos
+
+-Máquinas virtuales
+
+-MYSQL
+
 </details>
 </details>
 
@@ -1210,19 +1224,6 @@ Comprobar nuevos posibles riesgos
 
 Mejoras detectadas
 
-10. Que archivos tenemos que hacer backups
-
--HTML
-
--CSS 
-
--JS
-
--Base de datos
-
--Máquinas virtuales
-
--MYSQL
 </details>
 
 ### 11.2. Auditoria de seguridad
