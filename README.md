@@ -1121,19 +1121,19 @@ Creamos una tabla que contenga los siguientes datos de los servicios/tecnología
 
 <img width="632" height="249" alt="image" src="https://github.com/user-attachments/assets/3f351859-3290-4cd4-8d05-4676db8e3415" />
 
-10. Que archivos tenemos que hacer backups
+4. Que archivos tenemos que hacer backups
 
--HTML
+-Header Modal de mi web html. (Se encuentra en Sportflix y en la carpeta no se toca). Disco :E/Sportflix/No se toca
 
--CSS 
+-Header Modal de mi archivo CSS. (Se encuentra en Sportflix y en la carpeta no se toca). Disco :E/Sportflix/No se toca
 
--JS
+-Header Modal de mi archivo JS. (Se encuentra en Sportflix y en la carpeta no se toca). Disco :E/Sportflix/No se toca
 
--Base de datos
+-MV OVA'S : Apache 1.ova, TruenasDavid.ova y TruenasEulalia.ova, Sportflix.ova, Actividad EULALIA 1 clonar.ova, Actividad EULALIA 1 1.ova y Actividad EULALIA 1 1 - copia.ova.
 
--Máquinas virtuales
+Ruta: Está guardado en Disco local :E (Actualmente está en el disco duro externo de Eulalia), Disco local :E /OVA'S/Alina/Proyecto
 
--MYSQL
+-Tabla de mi base de datos. Archivo: Tablas.sql   Ruta: Disco local :E/Sportflix/Aplicaciones Web Quim/Tablas.sql
 
 </details>
 </details>
