@@ -1179,7 +1179,7 @@ Creamos una tabla que contenga los siguientes datos de los servicios/tecnología
 
 <img width="632" height="249" alt="image" src="https://github.com/user-attachments/assets/3f351859-3290-4cd4-8d05-4676db8e3415" />
 
-4. Que archivos tenemos que hacer backups
+### 4. Que archivos tenemos que hacer backups
 
 -Header Modal de mi web html. (Se encuentra en Sportflix y en la carpeta no se toca). Disco :E/Sportflix/No se toca
 
