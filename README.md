@@ -1204,83 +1204,125 @@ Ruta: Está guardado en Disco local :E (Actualmente está en el disco duro exter
 <details>
   <summary>&#8203;</summary> <!-- desplegable vacío -->
 
-1. Identificar riesgos
+1. DATOS GENERALES
 
-Primero, analizamos qué cosas podrían salir mal.
+Nombre del proyecto: Sportflix 
 
-Fallos técnicos
 
-Pérdida de datos
+Alumnos: David / Eulalia 
 
-Errores humanos
 
-Desastres naturales 
+Fecha: 20 de marzo de 2026 
 
-2. Evaluar los riesgos
 
-Probabilidad:
+Versión del documento: v1.0 (Edición Inicial) 
 
-Fallos técnicos (medio)
 
-Pérdida de datos (alta)
+Descripción breve: Este sistema es el corazón de nuestra plataforma de streaming deportivo, apoyado en un servidor web Apache y un sistema de almacenamiento seguro en TrueNAS.
 
-Errores humanos (medio)
+2. OBJETIVO DEL PLAN
+¿Para qué nos sirve esto? Básicamente, para no entrar en pánico si algo falla. Queremos que, pase lo que pase (un error de código o un fallo de disco), Sportflix siga funcionando y nuestros datos estén a salvo.
 
-Desastres naturales (Baja) 
+3. ALCANCE
+Este plan protege todo lo que hemos montado: desde los servidores web y las bases de datos hasta las máquinas virtuales (OVAs) que tanto nos ha costado configurar. Cubre tanto el software como el hardware donde guardamos los backups.
 
-Impacto:
+4. IDENTIFICACIÓN DE ACTIVOS
+Hemos listado lo que no puede faltar para el proyecto:
 
-Fallos técnicos: No sería grave lo único que tardaría tiempo en averiguar el error. 
+<img width="596" height="431" alt="image" src="https://github.com/user-attachments/assets/e4a8610e-9717-4779-8af3-62be920ed175" />
 
-Pérdida de datos: Sería muy grave en caso que en ese momento no hayamos hecho un backup de ello.
+5. ANÁLISIS DE RIESGOS
 
-Errores humanos: No sería grave si sabemos cual es el error y en caso que sea lo contrario la única gravedad será saber cual es el problema.
+<img width="590" height="502" alt="image" src="https://github.com/user-attachments/assets/bdaeb5c2-5bfb-4eaa-a224-da3c0bbeec90" />
 
-Desastres naturales: El impacto no sería grave en caso de tener una copia.
+6. ESCENARIOS DE CONTINGENCIA
 
-3. Definir medidas preventivas
+Nos hemos puesto en lo peor para estar preparados:
 
-Copias de seguridad 
+El servidor se "rompe": Apache deja de responder.
 
-Formación del personal 
 
-Sistemas de seguridad 
+Internet se cae: No podemos acceder a la MV desde fuera.
 
-4. Diseñar acciones de respuesta
 
-Si se cae el sistema → usar servidor alternativo
+Metemos la pata: Alguien borra un archivo importante de la carpeta "No se toca".
 
-Si se pierde información → restaurar backup
 
-5. Asignar responsables
+Fallo de hardware: Un disco duro del Mirror decide dejar de funcionar.
 
-Responsable IT
+7. PLAN DE RESPUESTA
 
-Responsable de seguridad
+Si ocurre un desastre, mantenemos la calma y seguimos estos pasos:
 
-Coordinador del plan
+Identificar: ¿Qué ha fallado exactamente? 
 
-6. Establecer recursos necesarios
 
-Herramientas
+Reiniciar: Probar si el servicio vuelve a la vida con un systemctl restart.
 
-Software
 
-7. Crear un protocolo de comunicación
+Restaurar: Si el archivo está corrupto, tiramos del backup de TrueNAS o del disco E:.
 
-Nuestro protocolo de comunicación es comunicarnos ya sea de manera oral en clase o si se modifica algo fuera de clase pues por Whatsapp.
 
-8. Probar el plan
+Avisar: Decirle al resto del equipo qué ha pasado.
 
-Cuando tengamos todo acabado haremos varias copias de seguridad y simulacros para comprobar que el método es válido.
+8. PLAN DE RECUPERACIÓN
 
-9. Revisar y actualizar
+Para volver a la normalidad, usaremos las copias de seguridad que tenemos en el disco externo de Eulalia. Nuestro objetivo es tardar menos de 2 horas en recuperar los servicios críticos (RTO) y no perder más de un día de trabajo (RPO).
 
-Cambios tecnológicos
+9. COPIAS DE SEGURIDAD
 
-Comprobar nuevos posibles riesgos
+No nos la jugamos con los backups:
 
-Mejoras detectadas
+
+Tipo: Sincronización incremental con Rsync (rápido y ocupa poco).
+
+
+Frecuencia: Cada noche a las 00:00 se hace la magia.
+
+
+Ubicación: Guardamos copias en el servidor TrueNAS y en físico en el Disco E:.
+
+10. MEDIDAS PREVENTIVAS
+
+Mejor prevenir que curar:
+
+ZFS Mirror: Si un disco muere, el otro tiene la copia exacta.
+
+
+Permisos: El usuario sportlix no tiene acceso a la consola (nologin) por seguridad.
+
+
+Actualizaciones: Mantenemos el sistema al día para evitar agujeros de seguridad.
+
+11. RESPONSABLES
+
+<img width="590" height="368" alt="image" src="https://github.com/user-attachments/assets/9ada217b-2128-45e5-8419-6365d7fd83b4" />
+
+12. PLAN DE COMUNICACIÓN
+
+Si algo falla de verdad:
+
+¿A quién avisar? A los compañeros de equipo y al profesor.
+
+¿Cómo? En persona si estamos en clase, o por el grupo de WhatsApp si estamos en casa.
+
+Rapidez: Hay que avisar en cuanto se detecte el problema.
+
+13. PRUEBAS DEL PLAN
+
+No vamos a esperar a que algo falle para probarlo. Haremos simulacros borrando archivos de prueba y viendo cuánto tardamos en recuperarlos con el backup de TrueNAS.
+
+14. MANTENIMIENTO DEL PLAN
+
+Este documento no se va a quedar cogiendo polvo. Lo revisaremos cada mes para ver si hay nuevos riesgos o si hemos cambiado algo en los servidores.
+
+15. MEJORAS FUTURAS
+
+En el futuro, nos gustaría que la recuperación fuera automática (scripts que detecten caídas) y tener una copia en la nube para estar 100% seguros
+
+16. CONCLUSIONES
+
+Hacer este plan nos ha servido para darnos cuenta de que un proyecto no es solo programar, sino también saber proteger lo que has construido. Ahora dormimos más tranquilos sabiendo que tenemos un plan B.
 
 </details>
 
