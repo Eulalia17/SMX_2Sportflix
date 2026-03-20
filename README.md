@@ -1077,6 +1077,64 @@ Módulos PHP: Si el navegador descarga el archivo .php en lugar de ejecutarlo, f
 <details>
 <summary>&#8203;</summary> <!-- desplegable vacío -->
 
+### Tecnologías a Utilizar
+
+Sistema Operativo: TrueNAS CORE / SCALE.
+
+Sistema de Archivos: ZFS (Zettabyte File System).
+
+Protocolos de Transferencia: Rsync, SSH, SMB/NFS.
+
+Herramientas de Diagnóstico: Shell de TrueNAS, Dashboard de Almacenamiento, Panel de Tareas Croneadas.
+
+### Introducción al Servicio
+
+¿Qué es?: Una solución de almacenamiento conectado en red (NAS) basada en FreeBSD o Linux que utiliza el sistema de archivos ZFS para garantizar la integridad de los datos.
+
+¿Por qué es necesario?: Permite centralizar el almacenamiento, gestionar redundancia de discos (RAID/Mirror) y automatizar copias de seguridad críticas para asegurar la continuidad de la información.
+
+### Detalles de la MV
+
+Configuración de Red: Adaptador en modo Puente (Bridge).
+
+Almacenamiento: Pool "Deadpool" configurado en Mirror (Espejo).
+
+Capacidad: 14 GB disponibles para datos de usuario.
+
+### Pasos a Seguir
+
+1. Gestión del Almacenamiento
+
+Acceder a Storage > Pools.
+
+Verificar el estado de salud (Healthy) del Pool Deadpool.
+
+Confirmar la topología VDEV en modo Mirror para garantizar redundancia.
+
+2. Sincronización Automática (Rsync)
+
+Configurar Tasks > Rsync Tasks.
+
+Definir el origen: Carpeta /mnt/Deadpool/sportflix.
+
+Definir el destino: Servidor remoto (IP 192.168.x.83).
+
+Programación: 0 0 * * * (Medianoche diariamente).
+
+Habilitar la opción Compress para optimizar el ancho de banda.
+
+3. Control de Usuarios y Permisos
+
+Navegar a Accounts > Users.
+
+Crear usuario "sportlix":
+
+Shell: Configurar como nologin (impide acceso a consola por seguridad).
+
+Permisos: Asignar lectura/escritura (RW) sobre el dataset del proyecto.
+
+### Explicación con capturas
+
 1. Gestión del Almacenamiento
 
 Muestra el panel principal del disco llamado "Deadpool"; está configurado en espejo (mirror) para seguridad y tiene 14 GB disponibles.
