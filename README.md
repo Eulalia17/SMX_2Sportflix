@@ -1260,7 +1260,7 @@ Identificar: ¿Qué ha fallado exactamente?
 Reiniciar: Probar si el servicio vuelve a la vida con un systemctl restart.
 
 
-Restaurar: Si el archivo está corrupto, tiramos del backup de TrueNAS o del disco E:.
+Restaurar: Si el archivo está corrupto, tiramos del backup de TrueNAS -rsync o del disco E: que es el disco duro de Eulalia .
 
 
 Avisar: Decirle al resto del equipo qué ha pasado.
@@ -1318,7 +1318,7 @@ Este documento no se va a quedar cogiendo polvo. Lo revisaremos cada mes para ve
 
 ### 15. MEJORAS FUTURAS
 
-En el futuro, nos gustaría que la recuperación fuera automática (scripts que detecten caídas) y tener una copia en la nube para estar 100% seguros
+En el futuro, nos gustaría que la recuperación fuera automática (scripts que detecten caídas) y tener una copia en la nube para estar 100% seguros.
 
 ### 16. CONCLUSIONES
 
