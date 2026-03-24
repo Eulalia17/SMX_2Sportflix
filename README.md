@@ -1269,7 +1269,7 @@ Avisar: Decirle al resto del equipo qué ha pasado.
 
 Para volver a la normalidad, usaremos las copias de seguridad que tenemos en el disco externo de Eulalia. Nuestro objetivo es tardar menos de 2 horas en recuperar los servicios críticos (RTO) y no perder más de un día de trabajo (RPO).
 
-### 9. COPIAS DE SEGURIDAD
+### 9. COPIAS DE SEGURIDAD (Y que archivos tenemos que hacer copia)
 
 No nos la jugamos con los backups:
 
@@ -1282,6 +1282,24 @@ Frecuencia: Cada noche a las 00:00 se hace la magia.
 
 Ubicación: Guardamos copias en el servidor TrueNAS y en físico en el Disco E:.
 
+### 9.b Que archivos tenemos que hacer copia
+
+Servicios
+- Pi-hole (DNS y DHCP) 
+- Pfsense (DNS y DHCP) 
+- Apache home/etc/apache2/sites-available/sportflix.conf
+
+Web
+- /var/www/html
+- MYSQL - ?.sql
+- PHP -
+
+Backup
+- Truenas - rsync
+
+FW
+- pfsense - *.xml ???
+- 
 ### 10. MEDIDAS PREVENTIVAS
 
 Mejor prevenir que curar:
