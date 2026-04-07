@@ -1292,13 +1292,13 @@ Servicios
 Web
 - /var/www/html
 - MYSQL - ?.sql
-- PHP -
+- PHP - /var/www/html/
 
 Backup
 - Truenas - rsync
 
 FW
-- pfsense - *.xml ???
+- pfsense - /conf/config.xml
 - 
 ### 10. MEDIDAS PREVENTIVAS
 
