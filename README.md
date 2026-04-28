@@ -1268,35 +1268,36 @@ Para volver a la normalidad, usaremos las copias de seguridad que tenemos en el 
 
 ### 9. COPIAS DE SEGURIDAD (Y que archivos tenemos que hacer copia)
 
-No nos la jugamos con los backups:
+Para garantizar la disponibilidad, aplicamos una política de "tolerancia cero" a la pérdida de datos:
 
+Metodología: Sincronización incremental mediante Rsync (optimiza el ancho de banda y el almacenamiento).
 
-Tipo: Sincronización incremental con Rsync (rápido y ocupa poco).
+Frecuencia: Automatizada diariamente a las 00:00 h.
 
-
-Frecuencia: Cada noche a las 00:00 se hace la magia.
-
-
-Ubicación: Guardamos copias en el servidor TrueNAS y en físico en el Disco E:.
+Ubicación: Almacenamiento redundante en servidor TrueNAS y respaldo físico externo en Unidad E:.
 
 ### 9.b Que archivos tenemos que hacer copia
 
-Servicios
-- Pi-hole (DNS y DHCP) 
-- Pfsense (DNS y DHCP) 
-- Apache home/etc/apache2/sites-available/sportflix.conf
+Infraestructura y Servicios
 
-Web
-- /var/www/html
-- MYSQL - ?.sql
-- PHP - /var/www/html/
+Pi-hole: Configuración de servicios DNS y DHCP para el control de red.
 
-Backup
-- Truenas - rsync
+pfSense: Backup completo de reglas de Firewall y NAT (/conf/config.xml).
 
-FW
-- pfsense - /conf/config.xml
-- 
+Apache V-Host: Archivo de configuración del sitio: /etc/apache2/sites-available/sportflix.conf.
+
+Contenido Web y Aplicación
+
+Directorio Web: Contenido íntegro del sitio en /var/www/html/.
+
+Código Dinámico: Scripts PHP de conexión y lógica de negocio (alojados en el directorio web).
+
+Base de Datos (MySQL): Volcado de la estructura y datos en formato .sql (MySQL Dump).
+
+Gestión de Almacenamiento
+
+TrueNAS: Replicación de Datasets y configuración de tareas Rsync para asegurar la persistencia en el pool de discos.
+
 ### 10. MEDIDAS PREVENTIVAS
 
 Para no tener que usar el plan de emergencia, hemos tomado estas medidas:
