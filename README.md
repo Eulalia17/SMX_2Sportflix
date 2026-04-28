@@ -1299,15 +1299,13 @@ FW
 - 
 ### 10. MEDIDAS PREVENTIVAS
 
-Mejor prevenir que curar:
+Para no tener que usar el plan de emergencia, hemos tomado estas medidas:
 
-ZFS Mirror: Si un disco muere, el otro tiene la copia exacta.
+Espejo de discos: TrueNAS usa ZFS Mirror, así que si un disco falla, el otro sigue trabajando.
 
+Seguridad de usuarios: El usuario del sistema sportflix está limitado para que nadie pueda usarlo para entrar en la consola.
 
-Permisos: El usuario sportlix no tiene acceso a la consola (nologin) por seguridad.
-
-
-Actualizaciones: Mantenemos el sistema al día para evitar agujeros de seguridad.
+Mantenimiento: Revisamos y actualizamos el sistema con frecuencia
 
 ### 11. RESPONSABLES
 
