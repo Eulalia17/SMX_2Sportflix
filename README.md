@@ -1218,13 +1218,13 @@ Fecha: 20 de marzo de 2026
 Versión del documento: v1.0 (Edición Inicial) 
 
 
-Descripción breve: Este sistema es el corazón de nuestra plataforma de streaming deportivo, apoyado en un servidor web Apache y un sistema de almacenamiento seguro en TrueNAS.
+Descripción breve: Este documento es nuestra hoja de ruta para que Sportflix nunca deje de dar servicio, combinando la potencia de Apache con la seguridad de TrueNAS.
 
 ### 2. OBJETIVO DEL PLAN
-¿Para qué nos sirve esto? Básicamente, para no entrar en pánico si algo falla. Queremos que, pase lo que pase (un error de código o un fallo de disco), Sportflix siga funcionando y nuestros datos estén a salvo.
+¿Para qué nos sirve esto? Básicamente, queremos que Sportflix sea "indestructible". El objetivo es tener un plan de acción claro para que, si algo falla (ya sea un disco o un error de código), sepamos reaccionar rápido, no perdamos información y los usuarios apenas puedan notar la interrupción.
 
 ### 3. ALCANCE
-Este plan protege todo lo que hemos montado: desde los servidores web y las bases de datos hasta las máquinas virtuales (OVAs) que tanto nos ha costado configurar. Cubre tanto el software como el hardware donde guardamos los backups.
+Este plan protege todo el ecosistema que hemos construido: desde el acceso exterior por pfSense hasta la base de datos MySQL, pasando por el servidor Apache y nuestro sistema de almacenamiento en TrueNAS. No dejamos fuera ni una sola línea de código ni una sola configuración de red.
 
 ### 4. IDENTIFICACIÓN DE ACTIVOS
 Hemos listado lo que no puede faltar para el proyecto:
@@ -1237,18 +1237,15 @@ Hemos listado lo que no puede faltar para el proyecto:
 
 ### 6. ESCENARIOS DE CONTINGENCIA
 
-Nos hemos puesto en lo peor para estar preparados:
+Nos hemos puesto en los peores casos para saber cómo salir de ellos:
 
-El servidor se "rompe": Apache deja de responder.
+"Apache no responde": El servidor web se cae.
 
+"Pérdida de datos": Alguien borra o corrompe la base de datos.
 
-Internet se cae: No podemos acceder a la MV desde fuera.
+"Muerte de un disco": TrueNAS nos avisa de un fallo físico.
 
-
-Metemos la pata: Alguien borra un archivo importante de la carpeta "No se toca".
-
-
-Fallo de hardware: Un disco duro del Mirror decide dejar de funcionar.
+"Sin Internet": Problemas con el túnel o el acceso externo.
 
 ### 7. PLAN DE RESPUESTA
 
@@ -1318,13 +1315,7 @@ Actualizaciones: Mantenemos el sistema al día para evitar agujeros de seguridad
 
 ### 12. PLAN DE COMUNICACIÓN
 
-Si algo falla de verdad:
-
-¿A quién avisar? A los compañeros de equipo y al profesor.
-
-¿Cómo? En persona si estamos en clase, o por el grupo de WhatsApp si estamos en casa.
-
-Rapidez: Hay que avisar en cuanto se detecte el problema.
+Si Sportflix se cae, lo primero es avisarnos entre nosotros por el grupo de trabajo. Si el problema va para largo y estamos en clase, informamos de inmediato al profesor para explicarle qué estamos haciendo para solucionarlo.
 
 ### 13. PRUEBAS DEL PLAN
 
@@ -1336,11 +1327,17 @@ Este documento no se va a quedar cogiendo polvo. Lo revisaremos cada mes para ve
 
 ### 15. MEJORAS FUTURAS
 
-En el futuro, nos gustaría que la recuperación fuera automática (scripts que detecten caídas) y tener una copia en la nube para estar 100% seguros.
+Automatización (Self-Healing): Implementar scripts que detecten caídas de servicios y los reinicien automáticamente sin intervención humana.
+
+Regla de Backup 3-2-1: Añadir una copia cifrada en la nube (Off-site) para proteger los datos ante desastres físicos en el servidor local.
+
+Contenedores (Docker): Migrar la infraestructura a Docker para facilitar la portabilidad y permitir un despliegue inmediato en cualquier máquina.
+
+Monitorización en Tiempo Real: Instalar un panel visual (como Grafana) para vigilar el rendimiento de la CPU, RAM y discos mientras Sportflix está en uso.
 
 ### 16. CONCLUSIONES
 
-Hacer este plan nos ha servido para darnos cuenta de que un proyecto no es solo programar, sino también saber proteger lo que has construido. Ahora dormimos más tranquilos sabiendo que tenemos un plan B.
+Este plan es nuestra tranquilidad. Sabemos que un proyecto de este calibre no termina cuando acabas de programar; termina cuando aseguras que lo que has construido puede sobrevivir a cualquier imprevisto. Con este sistema de backups y prevención, Sportflix es una plataforma sólida y fiable.
 
 </details>
 
