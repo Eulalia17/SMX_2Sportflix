@@ -1278,7 +1278,8 @@ Ubicación: Almacenamiento redundante en servidor TrueNAS y respaldo físico ext
 
 ### 9.b Que archivos tenemos que hacer copia
 
-Infraestructura y Servicios
+
+### Infraestructura y Servicios
 
 Pi-hole: Configuración de servicios DNS y DHCP para el control de red.
 
@@ -1286,7 +1287,8 @@ pfSense: Backup completo de reglas de Firewall y NAT (/conf/config.xml).
 
 Apache V-Host: Archivo de configuración del sitio: /etc/apache2/sites-available/sportflix.conf.
 
-Contenido Web y Aplicación
+
+### Contenido Web y Aplicación
 
 Directorio Web: Contenido íntegro del sitio en /var/www/html/.
 
@@ -1294,7 +1296,8 @@ Código Dinámico: Scripts PHP de conexión y lógica de negocio (alojados en el
 
 Base de Datos (MySQL): Volcado de la estructura y datos en formato .sql (MySQL Dump).
 
-Gestión de Almacenamiento
+
+### Gestión de Almacenamiento
 
 TrueNAS: Replicación de Datasets y configuración de tareas Rsync para asegurar la persistencia en el pool de discos.
 
