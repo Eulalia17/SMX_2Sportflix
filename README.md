@@ -1381,6 +1381,10 @@ Sobre la seguridad de nuestra web tenemos el nivel "Flexible", que es una seguri
 ## 📝 14.Conclusiones
 <details>
 	<summary>&#8203;</summary> <!-- desplegable vacío -->
+
+Este proyecto ha sido una montaña rusa, pero nos ha servido para aprender muchísimo sobre cómo montar un servidor de verdad. Empezamos casi de novatos y hemos terminado peleándonos con Ubuntu, configurando bases de datos en MySQL y conectando todo con PHP.
+
+Lo que más nos ha gustado ha sido ver cómo, gracias a Cloudflare, nuestra web pasaba de estar encerrada en el ordenador a ser segura y accesible para cualquiera. Sabemos que aún nos queda mucho por mejorar y dinamizar, pero estamos muy orgullosos de haber conseguido que todo funcione y de entender, por fin, qué hay detrás de una página web real.
 </details>
 
 ## 📚 15. Bibliografía
