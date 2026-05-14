@@ -1374,6 +1374,7 @@ Sobre la seguridad de nuestra web tenemos el nivel "Flexible", que es una seguri
 </details>
 
 ### 13.2. Revisiones
+<details>
 <summary>&#8203;</summary> <!-- desplegable vacío -->
 
 </details>
