@@ -1058,6 +1058,79 @@ Desde un cliente, acceder a http://192.168.135.48/info.php.
 
 <img width="491" height="472" alt="image" src="https://github.com/user-attachments/assets/75a5b784-c025-4c5a-9a3d-fa12105a077f" />
 
+### Servidor MySQL
+
+1. ¿Qué función cumple exactamente este servicio dentro de la red?
+	En nuestra infraestructura, MySQL actúa como el motor central de almacenamiento. A continuación, se detalla su rol específico:
+	- Definición: Es un sistema gestor de bases de datos relacionales (RDBMS) basado en lenguaje SQL. Su función principal es gestionar grandes volúmenes de datos de forma estructurada mediante tablas interconectadas.
+	- ¿A quíen de servicio? Al servidor web (Apache/PHP): Proporciona los datos necesarios para que la “página web” (ver esquema de red) pueda mostrar contenido dinámico al usuario.
+		- A phpMyAdmin: Permite una interfaz gráfica para que los administradores gestionen les bases de datos de forma sencilla.
+	- Problema que resuelve:
+		- Persistencia: Garantiza que la información (usuarios, posts, configuraciones) no se pierde al reiniciar los servicios.
+		- Consulta eficiente: Permite realizar búsquedas y filtrados complejos en milisegundos, algo imposible de hacer con archivos de texto planos.
+		- Integridad: Asegurar que los datos guardados sean coherentes y sigan reglas de negocio.
+
+
+ 2. ¿En qué equipo se instala y qué requisitos necesita?
+	- Para esta sección, lo ideal es usar una tabla para los requisitos y bloques de código para la instalación.
+	<img width="343" height="167" alt="image" src="https://github.com/user-attachments/assets/632bdf21-03aa-46b8-8a7e-99a72e7750f4" />
+	
+	- Comandos de preparación:
+		- sudo apt update
+	<img width="629" height="296" alt="image" src="https://github.com/user-attachments/assets/e23794ea-a6c4-4636-bab7-6a0903b274c5" />
+	
+		- sudo apt upgrade
+<img width="631" height="121" alt="image" src="https://github.com/user-attachments/assets/1aeb8d11-d3b9-41de-a439-e90bc5d2da07" />
+
+
+3. ¿Qué parámetros básicos debo configurar?
+   - La configuración de MySQL se centraliza en archivos de texto plano. Para que tu esquema de red funcione (comunicaciones entre Apache & MySQL), debemos realizar los siguientes ajustes:
+   - Archivos y directorios clave:
+   - Archivo de configuración principal: /etc/mysql/mysql.conf.d/mysqld.conf
+   <img width="636" height="527" alt="image" src="https://github.com/user-attachments/assets/c6722155-5d50-4df2-878c-4ec17eccf450" />
+   
+   - Directorio de datos /var/lib/mysql
+     
+   - Logs de errores /var/log/mysql/error.log
+   <img width="628" height="472" alt="image" src="https://github.com/user-attachments/assets/0d759630-82d6-414f-8340-192a7de124e4" />
+
+  - Configuración del servidor. Es necesario editar el archivo de configuración (sudo nano /etc/mysql/mysql.conf.d/mysqld.conf):
+  	- El puerto por defecto es el 3306. Si se cambia por seguridad, debe actualizarse también en las reglas del PfSense.
+  	- Bind-address: Por defecto viene como 127.0.0.1. Para permitir que el nodo “página web” conecte debemos de cambiarlo → bind-address = 0.0.0.0
+  	- Esto permite que MySQL escuche peticiones desde cualquier IP de la red interna gestionada por el Firewall.
+ <img width="630" height="531" alt="image" src="https://github.com/user-attachments/assets/9f958785-2ced-47d9-9b4b-a675d9465a7c" />
+
+
+ 4. ¿Cómo verifico que funciona correctamente?
+    - Es vital demostrar que el servicio está “vivo”
+    	- Estado del servicio: sudo systemctl status mysql
+       <img width="638" height="204" alt="image" src="https://github.com/user-attachments/assets/0445aa1c-afa7-4963-9547-245ab2e63676" />
+	   
+	    - Prueba de conexión local: mysql -u root -p
+        <img width="642" height="208" alt="image" src="https://github.com/user-attachments/assets/1e40baf0-9c89-445b-833b-b8c08d352f88" />
+
+		- Logs de error: Si algo fall, revisa con sudo tail -f /var/log/mysql/error.log
+    	<img width="629" height="278" alt="image" src="https://github.com/user-attachments/assets/b619b485-bdbb-4803-baf7-ac89d8a93cfa" />
+
+
+5. ¿Qué aspectos de seguridad debo revisar?
+   - Este es el punto más crítico para una nota alta
+   	 - Script de seguridad: Ejecuta sudo mysql_secure_installation. Esto eliminará la base de datos de prueba y los usuarios anónimos.
+     - Firewall (UFW):
+     	- sudo ufw allow 3306/tcp # Puerto MySQL
+      	- sudo ufw allow 80,443/tcp
+         <img width="640" height="134" alt="image" src="https://github.com/user-attachments/assets/a49c1fe8-0877-4ec4-b19e-3bd0459a0118" />
+
+		- Privilegios: Asegúrate de que los archivos de /var/lib/nysql pertenecen al usuario mysql:mysql mediante el comando ls -l
+    	<img width="636" height="124" alt="image" src="https://github.com/user-attachments/assets/0ccfd2b9-31ae-4bc8-8439-7f7a70f172f4" />
+
+
+6. Observaciones:
+	- Usa bloques de código
+ 	- Capturas de pantalla
+  	- Formato de versiones:
+      <img width="549" height="163" alt="image" src="https://github.com/user-attachments/assets/9deb2247-ebdb-4bfd-a7bc-4e53e821ee9b" />
+
 ### Incidencias
 
 Conflictos de Puerto: Si el puerto 80 está ocupado por otro servicio (como Nginx), Apache no iniciará. Se debe verificar con sudo lsof -i :80.
