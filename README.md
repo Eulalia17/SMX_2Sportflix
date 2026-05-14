@@ -1145,6 +1145,61 @@ Módulos PHP: Si el navegador descarga el archivo .php en lugar de ejecutarlo, f
 ### 10.5. Configurar firewall (pfSense)
 <details>
 <summary>&#8203;</summary> <!-- desplegable vacío -->
+
+1. Tecnologías a Utilizar
+
+Sistema Operativo: FreeBSD (pfSense).
+
+Funciones: Firewall, NAT, Servidor DHCP.
+
+2. Introducción al Servicio
+
+¿Qué es?: Es un firewall y router de código abierto muy potente.
+
+¿Por qué es necesario?: Actúa como la "aduana" de tu red. Controla qué tráfico entra desde internet (WAN) a tu servidor de Sportflix y qué tráfico sale de tu red interna (LAN).
+
+Links oficiales: https://www.pfsense.org/
+
+3. Capturas necesarias
+
+Para que la documentación sea real, saca estas tres fotos:
+
+Captura A: La consola (pantalla negra/azul de la MV):
+
+Aquí se ven las IPs de la WAN y la LAN.
+
+Asignamos las interfaces. La WAN recibe IP de la red externa y la LAN se configura como puerta de enlace 10.10.10.1 para el resto de máquinas.
+
+<img width="602" height="444" alt="image" src="https://github.com/user-attachments/assets/90d23104-5d40-4f47-85f2-6a798596c5fe" />
+
+Captura B: El Dashboard Web (Interfaz gráfica):
+
+Entramoz desde el navegador de el cliente de pfsense a https://10.10.10.1.
+
+Acceso al panel de control web desde un cliente interno, demostrando que el enrutamiento funciona correctamente.
+
+<img width="602" height="390" alt="image" src="https://github.com/user-attachments/assets/2f5aceb7-e283-4cec-83b6-6a92587276bf" />
+
+
+Captura C: Reglas del Firewall (Firewall > Rules > LAN):
+
+Es la tabla donde salen las flechas verdes.
+
+Configuración de reglas de seguridad. Se permite el tráfico DNS hacia Pi-Hole y la navegación web saliente, bloqueando cualquier otro acceso no autorizado.
+
+4. Pasos a seguir
+
+Asignación de interfaces: Explicar que pusiste una pata en "Puente" (WAN) y otra en "Red Interna" (LAN).
+
+Configuración de IP LAN: Cambiar la IP por defecto si fuera necesario para que coincida con tu red 10.10.10.0.
+
+
+5. Incidencias
+
+Al principio no podíamos acceder a la web de administración porque el cliente no estaba en el mismo rango de red que pfSense. Se solucionó poniendo una IP fija al cliente.
+
+El firewall bloqueaba el acceso a la base de datos desde fuera; tuvimos que crear una regla específica para permitir ese tráfico.
+
 </details>
 
 ### 10.6 Configurar TRUENAS
