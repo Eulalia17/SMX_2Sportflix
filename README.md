@@ -1129,6 +1129,7 @@ Desde un cliente, acceder a http://192.168.135.48/info.php.
 	- Usa bloques de código
  	- Capturas de pantalla
   	- Formato de versiones:
+     
       <img width="549" height="163" alt="image" src="https://github.com/user-attachments/assets/9deb2247-ebdb-4bfd-a7bc-4e53e821ee9b" />
 
 ### Incidencias
