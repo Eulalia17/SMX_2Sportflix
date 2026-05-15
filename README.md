@@ -1495,8 +1495,10 @@ Este plan es nuestra tranquilidad. Sabemos que un proyecto de este calibre no te
 ## 🔒 13. Cierre
 <details> 
 	<summary>&#8203;</summary> <!-- desplegable vacío -->
+</details>
 
 ### 13.1. Cloudflare
+<details>
 
 <summary>&#8203;</summary> <!-- desplegable vacío -->
 
@@ -1504,6 +1506,7 @@ Para poder visualizar la web en un dominio hemos tenido que crear un registro ti
 problemas para acceder a través del dominio.
 
 <img width="614" height="215" alt="image" src="https://github.com/user-attachments/assets/c0dd881e-0bc1-46c2-a2c5-b49da9555cee" />
+</details>
 
 
 Sobre la seguridad de nuestra web tenemos el nivel "Flexible", que es una seguridad básica que protege al usuario pero no a nuestro servidor.
