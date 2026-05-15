@@ -1156,13 +1156,11 @@ Funciones: Firewall, NAT, Servidor DHCP.
 
 ¿Qué es?: Es un firewall y router de código abierto muy potente.
 
-¿Por qué es necesario?: Actúa como la "aduana" de tu red. Controla qué tráfico entra desde internet (WAN) a tu servidor de Sportflix y qué tráfico sale de tu red interna (LAN).
+¿Por qué es necesario?: Controla qué tráfico entra desde internet (WAN) a tu servidor de Sportflix y qué tráfico sale de tu red interna (LAN).
 
 Links oficiales: https://www.pfsense.org/
 
 3. Capturas necesarias
-
-Para que la documentación sea real, saca estas tres fotos:
 
 Captura A: La consola (pantalla negra/azul de la MV):
 
@@ -1174,7 +1172,7 @@ Asignamos las interfaces. La WAN recibe IP de la red externa y la LAN se configu
 
 Captura B: El Dashboard Web (Interfaz gráfica):
 
-Entramoz desde el navegador de el cliente de pfsense a https://10.10.10.1.
+Entramos desde el navegador de el cliente de pfsense a https://10.10.10.1.
 
 Acceso al panel de control web desde un cliente interno, demostrando que el enrutamiento funciona correctamente.
 
@@ -1209,7 +1207,7 @@ Apuntar todo lo que hemos configurado para saber como mejorarlo.
 
 Al principio no podíamos acceder a la web de administración porque el cliente no estaba en el mismo rango de red que pfSense. Se solucionó poniendo una IP fija al cliente.
 
-El firewall bloqueaba el acceso a la base de datos desde fuera; tuvimos que crear una regla específica para permitir ese tráfico.
+El firewall bloqueaba el acceso a la web desde fuera; tuvimos que crear una regla específica para permitir ese tráfico.
 
 </details>
 
