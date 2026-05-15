@@ -1495,6 +1495,7 @@ Este plan es nuestra tranquilidad. Sabemos que un proyecto de este calibre no te
 ## 🔒 13. Cierre
 <details> 
 	<summary>&#8203;</summary> <!-- desplegable vacío -->
+</details>
 
 ### 13.1. Cloudflare
 <summary>&#8203;</summary> <!-- desplegable vacío -->
@@ -1508,7 +1509,10 @@ Sobre la seguridad de nuestra web tenemos el nivel "Flexible", que es una seguri
 
 <img width="555" height="345" alt="image" src="https://github.com/user-attachments/assets/f2bf3180-bd3c-4153-b439-1e561febe906" />
 
+</details>
+
 ### 13.2. Revisiones
+<details>
 <summary>&#8203;</summary> <!-- desplegable vacío -->
 
 </details>
