@@ -1495,7 +1495,6 @@ Este plan es nuestra tranquilidad. Sabemos que un proyecto de este calibre no te
 ## 🔒 13. Cierre
 <details> 
 	<summary>&#8203;</summary> <!-- desplegable vacío -->
-</details>
 
 ### 13.1. Cloudflare
 <details> 
@@ -1509,8 +1508,6 @@ problemas para acceder a través del dominio.
 Sobre la seguridad de nuestra web tenemos el nivel "Flexible", que es una seguridad básica que protege al usuario pero no a nuestro servidor.
 
 <img width="555" height="345" alt="image" src="https://github.com/user-attachments/assets/f2bf3180-bd3c-4153-b439-1e561febe906" />
-
-</details>
 
 ### 13.2. Revisiones
 <details>
