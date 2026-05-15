@@ -1183,16 +1183,27 @@ Acceso al panel de control web desde un cliente interno, demostrando que el enru
 
 Captura C: Reglas del Firewall (Firewall > Rules > LAN):
 
-Es la tabla donde salen las flechas verdes.
+Configuración de reglas de seguridad nos permite el tráfico DNS hacia Pi-Hole y la navegación web saliente, bloqueando cualquier otro acceso no autorizado.
 
-Configuración de reglas de seguridad. Se permite el tráfico DNS hacia Pi-Hole y la navegación web saliente, bloqueando cualquier otro acceso no autorizado.
+<img width="595" height="280" alt="image" src="https://github.com/user-attachments/assets/026cfe8b-e298-4347-814b-3261678a0c3e" />
+
+Captura D: Reglas de Firewall en la interfaz WAN
+
+Se han creado reglas de firewall específicas para el puerto 80 y 22. El resto de conexiones externas son bloqueadas por defecto, protegiendo la red interna.
+
+<img width="601" height="298" alt="image" src="https://github.com/user-attachments/assets/969e4696-f278-4f5b-bba0-27fd2f9ae7f2" />
+
+Captura E: Redirección de Puertos (NAT)
+
+Hemos configurado un Port Forward para que las peticiones externas al puerto 80 (HTTP) y 22 (SSH) se dirijan a la IP interna del servidor (10.10.10.2). 
+
+<img width="607" height="239" alt="image" src="https://github.com/user-attachments/assets/41d72075-273d-4595-9e37-9e98dc754c06" />
 
 4. Pasos a seguir
 
-Asignación de interfaces: Explicar que pusiste una pata en "Puente" (WAN) y otra en "Red Interna" (LAN).
+Mejorar la seguridad de algunos apartados dentro del pfsense.
 
-Configuración de IP LAN: Cambiar la IP por defecto si fuera necesario para que coincida con tu red 10.10.10.0.
-
+Apuntar todo lo que hemos configurado para saber como mejorarlo.
 
 5. Incidencias
 
