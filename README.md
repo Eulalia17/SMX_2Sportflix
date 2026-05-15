@@ -1498,6 +1498,7 @@ Este plan es nuestra tranquilidad. Sabemos que un proyecto de este calibre no te
 </details>
 
 ### 13.1. Cloudflare
+<details> 
 <summary>&#8203;</summary> <!-- desplegable vacío -->
 
 Para poder visualizar la web en un dominio hemos tenido que crear un registro tipo A (sportflix) apuntando a la IP 77.231.11.106 que es la IP públiva y con el Proxy desactivado (nube gris) para no tener después
