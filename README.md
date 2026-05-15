@@ -1497,7 +1497,6 @@ Este plan es nuestra tranquilidad. Sabemos que un proyecto de este calibre no te
 	<summary>&#8203;</summary> <!-- desplegable vacío -->
 
 ### 13.1. Cloudflare
-<details>
 <summary>&#8203;</summary> <!-- desplegable vacío -->
 
 Para poder visualizar la web en un dominio hemos tenido que crear un registro tipo A (sportflix) apuntando a la IP 77.231.11.106 que es la IP públiva y con el Proxy desactivado (nube gris) para no tener después
@@ -1510,7 +1509,6 @@ Sobre la seguridad de nuestra web tenemos el nivel "Flexible", que es una seguri
 <img width="555" height="345" alt="image" src="https://github.com/user-attachments/assets/f2bf3180-bd3c-4153-b439-1e561febe906" />
 
 ### 13.2. Revisiones
-<details>
 <summary>&#8203;</summary> <!-- desplegable vacío -->
 
 </details>
