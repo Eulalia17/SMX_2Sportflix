@@ -1484,7 +1484,8 @@ Este plan es nuestra tranquilidad. Sabemos que un proyecto de este calibre no te
 </details>
 
 ## 🔒 13. Cierre
-
+<details> 
+	<summary>&#8203;</summary> <!-- desplegable vacío -->
 
 ### 13.1. Cloudflare
 <details>
